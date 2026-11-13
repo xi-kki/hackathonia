@@ -228,7 +228,7 @@ function render() {
       <div class="facts">${due}
         ${when.length ? `<span>${esc(when.join(' – '))}</span>` : ''}
         <span>${where}</span>
-        ${e.prize ? `<span><b>${esc(e.prize)}</b></span>` : ''}
+        ${e.prize && (prizeNum(e.prize) > 0 || !/\d/.test(e.prize)) ? `<span><b>${esc(e.prize)}</b></span>` : ''}
       </div>
       <div class="tags">${e.categories.map((c) => `<span class="tag">${esc(c)}</span>`).join('')}</div>
     </a>`;
