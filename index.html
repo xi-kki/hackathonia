@@ -3,91 +3,247 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Hackathonia</title>
-<meta name="description" content="Virtual and in-person hackathons worldwide, matched to you. Refreshed monthly by an AI crawler.">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f5c3a'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fff'/%3E%3C/svg%3E">
+<title>Hackathonia · For builders</title>
+<meta name="description" content="Hackathonia finds the hackathons that fit you: virtual or in person, by topic and location, refreshed every month from Devpost, Devfolio, MLH, ETHGlobal and more.">
+<meta name="theme-color" content="#E4DED3">
+<meta property="og:title" content="Hackathonia · For builders">
+<meta property="og:description" content="Virtual and in-person hackathons worldwide, matched to what you want to build.">
+<meta property="og:image" content="img/og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238A0B12'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%23F4EEE6' stroke-width='2'/%3E%3Cellipse cx='16' cy='16' rx='4' ry='9' fill='none' stroke='%23F4EEE6' stroke-width='1.6'/%3E%3Cpath d='M7 16h18' stroke='%23F4EEE6' stroke-width='1.6'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
+<script>
+(function(){var d=document.documentElement;if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&'IntersectionObserver'in window&&Element.prototype.animate)d.classList.add('anim');})();
+</script>
 <style>
-:root{--bg:#f6f1e7;--surface:#fffdf8;--ink:#1d2a22;--muted:#5d6a61;--line:#e3dccd;--brand:#0f5c3a;--brand-ink:#fff;--soft:#e8f0e9;--warn:#a34a12;--shade:rgba(20,30,24,.45)}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--surface:#18221c;--ink:#eef3ee;--muted:#a3b0a7;--line:#2a372f;--brand:#4fbf86;--brand-ink:#0b1510;--soft:#1f2e25;--warn:#f0a36b;--shade:rgba(0,0,0,.6)}}
+:root{
+  --paper:#E4DED3;--stone:#C9C3B8;--ink:#1B1815;--body:#5E574F;--ox:#8A0B12;--ox-deep:#6E070D;--card:#FBF8F3;--line:rgba(27,24,21,.14);
+  --col:clamp(300px,43.2vw,780px);--globe:clamp(300px,45vw,860px);--txt:clamp(14px,1.04vw,17px);
+  --ease:cubic-bezier(.22,.8,.24,1);
+}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.45 Inter,system-ui,-apple-system,"Segoe UI",sans-serif;font-feature-settings:"cv11","ss01";-webkit-font-smoothing:antialiased;overflow-x:hidden}
+::selection{background:var(--ox);color:#F4EEE6}
 a{color:inherit}
 button{font:inherit;color:inherit}
-.wrap{max-width:1120px;margin:0 auto;padding:0 16px}
-header{padding:48px 0 20px}
-.back{font-size:13px;color:var(--muted);text-decoration:none}
-h1{font-family:Fraunces,serif;font-weight:650;font-size:clamp(34px,6vw,56px);line-height:1.05;margin:10px 0 8px;letter-spacing:-.02em}
-.lede{color:var(--muted);max-width:640px;margin:0}
-.meta{margin-top:14px;font-size:13px;color:var(--muted)}
-.meta b{color:var(--ink)}
-.prefs{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
-.pill{font-size:13px;background:var(--soft);border-radius:999px;padding:5px 12px}
-.btn{border:1px solid var(--brand);background:var(--brand);color:var(--brand-ink);border-radius:10px;padding:9px 16px;font-weight:600;cursor:pointer}
-.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
-.controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--line);display:grid;gap:10px}
+.col{width:var(--col);margin:0 auto}
+:focus-visible{outline:2px solid var(--ox);outline-offset:3px}
+
+/* masthead */
+.mast{padding-top:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{display:inline-flex;align-items:center;gap:11px;text-decoration:none;color:var(--ink)}
+.logo span{font-size:18px;font-weight:450;letter-spacing:-.01em}
+.mast .more{font-size:13px;color:var(--body);text-decoration:none}
+.mast .more:hover{color:var(--ink)}
+
+/* letter */
+.letter{padding-top:72px}
+h1{font-weight:500;font-size:clamp(25px,2.12vw,38px);line-height:1.13;letter-spacing:-.018em;margin:0}
+.mask{display:block;overflow:hidden;padding-bottom:.08em;margin-bottom:-.08em}
+.mask>span{display:block}
+.letter p{margin:26px 0 0;max-width:88%;color:var(--body);font-size:var(--txt);line-height:1.5}
+.cta{display:flex;gap:16px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-flex;align-items:center;justify-content:center;height:43px;padding:0 30px;border-radius:999px;font-weight:500;font-size:13.5px;letter-spacing:-.005em;text-decoration:none;cursor:pointer;transition:background .25s,border-color .25s,color .25s;border:1px solid transparent}
+.btn.primary{background:var(--ox);color:#FBF5EE}
+.btn.primary:hover{background:var(--ox-deep)}
+.btn.ghost{background:transparent;border-color:rgba(27,24,21,.42);color:#3A342E}
+.btn.ghost:hover{border-color:var(--ink);color:var(--ink)}
+
+/* stage: big word + globe */
+.stage{position:relative;margin-top:64px}
+.bigword{--bw:clamp(56px,12.4vw,240px);font-size:var(--bw);font-weight:650;letter-spacing:-.05em;line-height:.82;text-align:center;white-space:nowrap;color:var(--ink);margin:0;overflow:hidden;padding:.04em 0 .02em;position:relative;z-index:0;user-select:none}
+.bigword .l{display:inline-block}
+.globe-wrap{position:relative;z-index:1;width:var(--globe);height:var(--globe);margin:calc(var(--bw-px,140px) * -.5) auto 0}
+.globe-wrap canvas{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:pan-y;cursor:grab}
+.globe-wrap canvas.drag{cursor:grabbing}
+.globe-fallback{position:absolute;inset:0;border-radius:50%;background:radial-gradient(circle at 40% 35%,#d3c8b8,#c4b6a2);display:none}
+.no-webgl .globe-fallback{display:block}
+.no-webgl .globe-wrap canvas{display:none}
+.globe-hint{position:absolute;left:50%;bottom:-6px;transform:translateX(-50%);font-size:11.5px;color:var(--body);letter-spacing:.02em;white-space:nowrap}
+
+/* studio text */
+.studio{padding-top:56px}
+.studio p{margin:0;max-width:92%;color:var(--body);font-size:var(--txt);line-height:1.5}
+.studio p+p{margin-top:28px}
+.studio .quote{max-width:none;text-align:center;color:var(--ox);font-weight:500;font-size:clamp(20px,1.62vw,29px);line-height:1.18;letter-spacing:-.014em;margin:92px 0 88px}
+
+/* live cards rail */
+.rail-head{display:flex;justify-content:space-between;align-items:baseline;margin-top:64px;font-size:12px;color:var(--body);letter-spacing:.02em}
+.rail{width:calc(100vw - (100vw - var(--col)) / 2);margin-right:calc((100vw - var(--col)) / -2);overflow:hidden;margin-top:14px}
+.track{display:flex;gap:17px;will-change:transform}
+.wcard{flex:0 0 clamp(240px,22.1vw,400px);text-decoration:none;color:var(--ink);display:block}
+.wcard .idx{display:block;color:var(--ox);font-size:11.5px;letter-spacing:.02em;font-variant-numeric:tabular-nums;margin-bottom:10px}
+.wcard .img{position:relative;aspect-ratio:318/275;border-radius:2px;background:var(--stone) no-repeat;background-size:200% auto}
+.wcard .pill{position:absolute;right:12px;bottom:12px;background:#FBF8F3;color:var(--ink);font-weight:500;font-size:12px;line-height:1;padding:9px 13px;border-radius:999px;box-shadow:0 1px 2px rgba(27,24,21,.12)}
+.wcard .due{position:absolute;left:12px;top:12px;background:rgba(27,24,21,.72);color:#F4EEE6;font-size:11.5px;line-height:1;padding:7px 10px;border-radius:999px}
+.wcard h3{margin:12px 0 2px;font-size:14px;font-weight:500;line-height:1.3;letter-spacing:-.005em}
+.wcard .m{font-size:12.5px;color:var(--body)}
+
+/* finder */
+.finder{padding-top:120px}
+.finder h2{font-weight:500;font-size:clamp(22px,1.8vw,32px);line-height:1.15;letter-spacing:-.016em;margin:0}
+.finder>.col>p{margin:16px 0 0;color:var(--body);font-size:var(--txt);line-height:1.5;max-width:88%}
+.prefs{margin-top:20px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.ptag{font-size:12.5px;background:rgba(27,24,21,.07);border-radius:999px;padding:6px 12px;color:var(--ink)}
+.linkbtn{background:none;border:0;padding:6px 4px;color:var(--ox);font-weight:500;font-size:13px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.tool{max-width:1180px;margin:28px auto 0;padding:0 24px}
+.controls{position:sticky;top:0;z-index:5;background:var(--paper);padding:12px 0;border-bottom:1px solid var(--line);display:grid;gap:10px}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-input[type=search],input[type=text],select{font:inherit;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+input[type=search],input[type=text],select{font:inherit;font-size:14px;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:999px;padding:10px 16px}
 input[type=search]{flex:1;min-width:180px}
-.chip{font:500 13px Inter,sans-serif;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer;white-space:nowrap}
-.chip[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
+.chip{font:500 12.5px Inter,sans-serif;border:1px solid rgba(27,24,21,.22);background:transparent;color:#3A342E;border-radius:999px;padding:7px 13px;cursor:pointer;white-space:nowrap;transition:background .2s,color .2s,border-color .2s}
+.chip:hover{border-color:var(--ink);color:var(--ink)}
+.chip[aria-pressed=true]{background:var(--ox);border-color:var(--ox);color:#FBF5EE}
 .chips{overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;padding:20px 0 60px}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;text-decoration:none;transition:border-color .15s,transform .15s}
-.card:hover{border-color:var(--brand);transform:translateY(-2px)}
-.card h3{margin:0;font-size:16px;line-height:1.3}
-.org{font-size:13px;color:var(--muted)}
-.facts{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:13px;color:var(--muted)}
+.meta{font-size:12.5px;color:var(--body);padding:16px 0 0}
+.meta b{color:var(--ink);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;padding:16px 0 40px}
+.card{background:var(--card);border-radius:4px;padding:16px;display:flex;flex-direction:column;gap:7px;text-decoration:none;box-shadow:0 1px 2px rgba(27,24,21,.06);transition:transform .2s var(--ease),box-shadow .2s}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(27,24,21,.1)}
+.card .src{font-size:11px;color:var(--body);letter-spacing:.04em;text-transform:uppercase;display:flex;justify-content:space-between;gap:8px}
+.card h3{margin:0;font-size:15px;font-weight:500;line-height:1.3}
+.card .org{font-size:12.5px;color:var(--body)}
+.facts{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:12.5px;color:var(--body)}
 .facts b{color:var(--ink);font-weight:600}
-.due{font-weight:600;color:var(--brand)}
-.due.soon{color:var(--warn)}
-.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:4px}
-.tag{font-size:12px;background:var(--soft);border-radius:6px;padding:2px 8px}
-.src{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:flex;justify-content:space-between}
-.empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
-footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:13px;color:var(--muted)}
+.dl{font-weight:600;color:var(--ink)}
+.dl.soon{color:var(--ox)}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:auto;padding-top:4px}
+.tag{font-size:11.5px;background:rgba(27,24,21,.06);border-radius:999px;padding:3px 9px;color:#3A342E}
+.empty{grid-column:1/-1;text-align:center;color:var(--body);padding:40px 0}
+.more-wrap{text-align:center;padding-bottom:20px}
+
+/* sign-off */
+.sign{padding:62px 0 140px}
+.sign .thanks{margin:0;color:var(--body);font-size:var(--txt);line-height:1.5}
+.sig{display:block;font-family:"Mrs Saint Delafield",cursive;font-size:clamp(52px,4.1vw,70px);line-height:1;height:.9em;color:var(--ink);margin:34px 0 0 -4px}
+.who{margin-top:26px;font-size:14px;line-height:1.5}
+.sign .cta{margin-top:30px}
+.foot{font-size:12px;color:var(--body);margin-top:48px;line-height:1.6}
+
 /* wizard */
 dialog{border:none;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%}
-dialog::backdrop{background:var(--shade)}
-.sheet{background:var(--surface);color:var(--ink);border-radius:18px;max-width:560px;margin:8vh auto 0;padding:24px;border:1px solid var(--line);width:calc(100% - 32px)}
-.step-n{font-size:12px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
-.sheet h2{font-family:Fraunces,serif;font-weight:650;font-size:26px;line-height:1.15;margin:6px 0 4px}
-.sheet p{margin:0 0 16px;color:var(--muted);font-size:14px}
+dialog::backdrop{background:rgba(27,24,21,.45);backdrop-filter:blur(3px)}
+.sheet{background:var(--paper);color:var(--ink);border-radius:6px;max-width:560px;margin:10vh auto 0;padding:28px;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(27,24,21,.25)}
+.step-n{font-size:11.5px;color:var(--ox);letter-spacing:.04em}
+.sheet h2{font-weight:500;font-size:26px;line-height:1.15;letter-spacing:-.018em;margin:8px 0 6px}
+.sheet p{margin:0 0 18px;color:var(--body);font-size:14px}
 .opts{display:flex;flex-wrap:wrap;gap:8px}
-.opts .chip{padding:9px 14px;font-size:14px}
-.nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:8px}
-.bar{height:4px;background:var(--soft);border-radius:4px;margin-bottom:18px;overflow:hidden}
-.bar i{display:block;height:100%;background:var(--brand);transition:width .2s}
-.field{margin-top:12px;display:grid;gap:6px;font-size:13px;color:var(--muted)}
+.opts .chip{padding:10px 15px;font-size:13.5px}
+.navw{display:flex;align-items:center;margin-top:26px;gap:10px}
+.bar{height:2px;background:rgba(27,24,21,.12);margin-bottom:20px}
+.bar i{display:block;height:100%;background:var(--ox);transition:width .25s var(--ease)}
+.field{margin-top:14px;display:grid;gap:6px;font-size:12.5px;color:var(--body)}
+
+/* reveal start states (only with JS + motion) */
+html.anim [data-r]{opacity:0}
+html.anim .mask>span{transform:translateY(105%)}
+html.anim .bigword .l{transform:translateY(105%)}
+html.anim .sig{clip-path:inset(0 100% 0 0)}
+
+@media (max-width:820px){
+  :root{--col:calc(100vw - 44px);--globe:calc(100vw - 24px)}
+  .mast{padding-top:34px}.logo span{font-size:17px}
+  .letter{padding-top:52px}h1{font-size:27px}.letter p{max-width:none;font-size:15px}
+  .stage{margin-top:52px}
+  .bigword{--bw:13.6vw}
+  .studio{padding-top:40px}.studio p{max-width:none;font-size:15px}
+  .studio .quote{font-size:22px;text-wrap:balance;margin:64px 0 60px}.studio .quote br{display:none}
+  .rail-head{margin-top:48px}
+  .wcard{flex-basis:72vw}.track{gap:12px}
+  .finder{padding-top:80px}.finder>.col>p{max-width:none}
+  .tool{padding:0 16px}
+  .sign{padding:48px 0 96px}.sign .thanks{font-size:15px}.sig{font-size:56px}
+}
+@media (prefers-reduced-motion:reduce){
+  .rail{overflow-x:auto}
+}
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <a class="back" href="https://xi-kki.github.io/">← xi-kki</a>
-    <h1>Hackathonia</h1>
-    <p class="lede">Hackathons worldwide, virtual first, matched to what you want. Pulled every month from Devpost, Devfolio, Unstop, Hack Club, ETHGlobal, MLH, DoraHacks and the open web.</p>
-    <div class="meta" id="meta">Loading…</div>
-    <div class="prefs" id="prefs"></div>
-  </header>
-  <div class="controls">
-    <div class="row">
-      <input type="search" id="q" placeholder="Search name, organizer, theme, city" aria-label="Search">
-      <select id="sort" aria-label="Sort">
-        <option value="due">Deadline: soonest</option>
-        <option value="prize">Prize: largest</option>
-        <option value="new">Starting soonest</option>
-      </select>
-    </div>
-    <div class="row chips" id="modes"></div>
-    <div class="row chips" id="regions"></div>
-    <div class="row chips" id="cats"></div>
+
+<header class="col mast">
+  <a class="logo" href="./" aria-label="Hackathonia, home" data-r>
+    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" aria-hidden="true">
+      <circle cx="15" cy="15" r="11.5"/><ellipse cx="15" cy="15" rx="5" ry="11.5"/><path d="M3.5 15h23M5.3 9h19.4M5.3 21h19.4"/><circle cx="24.5" cy="5.5" r="1.6" fill="currentColor" stroke="none"/>
+    </svg>
+    <span>hackathonia</span>
+  </a>
+  <a class="more" href="https://xi-kki.github.io/agents/" data-r>by Xi-kki</a>
+</header>
+
+<main>
+<section class="col letter">
+  <h1 aria-label="For builders, and what you ship next">
+    <span class="mask" aria-hidden="true"><span>For builders,</span></span>
+    <span class="mask" aria-hidden="true"><span>and what you ship next</span></span>
+  </h1>
+  <p data-r id="lede">Hi builder, somewhere this month there's a hackathon that fits exactly what you want to make, whether that's an AI agent, a Web3 app or a fix for your own city. Hackathonia finds it for you. Every month it reads Devpost, Devfolio, MLH, ETHGlobal, DoraHacks, Unstop, Hack Club and the open web, then sorts out what's virtual, what's near you and what's worth your weekend.</p>
+  <div class="cta" data-r id="ctaTop">
+    <button class="btn primary" data-wizard>Find my hackathon</button>
+    <a class="btn ghost" href="#finder" id="browseAll">Browse all</a>
   </div>
-  <main class="grid" id="grid" aria-live="polite"></main>
+</section>
+
+<section class="stage" aria-label="Hackathonia">
+  <p class="bigword" id="bigword" aria-hidden="true">HACKATHONIA</p>
+  <div class="globe-wrap" id="globeWrap">
+    <div class="globe-fallback"></div>
+    <canvas id="globe" role="img" aria-label="A slowly turning globe of hackathon photographs: teams coding late at night, whiteboards full of sticky notes, demo stages, trophies and prototypes. Drag to spin it."></canvas>
+  </div>
+</section>
+
+<section class="col studio">
+  <p data-r>My name is Isaac. I build AI agents at Xi-kki, mostly for founders and small teams. Hackathons are where many of my best ideas got their first real deadline, and finding the right one always took longer than building for it.</p>
+  <p class="quote" data-r>The right hackathon isn't the biggest one.<br>It's the one that fits what you want to build.</p>
+  <p data-r>So Hackathonia asks a few questions first: virtual or in person, where you can travel, what you like building and how soon you're free. Then it shows only the events that match, with deadlines, prizes and a direct link to sign up.</p>
+  <p data-r>Below are a few with big prizes closing soon. The full list refreshes on the 1st of every month.</p>
+  <div class="rail-head" data-r><span>Closing soon, big prizes</span><span id="railCount"></span></div>
+</section>
+<div class="col" style="width:var(--col)">
+  <div class="rail" id="rail"><div class="track" id="track"></div></div>
 </div>
-<footer><div class="wrap">Always confirm dates and rules on the event page. Data refreshed on the 1st of each month. Your preferences stay in this browser.</div></footer>
+
+<section class="finder" id="finder" aria-labelledby="finderTitle">
+  <div class="col">
+    <h2 id="finderTitle" data-r>Find yours</h2>
+    <p data-r>Answer five quick questions, or filter the list yourself. Your answers stay in this browser.</p>
+    <div class="prefs" id="prefs" data-r></div>
+  </div>
+  <div class="tool">
+    <div class="controls">
+      <div class="row">
+        <input type="search" id="q" placeholder="Search name, organizer, theme, city" aria-label="Search hackathons">
+        <select id="sort" aria-label="Sort">
+          <option value="due">Deadline: soonest</option>
+          <option value="prize">Prize: largest</option>
+          <option value="new">Starting soonest</option>
+        </select>
+      </div>
+      <div class="row chips" id="modes" aria-label="Format"></div>
+      <div class="row chips" id="regions" aria-label="Region"></div>
+      <div class="row chips" id="cats" aria-label="Topics"></div>
+      <div class="row chips" id="chainsRow" aria-label="Chain"></div>
+    </div>
+    <div class="meta" id="meta">Loading…</div>
+    <div class="grid" id="grid" aria-live="polite"></div>
+    <div class="more-wrap"><button class="btn ghost" id="more" hidden>Show more</button></div>
+  </div>
+</section>
+
+<section class="col sign">
+  <p class="thanks" data-r>Thanks for reading this far. Go build something, then tell me what you shipped.</p>
+  <span class="sig" aria-hidden="true">Isaac</span>
+  <div class="who" data-r>Isaac, Xi-kki<br>Maker of Hackathonia</div>
+  <div class="cta" data-r>
+    <button class="btn primary" data-wizard>Find my hackathon</button>
+    <a class="btn ghost" href="https://xi-kki.github.io/agents/">More agents</a>
+  </div>
+  <p class="foot">Always confirm dates and rules on the event page. Listings come from public sources and refresh monthly. Photos on this page are AI-generated illustrations.</p>
+</section>
+</main>
 
 <dialog id="wiz" aria-labelledby="wizTitle">
   <div class="sheet">
@@ -96,49 +252,100 @@ dialog::backdrop{background:var(--shade)}
     <h2 id="wizTitle"></h2>
     <p id="wizSub"></p>
     <div id="wizBody"></div>
-    <div class="nav">
+    <div class="navw">
       <button class="btn ghost" id="wizBack">Back</button>
       <span style="flex:1"></span>
-      <button class="btn ghost" id="wizSkip">Skip</button>
-      <button class="btn" id="wizNext">Next</button>
+      <button class="linkbtn" id="wizSkip">Skip</button>
+      <button class="btn primary" id="wizNext">Next</button>
     </div>
   </div>
 </dialog>
 
 <script>
+/* ---------- shared ---------- */
 const $ = (s) => document.querySelector(s);
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const store = { get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
-
-const REGIONS = ['Africa', 'Europe', 'North America', 'Latin America', 'Middle East', 'Asia', 'Oceania'];
-const DEFAULT_PREFS = { mode: 'Virtual', regions: [], place: '', cats: [], when: 'any', cash: false, beginner: false };
-let prefs = { ...DEFAULT_PREFS, ...(store.get('hk_prefs') || {}) };
-const state = { q: '', sort: 'due' };
-let DATA = [], CATS = [];
-
+const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const SHEETS = Array.from({ length: 8 }, (_, i) => `img/g${i + 1}.webp`);
+const QUAD = ['0% 6%', '100% 6%', '0% 94%', '100% 94%'];
 const prizeNum = (p) => { const m = String(p || '').replace(/,/g, '').match(/(\d+(?:\.\d+)?)\s*(k|m)?/i); if (!m) return 0; return +m[1] * (/k/i.test(m[2] || '') ? 1e3 : /m/i.test(m[2] || '') ? 1e6 : 1); };
 const fmt = (d) => d ? new Date(d + 'T00:00:00Z').toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : null;
 const daysLeft = (d) => d ? Math.ceil((new Date(d + 'T23:59:59Z') - Date.now()) / 864e5) : null;
+const showPrize = (p) => p && (prizeNum(p) > 0 || !/\d/.test(p));
 
-/* ---------- questions ---------- */
+/* ---------- big word: split + fit ---------- */
+const bw = $('#bigword');
+bw.innerHTML = [...'HACKATHONIA'].map((c) => `<span class="l">${c}</span>`).join('');
+function fitWord() {
+  bw.style.fontSize = '';
+  const target = Math.min(innerWidth * (innerWidth <= 820 ? 0.94 : 0.9), 1500);
+  const fs = parseFloat(getComputedStyle(bw).fontSize);
+  const w = [...bw.children].reduce((s, l) => s + l.getBoundingClientRect().width, 0) || 1;
+  const size = fs * target / w;
+  bw.style.fontSize = size + 'px';
+  document.documentElement.style.setProperty('--bw-px', size + 'px');
+}
+fitWord();
+document.fonts?.ready.then(fitWord);
+addEventListener('resize', fitWord);
+
+/* ---------- reveals ---------- */
+try {
+  if (document.documentElement.classList.contains('anim')) {
+    const rise = (el, delay = 0, dur = 1000) => el.animate(
+      [{ opacity: 0, transform: 'translateY(18px)', filter: 'blur(6px)' }, { opacity: 1, transform: 'none', filter: 'blur(0)' }],
+      { duration: dur, delay, easing: 'cubic-bezier(.22,.8,.24,1)', fill: 'backwards' });
+    const settle = (el) => { el.style.opacity = 1; };
+    // load sequence
+    document.querySelectorAll('.mast [data-r]').forEach((el) => { settle(el); rise(el, 0); });
+    document.querySelectorAll('.mask>span').forEach((s, i) => { s.style.transform = 'none';
+      s.animate([{ transform: 'translateY(105%)' }, { transform: 'none' }], { duration: 1100, delay: 120 + i * 110, easing: 'cubic-bezier(.2,.75,.15,1)', fill: 'backwards' }); });
+    [$('#lede'), $('#ctaTop')].forEach((el, i) => { settle(el); rise(el, 420 + i * 120); });
+    [...bw.children].forEach((l, i) => { l.style.transform = 'none';
+      l.animate([{ transform: 'translateY(105%)' }, { transform: 'none' }], { duration: 1000, delay: 500 + i * 60, easing: 'cubic-bezier(.2,.75,.15,1)', fill: 'backwards' }); });
+    // on enter
+    const io = new IntersectionObserver((ents) => ents.forEach((en) => {
+      if (!en.isIntersecting) return; const el = en.target; io.unobserve(el);
+      if (el.classList.contains('sig')) { el.style.clipPath = 'inset(0 0 0 0)'; el.animate([{ clipPath: 'inset(0 100% 0 0)' }, { clipPath: 'inset(0 0 0 0)' }], { duration: 1400, delay: 180, easing: 'cubic-bezier(.6,.1,.3,1)', fill: 'backwards' }); return; }
+      settle(el); rise(el, +(el.dataset.delay || 0));
+    }), { rootMargin: '0px 0px -8% 0px' });
+    document.querySelectorAll('main [data-r]:not(#lede):not(#ctaTop)').forEach((el) => io.observe(el));
+    const who = document.querySelectorAll('.sign [data-r]'); if (who[1]) who[1].dataset.delay = 350; if (who[2]) who[2].dataset.delay = 480;
+    io.observe($('.sig'));
+    window.__io = io; window.__rise = rise;
+  }
+} catch (e) { document.documentElement.classList.remove('anim'); }
+
+/* ---------- wizard + finder ---------- */
+const REGIONS = ['Africa', 'Europe', 'North America', 'Latin America', 'Middle East', 'Asia', 'Oceania'];
+const CHAINS = {
+  Sui: /\bsui\b/i, Monad: /\bmonad\b/i, Bitcoin: /\b(bitcoin|btc|lightning|stacks|ordinals)\b/i, Ethereum: /\b(ethereum|eth|ethglobal|evm)\b/i,
+  Solana: /\b(solana|sol|superteam|colosseum)\b/i, Base: /\bbase (chain|network|batches|onchain)|\bon base\b|\bbase\b(?= hackathon| builder)/i, Polygon: /\bpolygon\b/i,
+  Arbitrum: /\barbitrum\b/i, Optimism: /\b(optimism|op stack|superchain)\b/i, Avalanche: /\b(avalanche|avax)\b/i, NEAR: /\bnear (protocol|ai|hackathon)|\bnear\b(?=[^a-z]*$)/i,
+  Aptos: /\baptos\b/i, Starknet: /\bstarknet\b/i, Polkadot: /\b(polkadot|kusama|substrate)\b/i, Cardano: /\bcardano\b/i, Stellar: /\b(stellar|soroban)\b/i,
+  TON: /\b(ton|telegram open network)\b/i, Cosmos: /\b(cosmos|cosmwasm)\b/i, Hedera: /\bhedera\b/i, XRP: /\b(xrp|xrpl|ripple)\b/i, Algorand: /\balgorand\b/i,
+  Internet_Computer: /\b(icp|internet computer|dfinity)\b/i, Celo: /\bcelo\b/i, Hyperliquid: /\bhyperliquid\b/i, BNB: /\b(bnb|bsc|binance)\b/i,
+};
+const chainName = (k) => k.replace('_', ' ');
+const DEFAULT_PREFS = { mode: 'Virtual', regions: [], place: '', cats: [], chains: [], when: 'any', cash: false, beginner: false };
+let prefs = { ...DEFAULT_PREFS, ...(store.get('hk_prefs') || {}) };
+const state = { q: '', sort: 'due', limit: 24 };
+let DATA = [], CATS = [], CHAIN_LIST = [];
+
 const STEPS = [
-  { key: 'mode', title: 'How do you want to take part?', sub: 'Virtual events let you join from anywhere.', type: 'one',
-    opts: ['Virtual', 'In person', 'Either'] },
-  { key: 'regions', title: 'Where can you travel to?', sub: 'Pick any regions. Leave empty for anywhere.', type: 'many', opts: REGIONS,
-    show: () => prefs.mode !== 'Virtual', extra: 'place' },
-  { key: 'cats', title: 'What do you like building?', sub: 'Pick any. Leave empty to see everything.', type: 'many', opts: () => CATS.filter((c) => c !== 'Beginner') },
-  { key: 'when', title: 'When are you free?', sub: 'We match on the submission deadline.', type: 'one',
-    opts: [['month', 'Next 30 days'], ['quarter', 'Next 3 months'], ['any', 'Any time']] },
-  { key: 'extras', title: 'Anything else?', sub: 'Optional.', type: 'flags',
-    opts: [['cash', 'Only events with a listed prize'], ['beginner', 'Beginner or student friendly']] },
+  { key: 'mode', title: 'How do you want to take part?', sub: 'Virtual events let you join from anywhere.', type: 'one', opts: ['Virtual', 'In person', 'Either'] },
+  { key: 'regions', title: 'Where can you travel to?', sub: 'Pick any regions. Leave it empty for anywhere.', type: 'many', opts: REGIONS, show: (p) => p.mode !== 'Virtual', extra: 'place' },
+  { key: 'cats', title: 'What do you like building?', sub: 'Pick any. Leave it empty to see everything.', type: 'many', opts: () => CATS.filter((c) => c !== 'Beginner') },
+  { key: 'chains', title: 'Any chain in mind?', sub: 'Pick the ecosystems you build on. Leave it empty for any.', type: 'many', opts: () => CHAIN_LIST.map((c) => [c, chainName(c)]), show: (p) => CHAIN_LIST.length && (!p.cats.length || p.cats.includes('Web3')) },
+  { key: 'when', title: 'When are you free?', sub: 'We match on the submission deadline.', type: 'one', opts: [['month', 'Next 30 days'], ['quarter', 'Next 3 months'], ['any', 'Any time']] },
+  { key: 'extras', title: 'Anything else?', sub: 'Optional.', type: 'flags', opts: [['cash', 'Only events with a listed prize'], ['beginner', 'Beginner or student friendly']] },
 ];
 let stepIdx = 0, draft = null;
-const visibleSteps = () => STEPS.filter((s) => !s.show || s.show());
-
+const visibleSteps = (p) => STEPS.filter((s) => !s.show || s.show(p));
 function openWizard() { draft = structuredClone(prefs); stepIdx = 0; drawStep(); $('#wiz').showModal(); }
 function drawStep() {
-  const saved = prefs; prefs = draft; const steps = visibleSteps(); prefs = saved;
-  const s = steps[stepIdx];
+  const steps = visibleSteps(draft), s = steps[stepIdx];
   $('#wizBar').style.width = ((stepIdx + 1) / steps.length) * 100 + '%';
   $('#wizN').textContent = `Question ${stepIdx + 1} of ${steps.length}`;
   $('#wizTitle').textContent = s.title; $('#wizSub').textContent = s.sub;
@@ -159,40 +366,45 @@ function drawStep() {
   const p = $('#wizPlace'); if (p) p.oninput = (e) => (draft.place = e.target.value);
 }
 function wizMove(dir) {
-  const saved = prefs; prefs = draft; const n = visibleSteps().length; prefs = saved;
+  const n = visibleSteps(draft).length;
   stepIdx += dir;
-  if (stepIdx >= n) { prefs = draft; store.set('hk_prefs', prefs); store.set('hk_asked', true); $('#wiz').close(); syncControls(); render(); return; }
+  if (stepIdx >= n) {
+    prefs = draft; store.set('hk_prefs', prefs); $('#wiz').close(); state.limit = 24; syncControls(); render();
+    $('#finder').scrollIntoView({ behavior: REDUCE ? 'auto' : 'smooth' }); return;
+  }
   stepIdx = Math.max(0, stepIdx); drawStep();
 }
 $('#wizNext').onclick = () => wizMove(1);
 $('#wizSkip').onclick = () => wizMove(1);
 $('#wizBack').onclick = () => wizMove(-1);
-$('#wiz').addEventListener('cancel', () => store.set('hk_asked', true));
+$('#wiz').addEventListener('click', (e) => { if (e.target === $('#wiz')) $('#wiz').close(); });
+document.querySelectorAll('[data-wizard]').forEach((b) => (b.onclick = openWizard));
 
-/* ---------- filters ---------- */
 function chips(el, items, isOn, toggle) {
   el.innerHTML = items.map((x) => `<button class="chip" aria-pressed="${isOn(x)}" data-v="${esc(x)}">${esc(x)}</button>`).join('');
-  el.onclick = (e) => { const b = e.target.closest('.chip'); if (!b) return; toggle(b.dataset.v); store.set('hk_prefs', prefs); syncControls(); render(); };
+  el.onclick = (e) => { const b = e.target.closest('.chip'); if (!b) return; toggle(b.dataset.v); store.set('hk_prefs', prefs); state.limit = 24; syncControls(); render(); };
 }
 function syncControls() {
   chips($('#modes'), ['Virtual', 'In person', 'Either'], (x) => prefs.mode === x, (v) => (prefs.mode = v));
-  const showRegions = prefs.mode !== 'Virtual';
-  $('#regions').style.display = showRegions ? '' : 'none';
+  $('#regions').style.display = prefs.mode !== 'Virtual' ? '' : 'none';
   chips($('#regions'), ['Anywhere', ...REGIONS], (x) => x === 'Anywhere' ? !prefs.regions.length : prefs.regions.includes(x),
     (v) => (prefs.regions = v === 'Anywhere' ? [] : prefs.regions.includes(v) ? prefs.regions.filter((r) => r !== v) : [...prefs.regions, v]));
   chips($('#cats'), ['All topics', ...CATS], (x) => x === 'All topics' ? !prefs.cats.length : prefs.cats.includes(x),
     (v) => (prefs.cats = v === 'All topics' ? [] : prefs.cats.includes(v) ? prefs.cats.filter((c) => c !== v) : [...prefs.cats, v]));
+  $('#chainsRow').style.display = CHAIN_LIST.length ? '' : 'none';
+  chips($('#chainsRow'), ['Any chain', ...CHAIN_LIST], (x) => x === 'Any chain' ? !prefs.chains.length : prefs.chains.includes(x),
+    (v) => (prefs.chains = v === 'Any chain' ? [] : prefs.chains.includes(v) ? prefs.chains.filter((c) => c !== v) : [...prefs.chains, v]));
+  $('#chainsRow').querySelectorAll('.chip').forEach((b) => (b.textContent = chainName(b.textContent)));
   const bits = [prefs.mode === 'Either' ? 'Virtual or in person' : prefs.mode];
   if (prefs.mode !== 'Virtual') bits.push(prefs.place || (prefs.regions.length ? prefs.regions.join(', ') : 'Anywhere'));
   if (prefs.cats.length) bits.push(prefs.cats.join(', '));
+  if (prefs.chains.length) bits.push(prefs.chains.map(chainName).join(', '));
   if (prefs.when !== 'any') bits.push(prefs.when === 'month' ? 'Next 30 days' : 'Next 3 months');
-  if (prefs.cash) bits.push('Has prize');
+  if (prefs.cash) bits.push('Has a prize');
   if (prefs.beginner) bits.push('Beginner friendly');
-  $('#prefs').innerHTML = bits.map((b) => `<span class="pill">${esc(b)}</span>`).join('') +
-    `<button class="btn ghost" id="redo">Change my answers</button>`;
-  $('#redo').onclick = openWizard;
+  $('#prefs').innerHTML = bits.map((b) => `<span class="ptag">${esc(b)}</span>`).join('') + `<button class="linkbtn" data-wizard>Change my answers</button>`;
+  $('#prefs [data-wizard]').onclick = openWizard;
 }
-
 function matches(e) {
   if (prefs.mode === 'Virtual' && e.mode === 'in-person') return false;
   if (prefs.mode === 'In person' && e.mode === 'online') return false;
@@ -202,49 +414,209 @@ function matches(e) {
     if (p && ![e.city, e.country, e.location].join(' ').toLowerCase().includes(p)) return false;
   }
   if (prefs.cats.length && !prefs.cats.some((c) => e.categories.includes(c))) return false;
+  if (prefs.chains.length && !prefs.chains.some((c) => e.chains.includes(c))) return false;
   const left = daysLeft(e.end);
   if (prefs.when === 'month' && left != null && left > 30) return false;
   if (prefs.when === 'quarter' && left != null && left > 92) return false;
   if (prefs.cash && !prizeNum(e.prize)) return false;
   if (prefs.beginner && !e.categories.includes('Beginner')) return false;
   const q = state.q.toLowerCase();
-  if (q && ![e.title, e.organizer, e.location, e.city, e.country, ...(e.themes || [])].join(' ').toLowerCase().includes(q)) return false;
+  if (q && ![e.title, e.organizer, e.location, e.city, e.country, ...(e.themes || []), ...e.chains].join(' ').toLowerCase().includes(q)) return false;
   return true;
 }
-
+const whereOf = (e) => e.mode === 'online' ? 'Virtual' : (e.mode === 'hybrid' ? 'Hybrid · ' : '') + ([e.city, e.country].filter(Boolean).join(', ') || e.location || 'In person');
 function render() {
   const by = { due: (a, b) => (a.end || '9999').localeCompare(b.end || '9999'), prize: (a, b) => prizeNum(b.prize) - prizeNum(a.prize), new: (a, b) => (a.start || '9999').localeCompare(b.start || '9999') };
   const list = DATA.filter(matches).sort(by[state.sort]);
   $('#meta').innerHTML = `<b>${list.length}</b> matches out of ${DATA.length} open or upcoming · updated ${esc(fmt(window.UPDATED))}`;
-  $('#grid').innerHTML = list.length ? list.map((e) => {
+  $('#grid').innerHTML = list.length ? list.slice(0, state.limit).map((e) => {
     const left = daysLeft(e.end);
-    const due = left == null ? '' : `<span class="due${left <= 7 ? ' soon' : ''}">${left <= 0 ? 'Ends today' : left + ' days left'}</span>`;
+    const due = left == null ? '' : `<span class="dl${left <= 7 ? ' soon' : ''}">${left <= 0 ? 'Ends today' : left + ' days left'}</span>`;
     const when = [fmt(e.start), fmt(e.end)].filter(Boolean);
-    const where = e.mode === 'online' ? 'Virtual' : (e.mode === 'hybrid' ? 'Hybrid · ' : '') + esc([e.city, e.country].filter(Boolean).join(', ') || e.location || 'In person');
     return `<a class="card" href="${esc(e.url)}" target="_blank" rel="noopener">
-      <span class="src"><span>${esc(e.source)}</span><span>${e.mode === 'online' ? '● Virtual' : esc(e.region || '')}</span></span>
+      <span class="src"><span>${esc(e.source)}</span><span>${e.mode === 'online' ? 'Virtual' : esc(e.region || '')}</span></span>
       <h3>${esc(e.title)}</h3>
       ${e.organizer ? `<span class="org">${esc(e.organizer)}</span>` : ''}
-      <div class="facts">${due}
-        ${when.length ? `<span>${esc(when.join(' – '))}</span>` : ''}
-        <span>${where}</span>
-        ${e.prize && (prizeNum(e.prize) > 0 || !/\d/.test(e.prize)) ? `<span><b>${esc(e.prize)}</b></span>` : ''}
-      </div>
-      <div class="tags">${e.categories.map((c) => `<span class="tag">${esc(c)}</span>`).join('')}</div>
+      <div class="facts">${due}${when.length ? `<span>${esc(when.join(' – '))}</span>` : ''}<span>${esc(whereOf(e))}</span>${showPrize(e.prize) ? `<span><b>${esc(e.prize)}</b></span>` : ''}</div>
+      <div class="tags">${[...e.categories, ...e.chains.map(chainName)].map((c) => `<span class="tag">${esc(c)}</span>`).join('')}</div>
     </a>`;
   }).join('') : '<p class="empty">Nothing matches yet. Try loosening your answers.</p>';
+  $('#more').hidden = list.length <= state.limit;
+}
+$('#more').onclick = () => { state.limit += 24; render(); };
+$('#q').oninput = (e) => { state.q = e.target.value; state.limit = 24; render(); };
+$('#sort').onchange = (e) => { state.sort = e.target.value; render(); };
+
+/* ---------- live cards rail ---------- */
+function buildRail() {
+  const fresh = DATA.filter((e) => { const l = daysLeft(e.end); return l != null && l >= 3 && l <= 60; });
+  let pick = fresh.filter((e) => prizeNum(e.prize) > 0).sort((a, b) => prizeNum(b.prize) - prizeNum(a.prize)).slice(0, 8);
+  if (pick.length < 8) pick = pick.concat(fresh.filter((e) => !pick.includes(e)).slice(0, 8 - pick.length));
+  $('#railCount').textContent = `${DATA.length} live listings`;
+  $('#track').innerHTML = pick.map((e, i) => {
+    const left = daysLeft(e.end), n = String(i + 1).padStart(2, '0');
+    const sheet = SHEETS[(i * 3 + 1) % 8], quad = QUAD[i % 4];
+    return `<a class="wcard" href="${esc(e.url)}" target="_blank" rel="noopener" aria-label="View hackathon ${n}: ${esc(e.title)}" data-r data-delay="${Math.min(i, 4) * 110}">
+      <span class="idx">${n}</span>
+      <span class="img" style="background-image:url('${sheet}');background-position:${quad}"><span class="due">${left} days left</span><span class="pill">View hackathon</span></span>
+      <h3>${esc(e.title)}</h3>
+      <span class="m">${[showPrize(e.prize) ? esc(e.prize) : null, esc(whereOf(e))].filter(Boolean).join(' · ')}</span>
+    </a>`;
+  }).join('');
+  if (window.__io) document.querySelectorAll('.wcard').forEach((c) => window.__io.observe(c));
+  else document.querySelectorAll('.wcard').forEach((c) => (c.style.opacity = 1));
+  startSlider();
+}
+function startSlider() {
+  if (REDUCE) return;
+  const track = $('#track'); let busy = false;
+  setInterval(() => {
+    if (busy || document.hidden || track.children.length < 2) return;
+    const first = track.children[0], step = first.getBoundingClientRect().width + parseFloat(getComputedStyle(track).gap || 17);
+    busy = true;
+    const a = track.animate([{ transform: 'translateX(0)' }, { transform: `translateX(${-step}px)` }], { duration: 900, easing: 'cubic-bezier(.65,0,.35,1)' });
+    a.onfinish = () => { track.appendChild(first); busy = false; };
+  }, 2400);
 }
 
 fetch('data/hackathons.json', { cache: 'no-cache' }).then((r) => r.json()).then((d) => {
   DATA = d.events; window.UPDATED = d.updated;
+  const cc = {};
+  DATA.forEach((e) => {
+    const txt = [e.title, e.organizer, ...(e.themes || [])].join(' ');
+    e.chains = Object.keys(CHAINS).filter((k) => CHAINS[k].test(txt));
+    e.chains.forEach((c) => (cc[c] = (cc[c] || 0) + 1));
+    if (e.chains.length && !e.categories.includes('Web3')) e.categories.push('Web3');
+  });
+  CHAIN_LIST = Object.keys(cc).sort((a, b) => cc[b] - cc[a]);
+  prefs.chains = (prefs.chains || []).filter((c) => CHAIN_LIST.includes(c));
   const counts = {};
   DATA.forEach((e) => e.categories.forEach((c) => (counts[c] = (counts[c] || 0) + 1)));
   CATS = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
-  syncControls(); render();
-  if (!store.get('hk_asked')) openWizard();
-}).catch(() => { $('#meta').textContent = 'Could not load data.'; });
-$('#q').oninput = (e) => { state.q = e.target.value; render(); };
-$('#sort').onchange = (e) => { state.sort = e.target.value; render(); };
+  $('#browseAll').textContent = `Browse all ${DATA.length}`;
+  syncControls(); render(); buildRail();
+}).catch(() => { $('#meta').textContent = 'Could not load listings. Please refresh.'; });
+</script>
+
+<script type="module">
+import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js';
+const wrap = document.getElementById('globeWrap'), canvas = document.getElementById('globe');
+const REDUCE = matchMedia('(prefers-reduced-motion: reduce)').matches;
+let renderer;
+try { renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, premultipliedAlpha: true }); if (!renderer.getContext()) throw 0; }
+catch { document.documentElement.classList.add('no-webgl'); }
+
+if (renderer) {
+  renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.outputColorSpace = THREE.LinearSRGBColorSpace;
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(2 * Math.asin(1 / 3.7) * 180 / Math.PI * 1.015, 1, 0.1, 10);
+  camera.position.z = 3.7;
+  const group = new THREE.Group(); scene.add(group);
+
+  const loader = new THREE.TextureLoader();
+  let loaded = 0, introStart = null;
+  const start = () => { if (introStart == null) introStart = performance.now(); };
+  const textures = Array.from({ length: 8 }, (_, i) => loader.load(`img/g${i + 1}.webp`, () => { if (++loaded === 8) start(); }));
+  textures.forEach((t) => { t.anisotropy = Math.min(8, renderer.capabilities.getMaxAnisotropy()); t.generateMipmaps = true; t.minFilter = THREE.LinearMipmapLinearFilter; });
+  setTimeout(start, 4000);
+
+  const vert = `varying vec2 vUv; varying float vF;
+  void main(){ vUv=uv; vec4 mv=modelViewMatrix*vec4(position,1.); vec3 n=normalize(normalMatrix*normal);
+  vF=clamp(dot(n,normalize(-mv.xyz)),0.,1.); gl_Position=projectionMatrix*mv; }`;
+  const frag = `uniform sampler2D map; uniform vec4 rect; uniform float aspect; uniform float opacity; uniform vec3 paper;
+  varying vec2 vUv; varying float vF;
+  float sdr(vec2 p, vec2 b, float r){ vec2 q=abs(p)-b+r; return length(max(q,0.))+min(max(q.x,q.y),0.)-r; }
+  void main(){
+    vec2 p=(vUv-.5)*vec2(aspect,1.);
+    float d=sdr(p, vec2(aspect*.5,.5), .085);
+    float fw=fwidth(d)*1.2; float m=1.-smoothstep(-fw,fw,d);
+    vec3 c=texture2D(map, rect.xy+vUv*rect.zw).rgb;
+    c=mix(c,paper,pow(1.-vF,2.2)*.62);
+    float a=m*opacity; if(a<.003) discard;
+    gl_FragColor=vec4(c*a,a);
+  }`;
+  const PAPER = new THREE.Vector3(228 / 255, 222 / 255, 211 / 255);
+
+  // seeded Park–Miller
+  let seed = 20261113; const rnd = () => (seed = seed * 16807 % 2147483647) / 2147483647;
+  const D = Math.PI / 180, bands = [11, 14, 17, 21, 24, 21, 17, 14, 11], GAP = 2.1;
+  const total = bands.reduce((a, b) => a + b, 0) + GAP * (bands.length - 1);
+  let theta = (180 - total) / 2, n = 0;
+  const tiles = [];
+  bands.forEach((h, bi) => {
+    const t0 = theta; theta += h + GAP;
+    const mid = (t0 + h / 2) * D, s = Math.sin(mid);
+    const widths = []; let sum = 0;
+    while (sum < 360) { const w = h * (0.82 + rnd() * 0.62) / s; widths.push(w); sum += w + GAP / s; }
+    const k = 360 / sum; let phi = rnd() * 360;
+    widths.forEach((w0, wi) => {
+      const w = w0 * k;
+      let ts = t0, tl = h;
+      if (rnd() < 0.45) { const cut = rnd() * 0.2 * h; tl = h - cut; if (rnd() < 0.5) ts = t0 + cut; }
+      const tm = (ts + tl / 2) * D;
+      const aspect = (w * D * Math.sin(tm)) / (tl * D);
+      const geo = new THREE.SphereGeometry(1, Math.max(6, Math.round(w / 3)), Math.max(6, Math.round(tl / 3)), phi * D, w * D, ts * D, tl * D);
+      const sheet = n % 8, quad = Math.floor(n / 8) % 4;
+      const qx = (quad % 2) * 0.5, qy = quad < 2 ? 0.5 : 0, inset = 0.5 * 0.035, q = 0.5 * (1 - 0.07);
+      let rw = q, rh = q; if (aspect > 1) rh = q / aspect; else rw = q * aspect;
+      const rect = new THREE.Vector4(qx + inset + (q - rw) / 2, qy + inset + (q - rh) / 2, rw, rh);
+      const mat = new THREE.ShaderMaterial({
+        vertexShader: vert, fragmentShader: frag, transparent: true, depthWrite: true, side: THREE.FrontSide, premultipliedAlpha: true,
+        uniforms: { map: { value: textures[sheet] }, rect: { value: rect }, aspect: { value: aspect }, opacity: { value: REDUCE ? 1 : 0 }, paper: { value: PAPER } },
+      });
+      const mesh = new THREE.Mesh(geo, mat); group.add(mesh);
+      tiles.push({ mesh, mat, delay: (bands.length - 1 - bi) * 0.2 + (wi / widths.length) * 0.42 });
+      phi += w + (GAP / s) * k; n++;
+    });
+  });
+  const SEQ_END = Math.max(...tiles.map((t) => t.delay)) + 0.5;
+
+  // size
+  const ro = new ResizeObserver(() => { const w = wrap.clientWidth; renderer.setSize(w, w, false); camera.aspect = 1; camera.updateProjectionMatrix(); });
+  ro.observe(wrap);
+
+  // motion state
+  let rotY = -0.6, tilt = 0.2, vel = 0, dragging = false, lastX = 0, lastY = 0, trackV = 0, lastT = 0;
+  let lastScroll = scrollY;
+  if (!REDUCE) addEventListener('scroll', () => { const d = scrollY - lastScroll; lastScroll = scrollY; vel = Math.max(-6, Math.min(6, vel + d * 0.0042)); }, { passive: true });
+  canvas.addEventListener('pointerdown', (e) => { dragging = true; canvas.setPointerCapture(e.pointerId); canvas.classList.add('drag'); vel = 0; trackV = 0; lastX = e.clientX; lastY = e.clientY; lastT = performance.now(); });
+  canvas.addEventListener('pointermove', (e) => {
+    if (!dragging) return;
+    const k = 2.6 / wrap.clientWidth, dx = e.clientX - lastX, dy = e.clientY - lastY, now = performance.now(), dt = Math.max(1, now - lastT) / 1000;
+    rotY += dx * k; tilt = Math.max(-0.55, Math.min(0.75, tilt + dy * k * 0.8));
+    trackV = trackV * 0.6 + (dx * k / dt) * 0.4; lastX = e.clientX; lastY = e.clientY; lastT = now;
+  });
+  const up = (e) => { if (!dragging) return; dragging = false; canvas.classList.remove('drag'); try { canvas.releasePointerCapture(e.pointerId); } catch {} vel = Math.max(-6, Math.min(6, trackV)); };
+  canvas.addEventListener('pointerup', up); canvas.addEventListener('pointercancel', up);
+
+  let visible = true;
+  new IntersectionObserver(([en]) => (visible = en.isIntersecting), { rootMargin: '120px' }).observe(wrap);
+
+  let last = performance.now(), finalPass = false;
+  function frame(now) {
+    const dt = Math.min(0.05, (now - last) / 1000); last = now;
+    const t = introStart == null ? 0 : (now - introStart) / 1000;
+    const building = !REDUCE && (introStart == null || t < SEQ_END + 0.1);
+    if (visible || building) {
+      const p = REDUCE ? 1 : Math.min(1, t / 1.1), e = 1 - Math.pow(1 - p, 3);
+      if (!REDUCE && introStart != null && p < 1) rotY += Math.pow(1 - p, 2) * 2.6 * dt;
+      rotY += vel * dt; vel *= Math.exp(-2.6 * dt);
+      if (!dragging) tilt += (0.2 - tilt) * (1 - Math.exp(-2.2 * dt));
+      const s = 0.42 + 0.58 * e;
+      group.scale.set(s, s * (0.22 + 0.78 * e), s);
+      group.position.y = -(1 - e) * 0.62;
+      group.rotation.set(tilt, rotY, 0);
+      if (!REDUCE) {
+        if (t > SEQ_END) { if (!finalPass) { tiles.forEach((x) => { x.mat.uniforms.opacity.value = 1; x.mesh.scale.setScalar(1); }); finalPass = true; } }
+        else tiles.forEach((x) => { const k = Math.max(0, Math.min(1, (t - x.delay) / 0.5)), ek = 1 - Math.pow(1 - k, 3); x.mat.uniforms.opacity.value = ek; x.mesh.scale.setScalar(0.9 + 0.1 * ek); });
+      }
+      renderer.render(scene, camera);
+    }
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+}
 </script>
 </body>
 </html>
