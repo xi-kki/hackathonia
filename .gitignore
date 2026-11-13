@@ -1,2 +1,5 @@
 scratch.log
 *.bak
+
+.vercel
+.env*
