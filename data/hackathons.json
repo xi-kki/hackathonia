@@ -1,7 +1,61 @@
 {
  "updated": "2026-11-13",
- "count": 131,
+ "count": 280,
+ "sources": {
+  "Devpost": 160,
+  "Hack Club": 12,
+  "Unstop": 29,
+  "mlh.com": 31,
+  "Web search": 6,
+  "Devfolio": 23,
+  "ethglobal.com": 4,
+  "dorahacks.io": 11,
+  "hackerearth.com": 2,
+  "taikai.network": 2
+ },
  "events": [
+  {
+   "title": "IBM Qiskit Hackathon - Bangladesh",
+   "url": "https://ibm-qiskit-hackathon.devpost.com/",
+   "start": "2026-11-12",
+   "end": "2026-11-13",
+   "mode": "in-person",
+   "location": "BRAC University",
+   "city": "Dhaka",
+   "country": "Bangladesh",
+   "prize": "$0",
+   "themes": [
+    "Quantum"
+   ],
+   "organizer": "Qiskit User Group Bangladesh",
+   "registrations": 94,
+   "source": "Devpost",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Hackperimeter",
+   "url": "https://hackperimeter.devpost.com/",
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "mode": "in-person",
+   "location": "GSU Perimeter College - Clarkston Campus",
+   "city": "Clarkston",
+   "country": "United States",
+   "prize": "$1,000",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Web"
+   ],
+   "organizer": "Georgia State University",
+   "registrations": 6,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
   {
    "title": "CIVIC Hack 2026",
    "url": "https://civic-hack-2026.devpost.com/",
@@ -9,6 +63,8 @@
    "end": "2026-11-14",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$CAD 1,500",
    "themes": [
     "Beginner Friendly",
@@ -16,12 +72,180 @@
     "Social Good"
    ],
    "organizer": "Future Cities Institute",
-   "registrations": 99,
+   "registrations": 100,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "System Public Challenge",
+   "url": "https://system-public-challenge.devpost.com/",
+   "start": "2026-11-12",
+   "end": "2026-11-14",
+   "mode": "in-person",
+   "location": "System HQ",
+   "city": "Richmond",
+   "country": "United States",
+   "prize": "$7,500",
+   "themes": [
+    "Health",
+    "Machine Learning/AI",
     "Social Good"
+   ],
+   "organizer": "System, Inc.",
+   "registrations": 82,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Health",
+    "Education",
+    "Social Good"
+   ]
+  },
+  {
+   "title": "HackED Beta 2026",
+   "url": "https://hacked-beta-2026.devpost.com/",
+   "start": "2026-11-13",
+   "end": "2026-11-14",
+   "mode": "in-person",
+   "location": "University of Alberta - UComms",
+   "city": "Edmonton",
+   "country": "Canada",
+   "prize": "$CAD 1,100",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended"
+   ],
+   "organizer": "Computer Engineering Club, Ualberta",
+   "registrations": 2,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "SearchHack: Build the next layer of AI search",
+   "url": "https://searchhack.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "mode": "in-person",
+   "location": "Sunnyvale",
+   "city": "Sunnyvale",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Machine Learning/AI",
+    "Web"
+   ],
+   "organizer": "Telem AI",
+   "registrations": 21,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "Haven Princeton Game Jam - High School",
+   "url": "https://haven-asbury-park.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "mode": "in-person",
+   "location": "1435 Capital",
+   "city": null,
+   "country": "Denmark",
+   "prize": "$3,551",
+   "themes": [
+    "Beginner Friendly",
+    "Design",
+    "Gaming"
+   ],
+   "organizer": "Hack Club",
+   "registrations": 11,
+   "source": "Devpost",
+   "region": "Europe",
+   "categories": [
+    "Gaming",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Ground Truth: The Live Agents Hackathon - powered by You.com",
+   "url": "https://ground-truth-you-hack.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "mode": "in-person",
+   "location": "XDC Tech",
+   "city": null,
+   "country": "XDC Tech",
+   "prize": "$650",
+   "themes": [
+    "Machine Learning/AI",
+    "Web"
+   ],
+   "organizer": "localhost-nyc",
+   "registrations": 9,
+   "source": "Devpost",
+   "region": null,
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "Code/Clash",
+   "url": "https://code-clash.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "mode": "in-person",
+   "location": "Towson Cyber Center (10 West)",
+   "city": "Towson",
+   "country": "United States",
+   "prize": "$500",
+   "themes": [
+    "Beginner Friendly",
+    "Cybersecurity",
+    "Web"
+   ],
+   "organizer": "BitBrothers",
+   "registrations": 7,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Haven Richmond",
+   "url": "https://haven-richmond.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "mode": "in-person",
+   "location": "Richmond, Virginia, USA",
+   "city": "Richmond",
+   "country": "United States",
+   "prize": "$500",
+   "themes": [
+    "Beginner Friendly",
+    "Education",
+    "Gaming"
+   ],
+   "organizer": "HackClub  ✓⃝",
+   "registrations": 4,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Education",
+    "Gaming",
+    "Beginner"
    ]
   },
   {
@@ -31,6 +255,8 @@
    "end": "2026-11-14",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -40,41 +266,78 @@
    "organizer": "LPCHacks",
    "registrations": 3,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
-   "title": "Expanding Horizons 8.0 Chemical",
-   "url": "https://unstop.com/hackathons/expanding-horizons-80-chemical-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799791",
-   "start": null,
+   "title": "BYU-Idaho: i-Hack 2026: Reinventing the Past",
+   "url": "https://ihack-2026.devpost.com/",
+   "start": "2026-11-13",
    "end": "2026-11-14",
-   "mode": "online",
-   "location": null,
-   "prize": null,
+   "mode": "in-person",
+   "location": "Science & Technology Building (STC)",
+   "city": "Rexburg",
+   "country": "United States",
+   "prize": "$0",
    "themes": [
-    "Chemical"
+    "Beginner Friendly",
+    "Design",
+    "Open Ended"
    ],
-   "organizer": "Motilal Nehru National Institute of Technology",
-   "source": "unstop.com",
-   "categories": []
+   "organizer": "Brigham Young University - Idaho CSE Dep",
+   "registrations": 2,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
   },
   {
-   "title": "Expanding Horizons 8.0 BIOTECH",
-   "url": "https://unstop.com/hackathons/expanding-horizons-80-biotech-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799790",
-   "start": null,
+   "title": "Haven Philly",
+   "url": "https://haven-philly.devpost.com/",
+   "start": "2026-11-14",
    "end": "2026-11-14",
-   "mode": "online",
-   "location": null,
+   "mode": "in-person",
+   "location": "Drexel University CCI Building",
+   "city": "Philadelphia",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Gaming"
+   ],
+   "organizer": "Hack Club",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Gaming",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "UnlockedHacks",
+   "url": "https://unlockedhacks.org/",
+   "start": "2026-11-14",
+   "end": "2026-11-14",
+   "mode": "in-person",
+   "location": "Portland, Oregon, United States",
+   "city": "Portland",
+   "country": "United States",
    "prize": null,
    "themes": [
-    "Biotechnology"
+    "Beginner friendly",
+    "High school"
    ],
-   "organizer": "Motilal Nehru National Institute of Technology",
-   "source": "unstop.com",
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
    "categories": [
-    "Health"
+    "Beginner"
    ]
   },
   {
@@ -84,6 +347,8 @@
    "end": "2026-11-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -93,7 +358,10 @@
    "organizer": "STEMise",
    "registrations": 1207,
    "source": "Devpost",
-   "categories": []
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
   },
   {
    "title": "IceHacks",
@@ -102,6 +370,8 @@
    "end": "2026-11-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$17,150",
    "themes": [
     "Beginner Friendly",
@@ -109,9 +379,12 @@
     "Open Ended"
    ],
    "organizer": "CodeStarters",
-   "registrations": 620,
+   "registrations": 624,
    "source": "Devpost",
-   "categories": []
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
   },
   {
    "title": "STEMergent Hacks 2026",
@@ -120,6 +393,8 @@
    "end": "2026-11-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Low/No Code",
@@ -127,8 +402,9 @@
     "Social Good"
    ],
    "organizer": "STEMergent",
-   "registrations": 354,
+   "registrations": 355,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
@@ -142,6 +418,8 @@
    "end": "2026-11-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Communication",
@@ -151,6 +429,7 @@
    "organizer": "Software Engineering Club (DEV)",
    "registrations": 227,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -163,6 +442,8 @@
    "end": "2026-11-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -172,10 +453,12 @@
    "organizer": "Lynbrook Engineering Club",
    "registrations": 55,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -185,6 +468,8 @@
    "end": "2026-11-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly"
@@ -192,6 +477,127 @@
    "organizer": "SFU Data Science Student Society",
    "registrations": 16,
    "source": "Devpost",
+   "region": null,
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Engage Test",
+   "url": "https://engage-test.devpost.com/",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Dubai",
+   "city": null,
+   "country": "United Arab Emirates",
+   "prize": "$20",
+   "themes": [
+    "Machine Learning/AI",
+    "Productivity"
+   ],
+   "organizer": "Engage Group",
+   "registrations": 2,
+   "source": "Devpost",
+   "region": "Middle East",
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "Stupid Ideas Hackathon (Ottawa F26)",
+   "url": "https://stupideas-ottawa-f26.devpost.com/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Bayview Yards",
+   "city": "Ottawa",
+   "country": "Canada",
+   "prize": "$CAD 1,252",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Social Good"
+   ],
+   "organizer": "stupid ideas hackathon",
+   "registrations": 113,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Hack-a-ton with Friends",
+   "url": "https://hack-a-ton-with-friends.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "DOW Theatre",
+   "city": "Mobile",
+   "country": "United States",
+   "prize": "$CAD 0",
+   "themes": [
+    "Education",
+    "Beginner Friendly"
+   ],
+   "organizer": "naitsa",
+   "registrations": 30,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "HackPrinceton Fall '26",
+   "url": "https://hackprinceton-fall-26.devpost.com/",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "JRR, LAS, Robertson, Friend",
+   "city": "JRR",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Education",
+    "Machine Learning/AI",
+    "Social Good"
+   ],
+   "organizer": "Princeton University",
+   "registrations": 28,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Social Good"
+   ]
+  },
+  {
+   "title": "SanD Hacks",
+   "url": "https://sand-hacks-26.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Qualcomm Conference Room",
+   "city": "San Diego",
+   "country": "United States",
+   "prize": "$2,250",
+   "themes": [
+    "Databases",
+    "Machine Learning/AI",
+    "Web"
+   ],
+   "organizer": "CSES @ UCSD",
+   "registrations": 24,
+   "source": "Devpost",
+   "region": "North America",
    "categories": [
     "AI",
     "Education"
@@ -204,6 +610,8 @@
    "end": "2026-11-15",
    "mode": "online",
    "location": "Milpitas, Bay Area + Online",
+   "city": null,
+   "country": null,
    "prize": "$1,000",
    "themes": [
     "Education",
@@ -213,6 +621,7 @@
    "organizer": "GTransformer Foundation",
    "registrations": 13,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
@@ -220,20 +629,440 @@
    ]
   },
   {
-   "title": "Geek Room Global AI Hackathon",
-   "url": "https://web3voyager.com",
-   "start": "2026-11-01",
+   "title": "Immerse the Bay 2026",
+   "url": "https://immerse-the-bay-2026.devpost.com/",
+   "start": "2026-11-14",
    "end": "2026-11-15",
-   "mode": "online",
-   "location": null,
+   "mode": "in-person",
+   "location": "Stanford University",
+   "city": "Santa Clara County",
+   "country": "United States",
+   "prize": "$1,000",
+   "themes": [
+    "AR/VR",
+    "Beginner Friendly",
+    "Machine Learning/AI"
+   ],
+   "organizer": "Stanford XR",
+   "registrations": 8,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Gaming",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "OCSEFHacks 3",
+   "url": "https://ocsefhacks3.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Westminster High School",
+   "city": "Westminster",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Machine Learning/AI",
+    "Open Ended"
+   ],
+   "organizer": "HackPac",
+   "registrations": 5,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "HackUMass XIV",
+   "url": "https://hackumass-xiv.devpost.com/",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Integrative Learning Center",
+   "city": "Amherst",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Machine Learning/AI",
+    "Web"
+   ],
+   "organizer": "HackUMass",
+   "registrations": 4,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Haven Seattle",
+   "url": "https://haven-seattle.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Seattle, Washington, USA",
+   "city": "Seattle",
+   "country": "United States",
+   "prize": "$100",
+   "themes": [
+    "Design"
+   ],
+   "organizer": "Hack Club",
+   "registrations": 4,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "The Next Frontier 2026: A Space Innovation Hackathon",
+   "url": "https://aichr-space.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "ECPI Virginia Beach Campus",
+   "city": "Virginia Beach",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Low/No Code",
+    "Open Ended"
+   ],
+   "organizer": "AI Collective",
+   "registrations": 4,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Haven Las Vegas",
+   "url": "https://haven-las-vegas.devpost.com/",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Pololu Corporation",
+   "city": "Las Vegas",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Design",
+    "Gaming"
+   ],
+   "organizer": "Hack Club",
+   "registrations": 3,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Gaming",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "UBC eProjects x n8n LOOP Hackathon",
+   "url": "https://loop.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "University of British Columbia",
+   "city": "Electoral Area A",
+   "country": "Canada",
+   "prize": "$1,000",
+   "themes": [
+    "Beginner Friendly",
+    "Low/No Code",
+    "Machine Learning/AI"
+   ],
+   "organizer": "n8n",
+   "registrations": 1,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Hack Club Haven (Hong Kong)",
+   "url": "https://hack-club-haven-hong-kong.devpost.com/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Canadian International School Hong Kong",
+   "city": "Hong Kong",
+   "country": "China",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Gaming"
+   ],
+   "organizer": "Hack Club",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "Asia",
+   "categories": [
+    "Gaming",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "OCSEFhacks",
+   "url": "https://ocsefhacks.org/",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Westminster, California, United States",
+   "city": "Westminster",
+   "country": "United States",
    "prize": null,
    "themes": [
-    "AI"
+    "Beginner friendly",
+    "High school"
    ],
    "organizer": null,
-   "source": "Web search",
+   "source": "Hack Club",
+   "region": "North America",
    "categories": [
-    "AI"
+    "Beginner"
+   ]
+  },
+  {
+   "title": "ONHacks",
+   "url": "https://onhacks.ca",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Toronto, Ontario, Canada",
+   "city": "Toronto",
+   "country": "Canada",
+   "prize": null,
+   "themes": [
+    "Beginner friendly",
+    "High school"
+   ],
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "BuildSprint",
+   "url": "https://unstop.com/hackathons/buildsprint-workelate-1794884",
+   "start": "2026-11-05",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "location": "Hyderabad, Telangana, India",
+   "city": "Hyderabad",
+   "country": "India",
+   "prize": "₹35,000",
+   "themes": [
+    "Software Development"
+   ],
+   "organizer": "Workelate",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Emory Hacks",
+   "url": "https://emoryhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Emory+Hacks",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Atlanta",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Atlanta, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "UniHack",
+   "url": "https://unihack.eu/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=UniHack",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Timișoara",
+   "country": "Romania",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Timișoara, Romania",
+   "source": "mlh.com",
+   "region": "Europe",
+   "categories": []
+  },
+  {
+   "title": "Junction",
+   "url": "https://hackjunction.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Junction",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Espoo",
+   "country": "Finland",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Espoo, Finland",
+   "source": "mlh.com",
+   "region": "Europe",
+   "categories": []
+  },
+  {
+   "title": "HackPrinceton Fall 2026",
+   "url": "https://www.hackprinceton.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackPrinceton+Fall+2026",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Princeton",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Princeton, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "NASA's Space Apps Challenge NYC",
+   "url": "https://www.spaceappschallenge.org/2026/local-events/new-york/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=NASA%27s+Space+Apps+Challenge+NYC",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Brooklyn",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Brooklyn, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HackUMass",
+   "url": "https://www.hackumass.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUMass",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Amherst",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Amherst, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HackUTA",
+   "url": "https://hackuta.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUTA",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Arlington",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Arlington, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "Hack The Nest",
+   "url": "https://hackthenest.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+The+Nest",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Ypsilanti",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Ypsilanti, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "DurHack",
+   "url": "https://durhack.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DurHack",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Durham",
+   "country": "United Kingdom",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Durham, United Kingdom",
+   "source": "mlh.com",
+   "region": "Europe",
+   "categories": []
+  },
+  {
+   "title": "sunhacks",
+   "url": "https://2026.sunhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=sunhacks",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Tempe",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Tempe, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "Precision & Digital Agriculture Hackathon",
+   "url": "https://digitalag.illinois.edu/precision-digital-agriculture-hackathon",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Champaign",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "precision agriculture",
+    "artificial intelligence",
+    "generative AI",
+    "machine learning",
+    "computer vision"
+   ],
+   "organizer": "Center for Digital Agriculture, University of Illinois Urbana-Champaign",
+   "location": "Champaign, United States",
+   "source": "Web search",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Food & Agri",
+    "Education"
    ]
   },
   {
@@ -243,6 +1072,8 @@
    "end": "2026-11-16",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$46,000",
    "themes": [
     "Lifehacks",
@@ -250,8 +1081,9 @@
     "Productivity"
    ],
    "organizer": "UGREEN",
-   "registrations": 2368,
+   "registrations": 2371,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -264,6 +1096,8 @@
    "end": "2026-11-16",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Low/No Code"
@@ -271,6 +1105,7 @@
    "organizer": "PRODUCT@TAMU",
    "registrations": 2,
    "source": "Devpost",
+   "region": null,
    "categories": []
   },
   {
@@ -280,6 +1115,8 @@
    "end": "2026-11-17",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$125",
    "themes": [
     "Beginner Friendly",
@@ -288,9 +1125,34 @@
    "organizer": "HackathonForEveryone",
    "registrations": 199,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "Climate",
-    "Social Good"
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Bharat Builds Tour",
+   "url": "https://bharat-builds-tour.devpost.com/",
+   "start": "2026-11-16",
+   "end": "2026-11-17",
+   "mode": "in-person",
+   "location": "jaipur",
+   "city": "Jaipur",
+   "country": "India",
+   "prize": "$0",
+   "themes": [
+    "Blockchain",
+    "Cybersecurity",
+    "DevOps"
+   ],
+   "organizer": "Hackers Unity",
+   "registrations": 19,
+   "source": "Devpost",
+   "region": "Asia",
+   "categories": [
+    "Web3"
    ]
   },
   {
@@ -300,6 +1162,8 @@
    "end": "2026-11-18",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$1,000,000",
    "themes": [
     "AR/VR",
@@ -307,13 +1171,51 @@
     "Web"
    ],
    "organizer": "Meta",
-   "registrations": 6058,
+   "registrations": 6060,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
     "Gaming"
    ]
+  },
+  {
+   "title": "Rewired (Tech Hackathon)",
+   "url": "https://unstop.com/hackathons/rewired-tech-hackathon-road-to-milky-way-bangalore-masters-union-school-of-business-1802400",
+   "start": "2026-11-09",
+   "end": "2026-11-18",
+   "mode": "in-person",
+   "location": "Bangalore, Karnataka, India",
+   "city": "Bangalore",
+   "country": "India",
+   "prize": "₹20,000",
+   "themes": [
+    "Software Development"
+   ],
+   "organizer": "Masters Union School of Business",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "ESE1110 Fall 2026",
+   "url": "https://ese1110f26.devpost.com/",
+   "start": "2026-11-12",
+   "end": "2026-11-19",
+   "mode": "in-person",
+   "location": "virtual",
+   "city": "Nizhny Tagil",
+   "country": "Russia",
+   "prize": "$0",
+   "themes": [
+    "Open Ended"
+   ],
+   "organizer": "UPenn ESE",
+   "registrations": 39,
+   "source": "Devpost",
+   "region": null,
+   "categories": []
   },
   {
    "title": "WQCC Qiskit Fall Fest 2026",
@@ -322,6 +1224,8 @@
    "end": "2026-11-19",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Quantum"
@@ -329,6 +1233,7 @@
    "organizer": "Wisconsin Quantum Computing Club",
    "registrations": 8,
    "source": "Devpost",
+   "region": null,
    "categories": []
   },
   {
@@ -338,6 +1243,8 @@
    "end": "2026-11-20",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$225",
    "themes": [
     "Beginner Friendly",
@@ -347,9 +1254,11 @@
    "organizer": "AccessEDnpo",
    "registrations": 249,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "Education",
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -359,6 +1268,8 @@
    "end": "2026-11-20",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$900",
    "themes": [
     "Blockchain",
@@ -368,6 +1279,7 @@
    "organizer": "Dakar Bitcoin Days",
    "registrations": 248,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Web3",
@@ -376,23 +1288,68 @@
    ]
   },
   {
-   "title": "Data Sprint 2.0",
-   "url": "https://unstop.com/hackathons/data-sprint-20-anveshan-nie-1807080",
-   "start": null,
+   "title": "Build with Gemma - Innovate in Windsor",
+   "url": "https://innovate-in-windsor-hackathon.devpost.com/",
+   "start": "2026-11-13",
    "end": "2026-11-20",
-   "mode": "online",
-   "location": null,
+   "mode": "in-person",
+   "location": "University of Windsor",
+   "city": "Windsor",
+   "country": "Canada",
+   "prize": "$CAD 0",
+   "themes": [
+    "Machine Learning/AI"
+   ],
+   "organizer": "Google Developer Groups Windsor",
+   "registrations": 13,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "Pixelforge",
+   "url": "https://pixel-forge-gamethon.devpost.com/",
+   "start": "2026-11-19",
+   "end": "2026-11-20",
+   "mode": "in-person",
+   "location": "Dayananda sagar academy",
+   "city": "Udayapura",
+   "country": "India",
+   "prize": "₹ 0",
+   "themes": [
+    "Design",
+    "Gaming"
+   ],
+   "organizer": "Dayananda sagar academy of technology an",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "Asia",
+   "categories": [
+    "Gaming"
+   ]
+  },
+  {
+   "title": "PromptWars X AITH Kanpur ",
+   "url": "https://unstop.com/hackathons/promptwars-x-aith-dr-ambedkar-institute-of-technology-for-divyangjan-1807596",
+   "start": "2026-11-12",
+   "end": "2026-11-20",
+   "mode": "in-person",
+   "location": "Kanpur, Uttar Pradesh, India",
+   "city": "Kanpur",
+   "country": "India",
    "prize": null,
    "themes": [
-    "Law",
-    "Medical",
-    "Management",
-    "Postgraduate"
+    "Prompt Engineering",
+    "Artificial Intelligence"
    ],
-   "organizer": "The National Institute of Engineering, Karnataka",
-   "source": "unstop.com",
+   "organizer": "Dr. Ambedkar Institute of Technology for Divyangjan",
+   "source": "Unstop",
+   "region": "Asia",
    "categories": [
-    "Health"
+    "AI"
    ]
   },
   {
@@ -402,6 +1359,8 @@
    "end": "2026-11-21",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -409,11 +1368,13 @@
     "Web"
    ],
    "organizer": "STEM2Connect",
-   "registrations": 477,
+   "registrations": 478,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -423,6 +1384,8 @@
    "end": "2026-11-21",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -432,10 +1395,12 @@
    "organizer": "Bridge The Gap Hacks",
    "registrations": 74,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -445,6 +1410,8 @@
    "end": "2026-11-21",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$300",
    "themes": [
     "Beginner Friendly",
@@ -454,6 +1421,184 @@
    "organizer": "HackClub  ✓⃝",
    "registrations": 72,
    "source": "Devpost",
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Nerdearla Vibeathon by Devin",
+   "url": "https://vibeathon-mexico-2026.devpost.com/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "location": "Amazon CDMX (Puerta Polanco)",
+   "city": "Mexico City",
+   "country": "Mexico",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Low/No Code",
+    "Social Good"
+   ],
+   "organizer": "Nerdearla",
+   "registrations": 38,
+   "source": "Devpost",
+   "region": "Latin America",
+   "categories": [
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "DevFest Münster 2026: Agentic AI Hackathon",
+   "url": "https://devfest-ai-hackathon.devpost.com/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "location": "Volkshochschule",
+   "city": "Cologne",
+   "country": "Germany",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Low/No Code",
+    "Machine Learning/AI"
+   ],
+   "organizer": "GDG Münster",
+   "registrations": 36,
+   "source": "Devpost",
+   "region": "Europe",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Cutie Hack 2026",
+   "url": "https://cutie-hack-2026.devpost.com/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "location": "UC Riverside - Winston Chung Hall",
+   "city": "Riverside",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Social Good"
+   ],
+   "organizer": "ACM at UCR",
+   "registrations": 15,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "FutureForge Hacks",
+   "url": "https://futureforge-hacks.devpost.com/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "location": "Pleasanton, CA",
+   "city": "Pleasanton",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Education",
+    "Machine Learning/AI",
+    "Social Good"
+   ],
+   "organizer": "Future Forge",
+   "registrations": 10,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Social Good"
+   ]
+  },
+  {
+   "title": "GeNarrative Clash",
+   "url": "https://genarrative-clash.devfolio.co/",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "location": "Kolkata, India",
+   "city": "Kolkata",
+   "country": "India",
+   "prize": null,
+   "themes": [
+    "Design"
+   ],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Inter-College Coding Competition 2026 | Java & Python",
+   "url": "https://unstop.com/hackathons/inter-college-coding-competition-2026-college-of-engineering-and-managementkolaghat-1801814",
+   "start": "2026-11-08",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "location": "Purba Medinipur district, West Bengal, India",
+   "city": "Purba Medinipur district",
+   "country": "India",
+   "prize": "₹10,000",
+   "themes": [
+    "Software Development",
+    "Quizzes & Treasure Hunt"
+   ],
+   "organizer": "College Of Engineering And Management,Kolaghat",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "NextGen AI Hackathon",
+   "url": "https://unstop.com/hackathons/nextgen-ai-hackathon-product-space-1800891",
+   "start": "2026-11-08",
+   "end": "2026-11-21",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": "₹2,00,000",
+   "themes": [
+    "Agentic AI Engineer",
+    "AI Engineering"
+   ],
+   "organizer": "Product Space",
+   "source": "Unstop",
+   "region": null,
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "ELUCode - 8",
+   "url": "https://unstop.com/hackathons/elucode-8-edulinkup-1800924",
+   "start": "2026-11-08",
+   "end": "2026-11-21",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Software Development",
+    "Quizzes & Treasure Hunt"
+   ],
+   "organizer": "EduLinkUp",
+   "source": "Unstop",
+   "region": null,
    "categories": []
   },
   {
@@ -463,6 +1608,8 @@
    "end": "2026-11-22",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$280",
    "themes": [
     "Beginner Friendly",
@@ -472,8 +1619,10 @@
    "organizer": "SafeSpace",
    "registrations": 437,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -483,6 +1632,8 @@
    "end": "2026-11-22",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -490,10 +1641,12 @@
     "Education"
    ],
    "organizer": "Science Innovation Association of XJTLU",
-   "registrations": 149,
+   "registrations": 150,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -503,6 +1656,8 @@
    "end": "2026-11-22",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$800",
    "themes": [
     "Databases",
@@ -512,6 +1667,7 @@
    "organizer": "Kelab UMNO Korea",
    "registrations": 27,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -524,6 +1680,8 @@
    "end": "2026-11-22",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$27,629",
    "themes": [
     "Beginner Friendly",
@@ -533,26 +1691,172 @@
    "organizer": "EvoHacks",
    "registrations": 17,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
-   "title": "Bad Ideas Only",
-   "url": "https://unstop.com/hackathons/bad-ideas-only-hoollow-1805107",
-   "start": null,
-   "end": "2026-11-23",
-   "mode": "online",
-   "location": null,
+   "title": "START Hack League Munich 2026",
+   "url": "https://start-hack-league-munich-2026.devpost.com/",
+   "start": "2026-11-21",
+   "end": "2026-11-22",
+   "mode": "in-person",
+   "location": "TUM Audimax",
+   "city": "Munich",
+   "country": "Germany",
+   "prize": "€4,000",
+   "themes": [
+    "Beginner Friendly",
+    "Databases",
+    "Machine Learning/AI"
+   ],
+   "organizer": "START Munich",
+   "registrations": 15,
+   "source": "Devpost",
+   "region": "Europe",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "WHACK",
+   "url": "https://wellesleyhack-2026.devpost.com/",
+   "start": "2026-11-21",
+   "end": "2026-11-22",
+   "mode": "in-person",
+   "location": "Lulu Chow Wang Campus Center",
+   "city": "Wellesley",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended"
+   ],
+   "organizer": "MLH",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Snowglobe",
+   "url": "https://snowglobe.hackclub.com/",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "mode": "in-person",
+   "location": "San Francisco, California, United States",
+   "city": "San Francisco",
+   "country": "United States",
    "prize": null,
    "themes": [
-    "Law",
-    "Medical",
-    "Management",
-    "Postgraduate"
+    "Beginner friendly",
+    "High school"
    ],
-   "organizer": "Hoollow",
-   "source": "unstop.com",
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Lean In Hacks 8.0",
+   "url": "https://lean-in-hacks-8.devfolio.co/",
+   "start": "2026-11-19",
+   "end": "2026-11-22",
+   "mode": "in-person",
+   "location": "",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": null,
+   "categories": []
+  },
+  {
+   "title": "Data Sprint 2.0",
+   "url": "https://unstop.com/hackathons/data-sprint-20-anveshan-nie-1807080",
+   "start": "2026-11-12",
+   "end": "2026-11-22",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Machine Learning Engineering",
+    "AI Engineering"
+   ],
+   "organizer": "The National Institute of Engineering, Karnataka",
+   "source": "Unstop",
+   "region": null,
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "Code N Mod",
+   "url": "https://codenmod.devfolio.co/",
+   "start": "2026-11-23",
+   "end": "2026-11-23",
+   "mode": "in-person",
+   "location": "Tumakur, India",
+   "city": "Tumakur",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Expanding Horizons 8.0 Chemical",
+   "url": "https://unstop.com/hackathons/expanding-horizons-80-chemical-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799791",
+   "start": "2026-11-07",
+   "end": "2026-11-23",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Chemical Engineer",
+    "Quizzes & Treasure Hunt",
+    "Software Development"
+   ],
+   "organizer": "Motilal Nehru National Institute of Technology",
+   "source": "Unstop",
+   "region": null,
+   "categories": []
+  },
+  {
+   "title": "Expanding Horizons 8.0   BIOTECH",
+   "url": "https://unstop.com/hackathons/expanding-horizons-80-biotech-expanding-horizon-80-motilal-nehru-national-institute-of-technology-1799790",
+   "start": "2026-11-07",
+   "end": "2026-11-23",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Quizzes & Treasure Hunt",
+    "Biotechnology",
+    "Software Development"
+   ],
+   "organizer": "Motilal Nehru National Institute of Technology",
+   "source": "Unstop",
+   "region": null,
    "categories": [
     "Health"
    ]
@@ -564,6 +1868,8 @@
    "end": "2026-11-24",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -572,7 +1878,10 @@
    "organizer": "HackathonForEveryone",
    "registrations": 229,
    "source": "Devpost",
-   "categories": []
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
   },
   {
    "title": "OBSCURA: Satellite AI Research Challenge",
@@ -581,6 +1890,8 @@
    "end": "2026-11-24",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$50",
    "themes": [
     "Education",
@@ -590,10 +1901,36 @@
    "organizer": "BTAJI CREW",
    "registrations": 68,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
     "Social Good"
+   ]
+  },
+  {
+   "title": "test",
+   "url": "https://nutech-hackfest-2026.devpost.com/",
+   "start": "2026-11-23",
+   "end": "2026-11-24",
+   "mode": "in-person",
+   "location": "NUTECH Main Campus",
+   "city": "Islamabad",
+   "country": "Pakistan",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Cybersecurity",
+    "Machine Learning/AI"
+   ],
+   "organizer": "Nutech, Islamabad",
+   "registrations": 2,
+   "source": "Devpost",
+   "region": "Asia",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -603,6 +1940,8 @@
    "end": "2026-11-24",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "₹ 0",
    "themes": [
     "Education",
@@ -612,6 +1951,7 @@
    "organizer": "Computer Science and AI Circle @ IISH",
    "registrations": 2,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
@@ -619,25 +1959,20 @@
    ]
   },
   {
-   "title": "QuikCPQ AI Innovation Challenge 2027",
-   "url": "https://unstop.com/hackathons/quikcpq-ai-innovation-challenge-2027-quik-cpq-solutions-llp-1806984",
-   "start": null,
+   "title": "Founders' House Kolkata",
+   "url": "https://founders-house-kolkata.devfolio.co/",
+   "start": "2026-11-08",
    "end": "2026-11-24",
-   "mode": "online",
-   "location": null,
+   "mode": "in-person",
+   "location": "",
+   "city": null,
+   "country": null,
    "prize": null,
-   "themes": [
-    "Law",
-    "Fresher",
-    "Medical",
-    "Management"
-   ],
-   "organizer": "Quik CPQ Solutions LLP",
-   "source": "unstop.com",
-   "categories": [
-    "AI",
-    "Health"
-   ]
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": null,
+   "categories": []
   },
   {
    "title": "HackWithAditya",
@@ -646,6 +1981,8 @@
    "end": "2026-11-25",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "₹ 500,000",
    "themes": [
     "Education",
@@ -655,6 +1992,7 @@
    "organizer": "Aditya University",
    "registrations": 201,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Health",
@@ -668,6 +2006,8 @@
    "end": "2026-11-25",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Open Ended",
@@ -677,8 +2017,10 @@
    "organizer": "n/a",
    "registrations": 30,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -688,6 +2030,8 @@
    "end": "2026-11-25",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "₹ 0",
    "themes": [
     "Beginner Friendly",
@@ -697,8 +2041,10 @@
    "organizer": "Roxten Studios",
    "registrations": 79,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -708,6 +2054,8 @@
    "end": "2026-11-27",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Education",
@@ -717,24 +2065,28 @@
    "organizer": "Yasir Insights",
    "registrations": 514,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
    ]
   },
   {
-   "title": "Hack-Nation Global AI Hackathon",
-   "url": "https://devpost.com/c/artificial-intelligence",
-   "start": null,
+   "title": "QuikCPQ AI Innovation Challenge 2027",
+   "url": "https://unstop.com/hackathons/quikcpq-ai-innovation-challenge-2027-quik-cpq-solutions-llp-1806984",
+   "start": "2026-11-12",
    "end": "2026-11-27",
    "mode": "online",
-   "location": null,
-   "prize": "Non-monetary prizes",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
    "themes": [
-    "AI"
+    "Agentic AI Engineer"
    ],
-   "organizer": "Devpost",
-   "source": "Web search",
+   "organizer": "Quik CPQ Solutions LLP",
+   "source": "Unstop",
+   "region": null,
    "categories": [
     "AI"
    ]
@@ -746,6 +2098,8 @@
    "end": "2026-11-28",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Machine Learning/AI"
@@ -753,30 +2107,168 @@
    "organizer": "Refactor The World",
    "registrations": 214,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
    ]
   },
   {
-   "title": "HackKro CodeByte 2026",
-   "url": "https://unstop.com/hackathons/hackkro-codebyte-2026-hackkro-1807297",
-   "start": null,
-   "end": "2026-11-29",
-   "mode": "online",
-   "location": null,
-   "prize": null,
+   "title": "Blackout 2026",
+   "url": "https://blackout-2026.devpost.com/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "location": "Coimbatore , TamilNadu",
+   "city": "Coimbatore",
+   "country": "India",
+   "prize": "$5,000",
    "themes": [
-    "Law",
-    "Medical",
-    "Applied AI",
-    "Management"
+    "Machine Learning/AI",
+    "Open Ended",
+    "Web"
    ],
-   "organizer": "HackKro",
-   "source": "unstop.com",
+   "organizer": "buildicy",
+   "registrations": 10,
+   "source": "Devpost",
+   "region": "Asia",
    "categories": [
     "AI",
-    "Health"
+    "Education"
+   ]
+  },
+  {
+   "title": "Project-ZH Hack Day",
+   "url": "https://project-zh.devpost.com/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "location": "Innoland Incubation Center, Baku",
+   "city": "Innoland Incubation Center",
+   "country": "Azerbaijan",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Machine Learning/AI",
+    "Open Ended"
+   ],
+   "organizer": "Project-ZH",
+   "registrations": 2,
+   "source": "Devpost",
+   "region": null,
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Build Day 2",
+   "url": "https://build-day.devpost.com/",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "location": "Durham University, Entrepreneurs Durham",
+   "city": "Durham University",
+   "country": "United Kingdom",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Machine Learning/AI",
+    "Voice skills"
+   ],
+   "organizer": "Durham College",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "Europe",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "DevNexus 2.0",
+   "url": "https://devnexus2.devfolio.co/",
+   "start": "2026-11-27",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "location": "Kolkata, India",
+   "city": "Kolkata",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "K-Dub Hacks",
+   "url": "https://k-dub-hacks.devpost.com/",
+   "start": "2026-11-27",
+   "end": "2026-11-29",
+   "mode": "in-person",
+   "location": "Spur Innovation Center",
+   "city": "Waterloo",
+   "country": "Canada",
+   "prize": "$CAD 403,400",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended"
+   ],
+   "organizer": "AWS Student Builders Group - Laurier",
+   "registrations": 25,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "LooHacks",
+   "url": "https://loohacks.devpost.com/",
+   "start": "2026-11-27",
+   "end": "2026-11-29",
+   "mode": "in-person",
+   "location": "Spur Innovation Center - SPUR Campus",
+   "city": "Waterloo",
+   "country": "Canada",
+   "prize": "$CAD 0",
+   "themes": [
+    "E-commerce/Retail",
+    "Enterprise",
+    "Robotic Process Automation"
+   ],
+   "organizer": "AWS Student Builder Group - WLU",
+   "registrations": 9,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Code to Cart: AI x E-commerce Hackathon | KartAI X CodeXcelerate",
+   "url": "https://unstop.com/hackathons/code-to-cart-ai-x-e-commerce-hackathon-kartai-x-codexcelerate-kartai-1803912",
+   "start": "2026-11-10",
+   "end": "2026-11-29",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": "₹8,000",
+   "themes": [
+    "Applied AI",
+    "AI Engineering"
+   ],
+   "organizer": "KartAI",
+   "source": "Unstop",
+   "region": null,
+   "categories": [
+    "AI"
    ]
   },
   {
@@ -786,6 +2278,8 @@
    "end": "2026-11-30",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$30,000",
    "themes": [
     "Machine Learning/AI",
@@ -793,8 +2287,9 @@
     "Web"
    ],
    "organizer": "Google",
-   "registrations": 1890,
+   "registrations": 1901,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -807,6 +2302,8 @@
    "end": "2026-11-30",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$300",
    "themes": [
     "Beginner Friendly",
@@ -816,8 +2313,10 @@
    "organizer": "The Webb Schools CSC",
    "registrations": 179,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -827,6 +2326,8 @@
    "end": "2026-11-30",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -836,7 +2337,10 @@
    "organizer": "IdeaLab",
    "registrations": 49,
    "source": "Devpost",
-   "categories": []
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
   },
   {
    "title": "305 Veterans Hackathon Edition November 2026 — 305Hackathons.vercel.app",
@@ -845,6 +2349,8 @@
    "end": "2026-11-30",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -854,9 +2360,50 @@
    "organizer": "GOOGLE DEVELOPER GROUP AT FIU",
    "registrations": 45,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Education"
+    "Education",
+    "Beginner"
    ]
+  },
+  {
+   "title": "Code Rush – 24 Hours Hackathon",
+   "url": "https://unstop.com/hackathons/code-rush-24-hours-hackathon-ignitron-2k26-gm-university-davanagere-1791410",
+   "start": "2026-11-11",
+   "end": "2026-11-30",
+   "mode": "in-person",
+   "location": "Davanagere, Karnataka, India",
+   "city": "Davanagere",
+   "country": "India",
+   "prize": null,
+   "themes": [
+    "Artificial Intelligence"
+   ],
+   "organizer": "GM University Davanagere",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Bad Ideas Only",
+   "url": "https://unstop.com/hackathons/bad-ideas-only-hoollow-1805107",
+   "start": "2026-11-11",
+   "end": "2026-11-30",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Prompt Engineering",
+    "Quizzes & Treasure Hunt"
+   ],
+   "organizer": "Hoollow",
+   "source": "Unstop",
+   "region": null,
+   "categories": []
   },
   {
    "title": "Code for Change",
@@ -865,6 +2412,8 @@
    "end": "2026-12-01",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$200",
    "themes": [
     "Beginner Friendly",
@@ -874,8 +2423,10 @@
    "organizer": "HackathonForEveryone",
    "registrations": 93,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -885,6 +2436,8 @@
    "end": "2026-12-02",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -892,13 +2445,34 @@
     "Social Good"
    ],
    "organizer": "ML Empowerment Foundation",
-   "registrations": 131,
+   "registrations": 132,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
+  },
+  {
+   "title": "Capture The Flag (CTF)",
+   "url": "https://unstop.com/hackathons/capture-the-flag-ctf-ignitron-2k26-gm-university-davanagere-1791574",
+   "start": "2026-11-11",
+   "end": "2026-12-03",
+   "mode": "in-person",
+   "location": "Davanagere, Karnataka, India",
+   "city": "Davanagere",
+   "country": "India",
+   "prize": null,
+   "themes": [
+    "Quizzes & Treasure Hunt",
+    "Cyber Security"
+   ],
+   "organizer": "GM University Davanagere",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": []
   },
   {
    "title": "Kiroween 2026",
@@ -907,6 +2481,8 @@
    "end": "2026-12-04",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$100,000",
    "themes": [
     "Beginner Friendly",
@@ -914,11 +2490,13 @@
     "Open Ended"
    ],
    "organizer": "Kiro",
-   "registrations": 13205,
+   "registrations": 13211,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -928,15 +2506,20 @@
    "end": "2026-12-04",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$300",
    "themes": [
     "Beginner Friendly",
     "Open Ended"
    ],
    "organizer": "Hack4TodayOrg",
-   "registrations": 546,
+   "registrations": 547,
    "source": "Devpost",
-   "categories": []
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
   },
   {
    "title": "AI for Medicine: A Global Student Hackathon on the Future of Care",
@@ -945,6 +2528,8 @@
    "end": "2026-12-04",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -954,26 +2539,218 @@
    "organizer": "Open Health AI Collective",
    "registrations": 99,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Health",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Zenith'26",
+   "url": "https://unstop.com/hackathons/zenith26-mlr-institute-of-technology-mlrit-hyderabad-1790028",
+   "start": "2026-11-07",
+   "end": "2026-12-04",
+   "mode": "in-person",
+   "location": "Hyderabad, Telangana, India",
+   "city": "Hyderabad",
+   "country": "India",
+   "prize": "₹2,50,000",
+   "themes": [
+    "Software Development",
+    "Applied AI",
+    "Conferences"
+   ],
+   "organizer": "MLR Institute Of Technology (MLRIT), Hyderabad",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Clash of Commits",
+   "url": "https://clash-of-commits.devfolio.co/",
+   "start": "2026-12-04",
+   "end": "2026-12-05",
+   "mode": "in-person",
+   "location": "Chennai, India",
+   "city": "Chennai",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "The Dawn of Superintelligence | Kaya AI Grand Challenge ",
+   "url": "https://kaya-ai-grand-challenge.devpost.com/",
+   "start": "2026-11-29",
+   "end": "2026-12-06",
+   "mode": "in-person",
+   "location": "Mumbai",
+   "city": "Mumbai",
+   "country": "India",
+   "prize": "$3,000",
+   "themes": [
+    "IoT",
+    "Machine Learning/AI",
+    "Enterprise"
+   ],
+   "organizer": "Kaya AI",
+   "registrations": 131,
+   "source": "Devpost",
+   "region": "Asia",
+   "categories": [
+    "AI",
     "Education"
+   ]
+  },
+  {
+   "title": "HackSussex GameJam 2026",
+   "url": "https://hacksussex-gamejam-2026.devpost.com/",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "mode": "in-person",
+   "location": "Brighton",
+   "city": "Brighton",
+   "country": "United Kingdom",
+   "prize": "£0",
+   "themes": [
+    "Gaming"
+   ],
+   "organizer": "HackSussex",
+   "registrations": 91,
+   "source": "Devpost",
+   "region": "Europe",
+   "categories": [
+    "Gaming"
+   ]
+  },
+  {
+   "title": "Hack AI x Stan",
+   "url": "https://hackai-toronto.devpost.com/",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "mode": "in-person",
+   "location": "Stan HQ - Toronto",
+   "city": "Toronto",
+   "country": "Canada",
+   "prize": "$CAD 24,957",
+   "themes": [
+    "Machine Learning/AI",
+    "Productivity"
+   ],
+   "organizer": "Stan",
+   "registrations": 10,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "Revolution",
+   "url": "https://revolution-mty2026.devpost.com/",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "mode": "in-person",
+   "location": "Museo Del Acero Horno 3",
+   "city": "Monterrey",
+   "country": "Mexico",
+   "prize": "MEX$0",
+   "themes": [
+    "Beginner Friendly",
+    "IoT",
+    "Open Ended"
+   ],
+   "organizer": "Hack Club Monterrey and High Coders MTY",
+   "registrations": 3,
+   "source": "Devpost",
+   "region": "Latin America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Mango Hacks",
+   "url": "https://mangohacks.ecily.org",
+   "start": "2026-12-05",
+   "end": "2026-12-06",
+   "mode": "in-person",
+   "location": "Pleasanton, California, United States",
+   "city": "Pleasanton",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "Beginner friendly",
+    "High school"
+   ],
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
+   "categories": [
+    "Beginner"
    ]
   },
   {
    "title": "Android Ignition",
    "url": "https://unstop.com/hackathons/android-ignition-ganeshi-lal-bajaj-institute-of-technology-and-management-glbitm-greater-noida-1805946",
-   "start": null,
-   "end": "2026-12-04",
+   "start": "2026-11-11",
+   "end": "2026-12-06",
    "mode": "online",
-   "location": null,
+   "location": "Online",
+   "city": null,
+   "country": null,
    "prize": null,
    "themes": [
-    "Android Development",
-    "Mobile App Development"
+    "Mobile App Development",
+    "Android Development"
    ],
    "organizer": "Ganeshi Lal Bajaj Institute Of Technology And Management (GLBITM), Greater Noida",
-   "source": "unstop.com",
+   "source": "Unstop",
+   "region": null,
+   "categories": []
+  },
+  {
+   "title": "Adaption Dataset Challenge",
+   "url": "https://unstop.com/hackathons/adaption-dataset-challenge-hackyard-technologies-pvt-limited-1799281",
+   "start": "2026-11-07",
+   "end": "2026-12-06",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": "₹10,000",
+   "themes": [
+    "Data Science",
+    "Quizzes & Treasure Hunt"
+   ],
+   "organizer": "Hackyard Technologies Pvt limited",
+   "source": "Unstop",
+   "region": null,
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Hack Cats",
+   "url": "https://hackkstate.tech/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hack+Cats",
+   "start": "2026-12-04",
+   "end": "2026-12-06",
+   "mode": "in-person",
+   "city": "Manhattan",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Manhattan, United States",
+   "source": "mlh.com",
+   "region": "North America",
    "categories": []
   },
   {
@@ -983,6 +2760,8 @@
    "end": "2026-12-07",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$25,000",
    "themes": [
     "Design",
@@ -990,8 +2769,9 @@
     "Low/No Code"
    ],
    "organizer": "Google",
-   "registrations": 477,
+   "registrations": 480,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -1004,6 +2784,8 @@
    "end": "2026-12-07",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$2,500",
    "themes": [
     "AR/VR",
@@ -1011,8 +2793,9 @@
     "Machine Learning/AI"
    ],
    "organizer": "Devpost",
-   "registrations": 152,
+   "registrations": 153,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
@@ -1026,6 +2809,8 @@
    "end": "2026-12-07",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$4,500",
    "themes": [
     "Beginner Friendly",
@@ -1035,9 +2820,57 @@
    "organizer": "cite & slayy",
    "registrations": 201,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "2026-2027 Fall ESE Senior Design",
+   "url": "https://ese4500f26.devpost.com/",
+   "start": "2026-09-22",
+   "end": "2026-12-07",
+   "mode": "in-person",
+   "location": "Amy Gutman Hall",
+   "city": "Philadelphia",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "AR/VR",
+    "Fintech",
+    "Quantum"
+   ],
+   "organizer": "university of pennsylvania",
+   "registrations": 118,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Fintech",
+    "Gaming"
+   ]
+  },
+  {
+   "title": "HackKro CodeByte 2026",
+   "url": "https://unstop.com/hackathons/hackkro-codebyte-2026-hackkro-1807297",
+   "start": "2026-11-12",
+   "end": "2026-12-07",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Applied AI",
+    "Software Development",
+    "Quizzes & Treasure Hunt"
+   ],
+   "organizer": "HackKro",
+   "source": "Unstop",
+   "region": null,
+   "categories": [
+    "AI"
    ]
   },
   {
@@ -1047,32 +2880,42 @@
    "end": "2026-12-08",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$35,000",
    "themes": [
     "Beginner Friendly",
     "Gaming"
    ],
    "organizer": "reddit",
-   "registrations": 911,
+   "registrations": 916,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Gaming"
+    "Gaming",
+    "Beginner"
    ]
   },
   {
-   "title": "IDEATHON- FutureX: Innovating for Global Challenges",
-   "url": "https://unstop.com/hackathons/ideathon-futurex-innovating-for-global-challenges-skill2career-1803074",
-   "start": null,
-   "end": "2026-12-09",
+   "title": "Pixel Forge Mega Jam",
+   "url": "https://pixelforgejam.org/",
+   "start": "2026-11-28",
+   "end": "2026-12-08",
    "mode": "online",
    "location": null,
+   "city": null,
+   "country": null,
    "prize": null,
    "themes": [
-    "Applied Research"
+    "Beginner friendly",
+    "High school"
    ],
-   "organizer": "Skill2Career",
-   "source": "unstop.com",
-   "categories": []
+   "organizer": null,
+   "source": "Hack Club",
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
   },
   {
    "title": "AI OpenBuild",
@@ -1081,6 +2924,8 @@
    "end": "2026-12-10",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$150",
    "themes": [
     "Beginner Friendly",
@@ -1090,9 +2935,11 @@
    "organizer": "AI OpenBuild",
    "registrations": 118,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1102,6 +2949,8 @@
    "end": "2026-12-10",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -1110,22 +2959,10 @@
    "organizer": "bayhacks",
    "registrations": 7,
    "source": "Devpost",
-   "categories": []
-  },
-  {
-   "title": "Hacksmart 2.0",
-   "url": "https://unstop.com/hackathons/hacksmart-20-geek-room-1799091",
-   "start": null,
-   "end": "2026-12-10",
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "Software Development"
-   ],
-   "organizer": "Geek Room",
-   "source": "unstop.com",
-   "categories": []
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
   },
   {
    "title": "AWS MSP AI Hackathon",
@@ -1134,6 +2971,8 @@
    "end": "2026-12-11",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$64,000",
    "themes": [
     "Machine Learning/AI",
@@ -1143,6 +2982,7 @@
    "organizer": "AWS",
    "registrations": 357,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -1155,6 +2995,8 @@
    "end": "2026-12-11",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Databases",
@@ -1162,8 +3004,9 @@
     "Productivity"
    ],
    "organizer": "Neo4j",
-   "registrations": 208,
+   "registrations": 209,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -1176,6 +3019,8 @@
    "end": "2026-12-11",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Machine Learning/AI"
@@ -1183,29 +3028,10 @@
    "organizer": "Lovhack",
    "registrations": 6,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
-   ]
-  },
-  {
-   "title": "Rabinjathon: Prime 1",
-   "url": "https://unstop.com/hackathons/rabinjathon-prime-1-rabinja-squad-1761846",
-   "start": null,
-   "end": "2026-12-11",
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "Law",
-    "Medical",
-    "Management",
-    "Postgraduate"
-   ],
-   "organizer": "Rabinja Squad",
-   "source": "unstop.com",
-   "categories": [
-    "Health"
    ]
   },
   {
@@ -1215,6 +3041,8 @@
    "end": "2026-12-12",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -1224,9 +3052,11 @@
    "organizer": "CS4ALL",
    "registrations": 23,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1236,6 +3066,8 @@
    "end": "2026-12-13",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -1245,9 +3077,51 @@
    "organizer": "Girls Who Code",
    "registrations": 19,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
+  },
+  {
+   "title": "hack::peel 2026",
+   "url": "https://hack-peel.devpost.com/",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "mode": "in-person",
+   "location": "The Woodlands Secondary School",
+   "city": "Mississauga",
+   "country": "Canada",
+   "prize": "$CAD 100",
+   "themes": [
+    "Education",
+    "Open Ended",
+    "Beginner Friendly"
+   ],
+   "organizer": "Absolute Robotics #4308",
+   "registrations": 9,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "hackodisha-6.0",
+   "url": "https://hackodisha-6a.devfolio.co/",
+   "start": "2026-12-11",
+   "end": "2026-12-13",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": null,
+   "categories": []
   },
   {
    "title": "Ryze Hacks 2026",
@@ -1256,6 +3130,8 @@
    "end": "2026-12-14",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Education"
@@ -1263,6 +3139,7 @@
    "organizer": "ryze",
    "registrations": 10,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "Education"
    ]
@@ -1274,6 +3151,8 @@
    "end": "2026-12-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$50,000",
    "themes": [
     "IoT",
@@ -1281,8 +3160,9 @@
     "Open Ended"
    ],
    "organizer": "QNX",
-   "registrations": 1415,
+   "registrations": 1419,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -1295,6 +3175,8 @@
    "end": "2026-12-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$500",
    "themes": [
     "Open Ended",
@@ -1304,6 +3186,48 @@
    "organizer": "Silicon Hacks Team",
    "registrations": 101,
    "source": "Devpost",
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Defy'27",
+   "url": "https://unstop.com/hackathons/defy27-vellore-institute-of-technology-vit-chennai-1806122",
+   "start": "2026-11-12",
+   "end": "2026-12-15",
+   "mode": "in-person",
+   "location": "Chennai, Tamil Nadu, India",
+   "city": "Chennai",
+   "country": "India",
+   "prize": "₹1,00,000",
+   "themes": [
+    "Software Development",
+    "Blockchain Development"
+   ],
+   "organizer": "Vellore Institute of Technology (VIT), Chennai",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": [
+    "Web3"
+   ]
+  },
+  {
+   "title": "Hacksmart 2.0",
+   "url": "https://unstop.com/hackathons/hacksmart-20-geek-room-1799091",
+   "start": "2026-11-06",
+   "end": "2026-12-15",
+   "mode": "in-person",
+   "location": "Gurgaon, Haryana, India",
+   "city": "Gurgaon",
+   "country": "India",
+   "prize": null,
+   "themes": [
+    "Software Development"
+   ],
+   "organizer": "Geek Room",
+   "source": "Unstop",
+   "region": "Asia",
    "categories": []
   },
   {
@@ -1313,6 +3237,8 @@
    "end": "2026-12-17",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -1322,10 +3248,32 @@
    "organizer": "Arioron",
    "registrations": 0,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "Education",
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
+  },
+  {
+   "title": "CodeElitePune - Hack With Pune",
+   "url": "https://unstop.com/hackathons/codeelitepune-hack-with-pune-hackwithpune-1794522",
+   "start": "2026-11-03",
+   "end": "2026-12-17",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Software Development",
+    "Quizzes & Treasure Hunt",
+    "Full Stack Development"
+   ],
+   "organizer": "HackWithPune",
+   "source": "Unstop",
+   "region": null,
+   "categories": []
   },
   {
    "title": "AI Agents for Founders Challenge — HETIC 2026",
@@ -1334,6 +3282,8 @@
    "end": "2026-12-18",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "€1,000",
    "themes": [
     "Low/No Code",
@@ -1343,9 +3293,67 @@
    "organizer": "HETIC",
    "registrations": 339,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
+   ]
+  },
+  {
+   "title": "HackKumbh 2026 : Tech For Humanity",
+   "url": "https://unstop.com/hackathons/hackkumbh-2026-tech-for-humanity-yeshwantrao-chavan-college-of-engineering-ycce-nagpur-1800629",
+   "start": "2026-11-07",
+   "end": "2026-12-19",
+   "mode": "in-person",
+   "location": "Nagpur, Maharashtra, India",
+   "city": "Nagpur",
+   "country": "India",
+   "prize": "₹2,25,000",
+   "themes": [
+    "Software Development"
+   ],
+   "organizer": "Yeshwantrao Chavan College of Engineering (YCCE), Nagpur",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "IDEATHON- FutureX: Innovating for Global Challenges",
+   "url": "https://unstop.com/hackathons/ideathon-futurex-innovating-for-global-challenges-skill2career-1803074",
+   "start": "2026-11-09",
+   "end": "2026-12-19",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Applied Research"
+   ],
+   "organizer": "Skill2Career",
+   "source": "Unstop",
+   "region": null,
+   "categories": []
+  },
+  {
+   "title": "AI Vibeathon 2026: 24-Hour AI Hackathon",
+   "url": "https://unstop.com/hackathons/ai-vibeathon-2026-24-hour-ai-hackathon-dotrepo-1789431",
+   "start": "2026-11-07",
+   "end": "2026-12-20",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": "₹1,00,000",
+   "themes": [
+    "Applied AI",
+    "AI Engineering"
+   ],
+   "organizer": "DotRepo",
+   "source": "Unstop",
+   "region": null,
+   "categories": [
+    "AI"
    ]
   },
   {
@@ -1355,6 +3363,8 @@
    "end": "2026-12-21",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$7,800",
    "themes": [
     "Beginner Friendly",
@@ -1364,9 +3374,11 @@
    "organizer": "Arbiter ",
    "registrations": 1102,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1376,6 +3388,8 @@
    "end": "2026-12-22",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$120,000",
    "themes": [
     "Machine Learning/AI",
@@ -1383,8 +3397,9 @@
     "Productivity"
    ],
    "organizer": "Atlassian",
-   "registrations": 3134,
+   "registrations": 3140,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -1397,6 +3412,8 @@
    "end": "2026-12-24",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "₹ 250,000",
    "themes": [
     "Beginner Friendly",
@@ -1406,8 +3423,10 @@
    "organizer": "Tech Council - Jain Univeristy",
    "registrations": 47,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1417,6 +3436,8 @@
    "end": "2026-12-26",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$CAD 1,050",
    "themes": [
     "Beginner Friendly",
@@ -1426,9 +3447,35 @@
    "organizer": "Shail & Sharaf",
    "registrations": 339,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "ETHChiangmai & Longevity Hackathon 2026",
+   "url": "https://chiangmai.devfolio.co/",
+   "start": "2026-12-26",
+   "end": "2026-12-27",
+   "mode": "in-person",
+   "location": "Thailand",
+   "city": null,
+   "country": "Thailand",
+   "prize": null,
+   "themes": [
+    "AI",
+    "Blockchain",
+    "HealthTech"
+   ],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": [
+    "AI",
+    "Web3",
+    "Health"
    ]
   },
   {
@@ -1438,6 +3485,8 @@
    "end": "2026-12-31",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$150",
    "themes": [
     "Communication",
@@ -1446,6 +3495,7 @@
    "organizer": "HoustonHacks2026",
    "registrations": 134,
    "source": "Devpost",
+   "region": null,
    "categories": []
   },
   {
@@ -1455,6 +3505,8 @@
    "end": "2026-12-31",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -1464,8 +3516,10 @@
    "organizer": "COLORSTACKatFIU",
    "registrations": 8,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1475,6 +3529,8 @@
    "end": "2027-01-02",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Music/Art",
@@ -1484,7 +3540,46 @@
    "organizer": "Binnovative",
    "registrations": 335,
    "source": "Devpost",
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Hack For Tomorrow 2026",
+   "url": "https://hft2026.devfolio.co/",
+   "start": "2027-01-02",
+   "end": "2027-01-03",
+   "mode": "in-person",
+   "location": "",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": null,
    "categories": []
+  },
+  {
+   "title": "haxfinity",
+   "url": "https://haxfinity.devfolio.co/",
+   "start": "2027-01-03",
+   "end": "2027-01-04",
+   "mode": "in-person",
+   "location": "Myladi, India",
+   "city": "Myladi",
+   "country": "India",
+   "prize": null,
+   "themes": [
+    "FinTech"
+   ],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": [
+    "Fintech"
+   ]
   },
   {
    "title": "United Hacks V8",
@@ -1493,6 +3588,8 @@
    "end": "2027-01-10",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$18,700",
    "themes": [
     "Beginner Friendly",
@@ -1502,8 +3599,10 @@
    "organizer": "Hack United",
    "registrations": 407,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1513,6 +3612,8 @@
    "end": "2027-01-10",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$11,960",
    "themes": [
     "Gaming",
@@ -1522,6 +3623,7 @@
    "organizer": "Checkpoint",
    "registrations": 94,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
@@ -1530,12 +3632,30 @@
    ]
   },
   {
+   "title": "DeltaHacks",
+   "url": "https://www.deltahacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=DeltaHacks",
+   "start": "2027-01-09",
+   "end": "2027-01-10",
+   "mode": "in-person",
+   "city": "Hamilton",
+   "country": "Canada",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Hamilton, Canada",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
    "title": "Open Agentic Web Challenge",
    "url": "https://cognizant-agenticweb.devpost.com/",
    "start": "2026-11-11",
    "end": "2027-01-11",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$10,000",
    "themes": [
     "Machine Learning/AI",
@@ -1543,13 +3663,32 @@
     "Social Good"
    ],
    "organizer": "Cognizant",
-   "registrations": 234,
+   "registrations": 235,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
     "Social Good"
    ]
+  },
+  {
+   "title": "The Forge",
+   "url": "https://unstop.com/hackathons/the-forge-hoollow-1787722",
+   "start": "2026-11-02",
+   "end": "2027-01-12",
+   "mode": "in-person",
+   "location": "Delhi, Delhi, India",
+   "city": "Delhi",
+   "country": "India",
+   "prize": "₹5,000",
+   "themes": [
+    "Cyber Security"
+   ],
+   "organizer": "Hoollow",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": []
   },
   {
    "title": "Syntax Summit",
@@ -1558,6 +3697,8 @@
    "end": "2027-01-14",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "DevOps",
@@ -1567,9 +3708,11 @@
    "organizer": "Student Organization",
    "registrations": 433,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
-    "Education"
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1579,6 +3722,8 @@
    "end": "2027-01-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Education",
@@ -1586,12 +3731,57 @@
     "Web"
    ],
    "organizer": "nill",
-   "registrations": 877,
+   "registrations": 878,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
    ]
+  },
+  {
+   "title": "Techacks 5.0",
+   "url": "https://techacks05.devfolio.co/",
+   "start": "2027-01-15",
+   "end": "2027-01-16",
+   "mode": "in-person",
+   "location": "Rajpura, India",
+   "city": "Rajpura",
+   "country": "India",
+   "prize": null,
+   "themes": [
+    "AI",
+    "Hardware",
+    "HealthTech"
+   ],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": [
+    "AI",
+    "Health"
+   ]
+  },
+  {
+   "title": "HackStorm 3.0: Sense, Think and Act",
+   "url": "https://hackstorm3.devpost.com/",
+   "start": "2027-01-15",
+   "end": "2027-01-17",
+   "mode": "in-person",
+   "location": "San Francisco, California, USA",
+   "city": "San Francisco",
+   "country": "United States",
+   "prize": "$5,200",
+   "themes": [
+    "DevOps",
+    "IoT",
+    "Robotic Process Automation"
+   ],
+   "organizer": "HackStorm",
+   "registrations": 42,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": []
   },
   {
    "title": "Syntax Hacks 2026",
@@ -1600,6 +3790,8 @@
    "end": "2027-01-17",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Open Ended"
@@ -1607,6 +3799,103 @@
    "organizer": "Syntax Hacks Team",
    "registrations": 0,
    "source": "Devpost",
+   "region": null,
+   "categories": []
+  },
+  {
+   "title": "GOA BUILDATHON 27",
+   "url": "https://goa-buildathon.devfolio.co/",
+   "start": "2027-01-16",
+   "end": "2027-01-17",
+   "mode": "in-person",
+   "location": "India",
+   "city": null,
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "UofTHacks",
+   "url": "https://uofthacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=UofTHacks",
+   "start": "2027-01-15",
+   "end": "2027-01-17",
+   "mode": "in-person",
+   "city": "Toronto",
+   "country": "Canada",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Toronto, Canada",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "uOttaHack 9",
+   "url": "https://2027.uottahack.ca/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=uOttaHack+9",
+   "start": "2027-01-15",
+   "end": "2027-01-17",
+   "mode": "in-person",
+   "city": "Ottawa",
+   "country": "Canada",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Ottawa, Canada",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "QWER Hacks",
+   "url": "https://www.qwerhacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=QWER+Hacks",
+   "start": "2027-01-16",
+   "end": "2027-01-17",
+   "mode": "in-person",
+   "city": "Los Angeles",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Los Angeles, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "nwHacks",
+   "url": "https://nwhacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=nwHacks",
+   "start": "2027-01-16",
+   "end": "2027-01-17",
+   "mode": "in-person",
+   "city": "Vancouver",
+   "country": "Canada",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Vancouver, Canada",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HackBI X",
+   "url": "https://hackbi.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackBI+X",
+   "start": "2027-01-16",
+   "end": "2027-01-17",
+   "mode": "in-person",
+   "city": "Alexandria",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Alexandria, United States",
+   "source": "mlh.com",
+   "region": "North America",
    "categories": []
   },
   {
@@ -1616,6 +3905,8 @@
    "end": "2027-01-18",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$146,770",
    "themes": [
     "Beginner Friendly",
@@ -1623,10 +3914,196 @@
     "Education"
    ],
    "organizer": "Cosmo Hacks",
-   "registrations": 972,
+   "registrations": 974,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Education"
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Sentinel Hacks",
+   "url": "https://www.sentinelhacks.tech/",
+   "start": "2027-01-23",
+   "end": "2027-01-23",
+   "mode": "in-person",
+   "location": "Sunnyvale, California, United States",
+   "city": "Sunnyvale",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "Beginner friendly",
+    "High school"
+   ],
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Hoya Hacks 2027",
+   "url": "https://hoya-hacks-2027.devpost.com/",
+   "start": "2027-01-22",
+   "end": "2027-01-24",
+   "mode": "in-person",
+   "location": "Healey Family Student Center",
+   "city": "Washington",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Social Good"
+   ],
+   "organizer": "Hoya Hacks",
+   "registrations": 34,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "HACK WITH GDG S4",
+   "url": "https://hack-with-gdg-s4.devfolio.co/",
+   "start": "2027-01-22",
+   "end": "2027-01-24",
+   "mode": "in-person",
+   "location": "KSR Kalvi Nagar, India",
+   "city": "KSR Kalvi Nagar",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "HACK 6.0",
+   "url": "https://hack-1736.devfolio.co/",
+   "start": "2027-01-22",
+   "end": "2027-01-24",
+   "mode": "in-person",
+   "location": "Hamirpur, India",
+   "city": "Hamirpur",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "DevNexus Vidisha",
+   "url": "https://devnexus-3.devfolio.co/",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "mode": "in-person",
+   "location": "Vidisha, India",
+   "city": "Vidisha",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Hackville 2027",
+   "url": "https://hackville.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hackville+2027",
+   "start": "2027-01-23",
+   "end": "2027-01-24",
+   "mode": "in-person",
+   "city": "Mississauga",
+   "country": "Canada",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Mississauga, Canada",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "Health Hackathon 3.0",
+   "url": "https://health-hackathon.devfolio.co/",
+   "start": "2027-01-28",
+   "end": "2027-01-29",
+   "mode": "in-person",
+   "location": "Kothri Kalan, India",
+   "city": "Kothri Kalan",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": [
+    "Health"
+   ]
+  },
+  {
+   "title": "Hacksprint 3.0",
+   "url": "https://hacksprint-3.devfolio.co/",
+   "start": "2027-01-29",
+   "end": "2027-01-30",
+   "mode": "in-person",
+   "location": "",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": null,
+   "categories": []
+  },
+  {
+   "title": "Innerve 11.0",
+   "url": "https://innerve-11.devfolio.co/",
+   "start": "2027-01-29",
+   "end": "2027-01-30",
+   "mode": "in-person",
+   "location": "Pune, India",
+   "city": "Pune",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "H.A.R.D. Hack 2027",
+   "url": "https://h-a-r-d-hack-2027.devpost.com/",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "mode": "in-person",
+   "location": "University of California - Jacobs Hall",
+   "city": "San Diego",
+   "country": "United States",
+   "prize": "$300",
+   "themes": [
+    "Beginner Friendly",
+    "Education",
+    "Health"
+   ],
+   "organizer": "HKN (Eta Kappa Nu)",
+   "registrations": 23,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Health",
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1636,6 +4113,8 @@
    "end": "2027-01-31",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "₹ 1,000",
    "themes": [
     "DevOps",
@@ -1645,10 +4124,104 @@
    "organizer": "Mulearn MBCCET ",
    "registrations": 8,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
    ]
+  },
+  {
+   "title": "NSH @RPI 2027",
+   "url": "https://nsh-rpi-2027.devpost.com/",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "mode": "in-person",
+   "location": "RPI DCC",
+   "city": "Troy",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Productivity",
+    "Social Good"
+   ],
+   "organizer": "NSBE-SHPE RPI",
+   "registrations": 4,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Beacon Hacks",
+   "url": "https://beaconhacks.com",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "mode": "in-person",
+   "location": "Belmont, California, United States",
+   "city": "Belmont",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "Beginner friendly",
+    "High school"
+   ],
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Hack Nexus 2027",
+   "url": "https://hack-nexus.devfolio.co/",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "mode": "in-person",
+   "location": "Nagpur, India",
+   "city": "Nagpur",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Makeathon 9.0",
+   "url": "https://makeathon-9.devfolio.co/",
+   "start": "2027-01-30",
+   "end": "2027-01-31",
+   "mode": "in-person",
+   "location": "Patiala, India",
+   "city": "Patiala",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "ElleHacks",
+   "url": "https://ellehacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=ElleHacks",
+   "start": "2027-01-29",
+   "end": "2027-01-31",
+   "mode": "in-person",
+   "city": "Toronto",
+   "country": "Canada",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Toronto, Canada",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
   },
   {
    "title": "HackOut! 2027",
@@ -1657,6 +4230,8 @@
    "end": "2027-02-01",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$3,000",
    "themes": [
     "Quantum",
@@ -1666,8 +4241,10 @@
    "organizer": "BranchOut!",
    "registrations": 36,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -1677,6 +4254,8 @@
    "end": "2027-02-04",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$10,000",
    "themes": [
     "Beginner Friendly",
@@ -1686,22 +4265,99 @@
    "organizer": "IWU",
    "registrations": 224,
    "source": "Devpost",
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Rabinjathon: Prime 1",
+   "url": "https://unstop.com/hackathons/rabinjathon-prime-1-rabinja-squad-1761846",
+   "start": "2026-10-18",
+   "end": "2027-02-05",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [
+    "Project Management"
+   ],
+   "organizer": "Rabinja Squad",
+   "source": "Unstop",
+   "region": null,
    "categories": []
   },
   {
-   "title": "CSS Battle",
-   "url": "https://unstop.com/hackathons/css-battle-solutions-2k27-army-institute-of-technology-ait-pune-1802090",
-   "start": null,
-   "end": "2027-02-09",
-   "mode": "online",
-   "location": "Pune, India",
-   "prize": "Prizes worth 15,000",
+   "title": "Decisions Modeling for Greater Philadelphia",
+   "url": "https://tbd-hackathon.devpost.com/",
+   "start": "2027-02-06",
+   "end": "2027-02-06",
+   "mode": "in-person",
+   "location": "Pennovation Works",
+   "city": "Philadelphia",
+   "country": "United States",
+   "prize": "$100",
    "themes": [
-    "UI/UX Design"
+    "Machine Learning/AI",
+    "Web",
+    "Enterprise"
    ],
-   "organizer": "Army Institute of Technology (AIT), Pune",
-   "source": "unstop.com",
-   "categories": []
+   "organizer": "Pennovation Works",
+   "registrations": 17,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "SpartaHack 12",
+   "url": "https://spartahack-12.devpost.com/",
+   "start": "2027-02-06",
+   "end": "2027-02-07",
+   "mode": "in-person",
+   "location": "MSU - STEM Building",
+   "city": null,
+   "country": "MSU - STEM Building",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Machine Learning/AI",
+    "Social Good"
+   ],
+   "organizer": "SpartaHack",
+   "registrations": 5,
+   "source": "Devpost",
+   "region": null,
+   "categories": [
+    "AI",
+    "Education",
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "HackVA",
+   "url": "https://hackva27.devpost.com/",
+   "start": "2027-02-05",
+   "end": "2027-02-07",
+   "mode": "in-person",
+   "location": "Northern Virginia Community College",
+   "city": "Alexandria",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly"
+   ],
+   "organizer": "HackVA Team",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
   },
   {
    "title": "DeveloperWeek 2027 Hackathon",
@@ -1710,6 +4366,8 @@
    "end": "2027-02-11",
    "mode": "online",
    "location": "Santa Clara Convention Center + Online",
+   "city": null,
+   "country": null,
    "prize": "$6,000",
    "themes": [
     "Enterprise",
@@ -1719,9 +4377,34 @@
    "organizer": "DevNetwork",
    "registrations": 343,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
+   ]
+  },
+  {
+   "title": "NTU Beyond Binary Techathon 2027",
+   "url": "https://ntu-beyond-binary-2027.devpost.com/",
+   "start": "2027-02-09",
+   "end": "2027-02-13",
+   "mode": "in-person",
+   "location": "Singapore",
+   "city": null,
+   "country": "Singapore",
+   "prize": "$10,000",
+   "themes": [
+    "Beginner Friendly",
+    "Machine Learning/AI"
+   ],
+   "organizer": "NTU Women In Tech",
+   "registrations": 13,
+   "source": "Devpost",
+   "region": "Asia",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
    ]
   },
   {
@@ -1731,6 +4414,8 @@
    "end": "2027-02-13",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$10,200",
    "themes": [
     "Beginner Friendly",
@@ -1738,13 +4423,73 @@
     "Social Good"
    ],
    "organizer": "BASIS Independent Silicon Valley",
-   "registrations": 5,
+   "registrations": 6,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education",
-    "Social Good"
+    "Social Good",
+    "Beginner"
    ]
+  },
+  {
+   "title": "PHANTOM",
+   "url": "https://phantom.hackclub.com",
+   "start": "2027-02-12",
+   "end": "2027-02-14",
+   "mode": "in-person",
+   "location": "Philadelphia, Pennsylvania, United States",
+   "city": "Philadelphia",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "Beginner friendly",
+    "High school"
+   ],
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "CODERAVE 2.0",
+   "url": "https://coderave-2.devfolio.co/",
+   "start": "2027-02-13",
+   "end": "2027-02-14",
+   "mode": "in-person",
+   "location": "",
+   "city": null,
+   "country": null,
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": null,
+   "categories": []
+  },
+  {
+   "title": "Business Battlefield 2027",
+   "url": "https://business-battkefuekd.devpost.com/",
+   "start": "2027-02-20",
+   "end": "2027-02-20",
+   "mode": "in-person",
+   "location": "Virginia De Land Theatre",
+   "city": null,
+   "country": "Virginia De Land Theatre",
+   "prize": "$0",
+   "themes": [
+    "Low/No Code",
+    "Voice skills",
+    "Design"
+   ],
+   "organizer": "Stripe",
+   "registrations": 2,
+   "source": "Devpost",
+   "region": null,
+   "categories": []
   },
   {
    "title": "MEGA Hackathon 2027",
@@ -1753,6 +4498,8 @@
    "end": "2027-02-21",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "COVID-19",
@@ -1762,9 +4509,230 @@
    "organizer": "MegaHackathonLeague",
    "registrations": 12,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Health"
+    "Health",
+    "Beginner"
    ]
+  },
+  {
+   "title": "Ticket to Hack 2027 @ UVA",
+   "url": "https://ticket-to-hack.devpost.com/",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "mode": "in-person",
+   "location": "Rice Hall",
+   "city": "Baltimore",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Music/Art",
+    "Productivity"
+   ],
+   "organizer": "university of virginia",
+   "registrations": 6,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": ".devHacks 2027",
+   "url": "https://devhacks-2027.devpost.com/",
+   "start": "2027-02-19",
+   "end": "2027-02-21",
+   "mode": "in-person",
+   "location": "EITC Building, University of Manitoba",
+   "city": "EITC Building",
+   "country": "Canada",
+   "prize": "$CAD 0",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended"
+   ],
+   "organizer": ".devClub",
+   "registrations": 5,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Civic Hacks 2027",
+   "url": "https://civic-hacks-2027-32027.devpost.com/",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "mode": "in-person",
+   "location": "Boston University- CDS",
+   "city": "Boston",
+   "country": "United States",
+   "prize": "$300",
+   "themes": [
+    "Databases",
+    "Machine Learning/AI",
+    "Web"
+   ],
+   "organizer": "BU Spark!",
+   "registrations": 2,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Social Good"
+   ]
+  },
+  {
+   "title": "RebelHacks 2027",
+   "url": "https://rebelhacks-2027.devpost.com/",
+   "start": "2027-02-20",
+   "end": "2027-02-21",
+   "mode": "in-person",
+   "location": "University of Nevada Las Vegas, SEB 1311",
+   "city": "University of Nevada Las Vegas",
+   "country": "United States",
+   "prize": "$2,500",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Web"
+   ],
+   "organizer": "Software Engineering Club",
+   "registrations": 2,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Hook Em Hacks 2027",
+   "url": "https://hook-em-hacks-2027.devpost.com/",
+   "start": "2027-02-27",
+   "end": "2027-02-28",
+   "mode": "in-person",
+   "location": "Austin, TX, USA",
+   "city": "Austin",
+   "country": "United States",
+   "prize": "$1,000",
+   "themes": [
+    "Open Ended"
+   ],
+   "organizer": "Hook Em Hacks",
+   "registrations": 9,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "Forgehacks",
+   "url": "https://forgehacks-biztech.devpost.com/",
+   "start": "2027-02-27",
+   "end": "2027-02-28",
+   "mode": "in-person",
+   "location": "Pharmacutical Sciences Building",
+   "city": "Vancouver",
+   "country": "Canada",
+   "prize": "$6,000",
+   "themes": [
+    "IoT",
+    "Open Ended",
+    "Robotic Process Automation"
+   ],
+   "organizer": "UBC BizTech",
+   "registrations": 3,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HackTCNJ 2027",
+   "url": "https://hacktcnj-2027.devpost.com/",
+   "start": "2027-02-27",
+   "end": "2027-02-28",
+   "mode": "in-person",
+   "location": "The College of New Jersey",
+   "city": "Ewing Township",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Cybersecurity",
+    "Design"
+   ],
+   "organizer": "HackTCNJ",
+   "registrations": 1,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "AdaHacks 2027",
+   "url": "https://adahacks-2027.devpost.com/",
+   "start": "2027-02-26",
+   "end": "2027-02-28",
+   "mode": "in-person",
+   "location": "TBD",
+   "city": "Raipur",
+   "country": "India",
+   "prize": "$CAD 0",
+   "themes": [
+    "Beginner Friendly",
+    "Design",
+    "Open Ended"
+   ],
+   "organizer": "Ada's Team",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "Asia",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Pakistan Hardware Hack 27",
+   "url": "https://teenhacks.org/",
+   "start": "2027-02-27",
+   "end": "2027-02-28",
+   "mode": "in-person",
+   "location": "Lahore, Punjab, Pakistan",
+   "city": "Lahore",
+   "country": "Pakistan",
+   "prize": null,
+   "themes": [
+    "Beginner friendly",
+    "High school"
+   ],
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "Asia",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "CSS Battle",
+   "url": "https://unstop.com/hackathons/css-battle-solutions-2k27-army-institute-of-technology-ait-pune-1802090",
+   "start": "2026-11-09",
+   "end": "2027-03-01",
+   "mode": "online",
+   "location": "Online",
+   "city": null,
+   "country": null,
+   "prize": "₹15,000",
+   "themes": [
+    "Frontend Development",
+    "UI/UX Design"
+   ],
+   "organizer": "Army Institute of Technology (AIT), Pune",
+   "source": "Unstop",
+   "region": null,
+   "categories": []
   },
   {
    "title": "WiCS Hackathon",
@@ -1773,6 +4741,8 @@
    "end": "2027-03-02",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -1782,8 +4752,160 @@
    "organizer": "MLH",
    "registrations": 13,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Education"
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "SHE CODE",
+   "url": "https://unstop.com/hackathons/she-code-solutions-2k27-army-institute-of-technology-pune-1802089",
+   "start": "2026-11-09",
+   "end": "2027-03-06",
+   "mode": "in-person",
+   "location": "Pune, Maharashtra, India",
+   "city": "Pune",
+   "country": "India",
+   "prize": "₹15,000",
+   "themes": [
+    "Software Development",
+    "Quizzes & Treasure Hunt"
+   ],
+   "organizer": "Army Institute of technology, Pune",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Code Red",
+   "url": "https://unstop.com/hackathons/code-red-solutions-2k27-army-institute-of-technology-ait-pune-1801200",
+   "start": "2026-11-07",
+   "end": "2027-03-06",
+   "mode": "in-person",
+   "location": "Pune, Maharashtra, India",
+   "city": "Pune",
+   "country": "India",
+   "prize": "₹12,000",
+   "themes": [
+    "Software Development",
+    "Quizzes & Treasure Hunt"
+   ],
+   "organizer": "Army Institute of Technology (AIT), Pune",
+   "source": "Unstop",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Kent Hack Enough 2027",
+   "url": "https://khe-2027.devpost.com/",
+   "start": "2027-03-06",
+   "end": "2027-03-07",
+   "mode": "in-person",
+   "location": "Kent State University - DI Hub",
+   "city": "Kent",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended"
+   ],
+   "organizer": "HacKSU",
+   "registrations": 5,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "LumaHacks",
+   "url": "https://lumahacks.devpost.com/",
+   "start": "2027-03-07",
+   "end": "2027-03-07",
+   "mode": "in-person",
+   "location": "Orlando, FL, USA",
+   "city": "Orlando",
+   "country": "United States",
+   "prize": "$500",
+   "themes": [
+    "Beginner Friendly",
+    "Social Good"
+   ],
+   "organizer": "Society of Asian Scientists and Engineer",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Diversion 2k27",
+   "url": "https://diversion2k27.devfolio.co/",
+   "start": "2027-03-06",
+   "end": "2027-03-07",
+   "mode": "in-person",
+   "location": "Bidhannagar, India",
+   "city": "Bidhannagar",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "Tech to Treasure Hackathon",
+   "url": "https://techtotreasure.devpost.com/",
+   "start": "2027-03-03",
+   "end": "2027-03-10",
+   "mode": "in-person",
+   "location": "Tully Community Branch Library",
+   "city": "San Jose",
+   "country": "United States",
+   "prize": "$450",
+   "themes": [
+    "Beginner Friendly",
+    "Education",
+    "Social Good"
+   ],
+   "organizer": "bin to better",
+   "registrations": 85,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Education",
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "EagleHacks 2027",
+   "url": "https://eaglehacks2027.devpost.com/",
+   "start": "2027-03-12",
+   "end": "2027-03-14",
+   "mode": "in-person",
+   "location": "Florida Gulf Coast University",
+   "city": "Fort Myers",
+   "country": "United States",
+   "prize": "$250",
+   "themes": [
+    "Beginner Friendly",
+    "Machine Learning/AI",
+    "Social Good"
+   ],
+   "organizer": "INIT FGCU",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Social Good",
+    "Beginner"
    ]
   },
   {
@@ -1793,6 +4915,8 @@
    "end": "2027-03-15",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$5,000",
    "themes": [
     "Beginner Friendly",
@@ -1802,6 +4926,98 @@
    "organizer": "OSC",
    "registrations": 77,
    "source": "Devpost",
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "checkpoint journeys — hanoi",
+   "url": "https://checkpoint-journeys-hanoi.devpost.com/",
+   "start": "2027-03-19",
+   "end": "2027-03-20",
+   "mode": "in-person",
+   "location": "True North International School",
+   "city": null,
+   "country": "True North International School",
+   "prize": "$7,916",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Social Good"
+   ],
+   "organizer": "Checkpoint",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": null,
+   "categories": [
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "Firebird Hacks 2027",
+   "url": "https://firebird-hacks-32077.devpost.com/",
+   "start": "2027-03-20",
+   "end": "2027-03-20",
+   "mode": "in-person",
+   "location": "Arcadia High School - Gym",
+   "city": null,
+   "country": "Arcadia High School - Gym",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Cybersecurity",
+    "Web"
+   ],
+   "organizer": "Arcadia High School",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": null,
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "WiCS Geaux Hack 2027",
+   "url": "https://wics-geaux-hack-2027.devpost.com/",
+   "start": "2027-03-21",
+   "end": "2027-03-21",
+   "mode": "in-person",
+   "location": "LSU - Patrick F. Taylor Hall",
+   "city": "Baton Rouge",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Machine Learning/AI",
+    "Mobile",
+    "Web"
+   ],
+   "organizer": "Women In Computer Science @ LSU",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "European Hackathon",
+   "url": "https://www.univ-gustave-eiffel.fr/en/international/european-hackathon",
+   "start": "2027-03-19",
+   "end": "2027-03-23",
+   "mode": "in-person",
+   "city": "Paris",
+   "country": "France",
+   "prize": null,
+   "themes": [
+    "What infrastructure and innovations are needed to support the mobility of the future?"
+   ],
+   "organizer": "Université Gustave Eiffel",
+   "location": "Paris, France",
+   "source": "Web search",
+   "region": "Europe",
    "categories": []
   },
   {
@@ -1811,6 +5027,8 @@
    "end": "2027-03-26",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$700",
    "themes": [
     "Beginner Friendly",
@@ -1820,9 +5038,56 @@
    "organizer": "Global NGO Executive Committee",
    "registrations": 44,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "Education",
-    "Social Good"
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "BISV Hacks 2027",
+   "url": "https://bisv-hacks-2027.devpost.com/",
+   "start": "2027-03-27",
+   "end": "2027-03-27",
+   "mode": "in-person",
+   "location": "BASIS Independent Silicon Valley",
+   "city": "San Jose",
+   "country": "United States",
+   "prize": "$250",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended"
+   ],
+   "organizer": "BASIS Independent Silicon Valley",
+   "registrations": 0,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "GoatHacks 2027",
+   "url": "https://goathacks-2027.devpost.com/",
+   "start": "2027-03-26",
+   "end": "2027-03-28",
+   "mode": "in-person",
+   "location": "WPI - Campus Center",
+   "city": "Worcester",
+   "country": "United States",
+   "prize": "$0",
+   "themes": [
+    "Beginner Friendly",
+    "Low/No Code",
+    "IoT"
+   ],
+   "organizer": "WPI ACM",
+   "registrations": 15,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
    ]
   },
   {
@@ -1832,6 +5097,8 @@
    "end": "2027-04-03",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Machine Learning/AI",
@@ -1840,10 +5107,174 @@
    "organizer": "Kean University",
    "registrations": 3,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
    ]
+  },
+  {
+   "title": "ECLIPSE 7.0",
+   "url": "https://eclipse.devfolio.co/",
+   "start": "2027-04-02",
+   "end": "2027-04-04",
+   "mode": "in-person",
+   "location": "Patiala, India",
+   "city": "Patiala",
+   "country": "India",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "source": "Devfolio",
+   "region": "Asia",
+   "categories": []
+  },
+  {
+   "title": "ETHGlobal Cannes 2027",
+   "url": "https://ethglobal.com/events/cannes2027",
+   "start": "2027-04-14",
+   "end": "2027-04-16",
+   "mode": "in-person",
+   "city": "Cannes",
+   "country": "France",
+   "prize": null,
+   "themes": [],
+   "organizer": "ETHGlobal",
+   "location": "Cannes, France",
+   "source": "ethglobal.com",
+   "region": "Europe",
+   "categories": []
+  },
+  {
+   "title": "Telos Hacks",
+   "url": "https://hack.telost.org",
+   "start": "2027-04-17",
+   "end": "2027-04-18",
+   "mode": "in-person",
+   "location": "San Francisco, California, United States",
+   "city": "San Francisco",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "Beginner friendly",
+    "High school"
+   ],
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "BearHacks 2027",
+   "url": "https://bearhacks2027.devpost.com/",
+   "start": "2027-04-23",
+   "end": "2027-04-25",
+   "mode": "in-person",
+   "location": "Sheridan College Hazel McCallion Campus",
+   "city": "Mississauga",
+   "country": "Canada",
+   "prize": "$CAD 10,000",
+   "themes": [
+    "Machine Learning/AI",
+    "Mobile",
+    "Web"
+   ],
+   "organizer": "BearHacks",
+   "registrations": 42,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
+   "title": "Desert Dev Lab 2027",
+   "url": "https://desert-dev-lab-2027.devpost.com/",
+   "start": "2027-04-24",
+   "end": "2027-04-25",
+   "mode": "in-person",
+   "location": "Albuquerque, NM, USA",
+   "city": "Albuquerque",
+   "country": "United States",
+   "prize": "$1,000",
+   "themes": [
+    "Beginner Friendly",
+    "Health",
+    "Social Good"
+   ],
+   "organizer": "NM Tech Talks",
+   "registrations": 9,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Health",
+    "Social Good",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "NYU Abu Dhabi Hackathon for Social Good",
+   "url": "https://www.airmeet.com/hub/blog/major-hackathons",
+   "start": "2027-04-22",
+   "end": "2027-04-26",
+   "mode": "in-person",
+   "city": "Abu Dhabi",
+   "country": "United Arab Emirates",
+   "prize": null,
+   "themes": [
+    "social good",
+    "quantum computing",
+    "AI",
+    "technology"
+   ],
+   "organizer": null,
+   "location": "Abu Dhabi, United Arab Emirates",
+   "source": "Web search",
+   "region": "Middle East",
+   "categories": [
+    "AI",
+    "Social Good"
+   ]
+  },
+  {
+   "title": "Almaden Hacks",
+   "url": "https://almadenhacks.com",
+   "start": "2027-06-05",
+   "end": "2027-06-05",
+   "mode": "in-person",
+   "location": "San Jose, California, United States",
+   "city": "San Jose",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "Beginner friendly",
+    "High school"
+   ],
+   "organizer": null,
+   "source": "Hack Club",
+   "region": "North America",
+   "categories": [
+    "Beginner"
+   ]
+  },
+  {
+   "title": "ETHGlobal New York 2027",
+   "url": "https://ethglobal.com/events/newyork2027",
+   "start": "2027-06-14",
+   "end": "2027-06-16",
+   "mode": "in-person",
+   "city": "New York City",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": "ETHGlobal",
+   "location": "New York City, United States",
+   "source": "ethglobal.com",
+   "region": "North America",
+   "categories": []
   },
   {
    "title": "DeveloperWeek New York 2027 Hackathon",
@@ -1852,6 +5283,8 @@
    "end": "2027-06-17",
    "mode": "online",
    "location": "Meadowlands Exposition Center + Online",
+   "city": null,
+   "country": null,
    "prize": "$12,500",
    "themes": [
     "DevOps",
@@ -1861,6 +5294,7 @@
    "organizer": "DevNetwork",
    "registrations": 23,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
@@ -1873,6 +5307,8 @@
    "end": "2027-06-26",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "$0",
    "themes": [
     "Beginner Friendly",
@@ -1882,9 +5318,27 @@
    "organizer": "Binnovative",
    "registrations": 13,
    "source": "Devpost",
+   "region": null,
    "categories": [
-    "Health"
+    "Health",
+    "Beginner"
    ]
+  },
+  {
+   "title": "ETHGlobal Tokyo 2027",
+   "url": "https://ethglobal.com/events/tokyo2027",
+   "start": "2027-08-23",
+   "end": "2027-08-25",
+   "mode": "in-person",
+   "city": "Tokyo",
+   "country": "Japan",
+   "prize": null,
+   "themes": [],
+   "organizer": "ETHGlobal",
+   "location": "Tokyo, Japan",
+   "source": "ethglobal.com",
+   "region": "Asia",
+   "categories": []
   },
   {
    "title": "DevNetwork [API + Cloud + AI] Hackathon 2027",
@@ -1893,6 +5347,8 @@
    "end": "2027-09-10",
    "mode": "online",
    "location": "Santa Clara Convention Center and Online",
+   "city": null,
+   "country": null,
    "prize": "$12,500",
    "themes": [
     "IoT",
@@ -1902,9 +5358,78 @@
    "organizer": "DevNetwork",
    "registrations": 4,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
+   ]
+  },
+  {
+   "title": "Global Rail Youth Hackathon 2027",
+   "url": "https://www.airmeet.com/hub/blog/major-hackathons",
+   "start": "2027-09-28",
+   "end": "2027-09-30",
+   "mode": "in-person",
+   "city": "Abu Dhabi",
+   "country": "United Arab Emirates",
+   "prize": null,
+   "themes": [
+    "rail",
+    "transport",
+    "mobility"
+   ],
+   "organizer": null,
+   "location": "Abu Dhabi, United Arab Emirates",
+   "source": "Web search",
+   "region": "Middle East",
+   "categories": []
+  },
+  {
+   "title": "SC Quantathon v4",
+   "url": "https://sc-quantathon-v4.devpost.com/",
+   "start": "2027-10-23",
+   "end": "2027-10-24",
+   "mode": "in-person",
+   "location": "Watt Family Innovation Center",
+   "city": "Clemson",
+   "country": "United States",
+   "prize": "$250",
+   "themes": [
+    "Beginner Friendly",
+    "Machine Learning/AI",
+    "Quantum"
+   ],
+   "organizer": "Clemson Quantum",
+   "registrations": 4,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education",
+    "Beginner"
+   ]
+  },
+  {
+   "title": "hacks test",
+   "url": "https://youtube-automation-hackathon.devpost.com/",
+   "start": "2027-09-09",
+   "end": "2027-12-10",
+   "mode": "in-person",
+   "location": "Vancouver, Canada",
+   "city": "Vancouver",
+   "country": "Canada",
+   "prize": "$1",
+   "themes": [
+    "Beginner Friendly",
+    "Open Ended",
+    "Web"
+   ],
+   "organizer": "n/a",
+   "registrations": 14,
+   "source": "Devpost",
+   "region": "North America",
+   "categories": [
+    "Beginner"
    ]
   },
   {
@@ -1914,6 +5439,8 @@
    "end": "2028-03-27",
    "mode": "online",
    "location": "Online",
+   "city": null,
+   "country": null,
    "prize": "₹ 100,000",
    "themes": [
     "Low/No Code",
@@ -1923,10 +5450,219 @@
    "organizer": "HARD MODE",
    "registrations": 89,
    "source": "Devpost",
+   "region": null,
    "categories": [
     "AI",
     "Education"
    ]
+  },
+  {
+   "title": "ETHGlobal Lisbon 2027",
+   "url": "https://ethglobal.com/events/lisbon2027",
+   "start": "2027-10-14",
+   "end": null,
+   "mode": "in-person",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "prize": null,
+   "themes": [],
+   "organizer": "ETHGlobal",
+   "location": "Lisbon, Portugal",
+   "source": "ethglobal.com",
+   "region": "Europe",
+   "categories": []
+  },
+  {
+   "title": "CUhackit",
+   "url": "https://cuhack.it/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=CUhackit",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Clemson",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Clemson, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "Hacklytics 2027",
+   "url": "https://hacklytics2027.web.app/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Hacklytics+2027",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Atlanta",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Atlanta, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HackIllinois",
+   "url": "https://www.hackillinois.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackIllinois",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Urbana",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Urbana, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HackUDC",
+   "url": "https://hackudc.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackUDC",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "A Coruña",
+   "country": "Spain",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "A Coruña, Spain",
+   "source": "mlh.com",
+   "region": "Europe",
+   "categories": []
+  },
+  {
+   "title": "RevolutionUC",
+   "url": "https://www.revolutionuc.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=RevolutionUC",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Cincinnati",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Cincinnati, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HackHERS",
+   "url": "https://ruhackhers.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackHERS+",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "New Brunswick",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "New Brunswick, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "WiCHacks",
+   "url": "https://wichacks.io/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=WiCHacks",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Rochester",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Rochester, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HenHacks",
+   "url": "https://www.henhackshackathon.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HenHacks",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Newark",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Newark, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "Diamondhacks",
+   "url": "https://diamondhacks.acmucsd.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=Diamondhacks",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "La Jolla",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "La Jolla, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "MariHacks",
+   "url": "https://www.marihacks.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=MariHacks",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Montreal",
+   "country": "Canada",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Montreal, Canada",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "HackKU27",
+   "url": "https://www.hackku.org/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=HackKU27",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Lawrence",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Lawrence, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "WEHack",
+   "url": "https://www.wehackutd.com/?utm_source=mlh&utm_medium=referral&utm_campaign=events&utm_content=WEHack",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": "Richardson",
+   "country": "United States",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Richardson, United States",
+   "source": "mlh.com",
+   "region": "North America",
+   "categories": []
   },
   {
    "title": "Aevum Builder Challenge #1",
@@ -1934,7 +5670,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "1,500 USD",
    "themes": [
     "AI",
@@ -1945,7 +5682,9 @@
     "Foundry"
    ],
    "organizer": "QDay",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI",
     "Fintech"
@@ -1957,10 +5696,10 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "5,500 USD",
    "themes": [
-    "Reactive Network",
     "DeFi",
     "Cross-chain",
     "AI",
@@ -1973,7 +5712,9 @@
     "Ethereum"
    ],
    "organizer": "Reactive Network",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI",
     "Web3"
@@ -1985,7 +5726,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "3,000 USD",
    "themes": [
     "Perps",
@@ -2000,7 +5742,9 @@
     "dreamBot Builder"
    ],
    "organizer": "Somnia Network",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI",
     "Web3"
@@ -2012,7 +5756,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": null,
    "themes": [
     "GNSS",
@@ -2024,7 +5769,9 @@
     "esri africa geoportal"
    ],
    "organizer": "SATNAV AFRICA JPO",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": []
   },
   {
@@ -2033,7 +5780,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "1,800 USD",
    "themes": [
     "ai",
@@ -2049,7 +5797,9 @@
     "Javascript"
    ],
    "organizer": "Terminal 3",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI"
    ]
@@ -2060,7 +5810,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "6,000 USD",
    "themes": [
     "AI",
@@ -2076,7 +5827,9 @@
     "JavaScript"
    ],
    "organizer": "Anna AI",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI"
    ]
@@ -2087,7 +5840,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "1,150 USD",
    "themes": [
     "agentic",
@@ -2095,7 +5849,9 @@
     "sdk"
    ],
    "organizer": "Cortensor",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": []
   },
   {
@@ -2104,7 +5860,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": null,
    "themes": [
     "Algorand",
@@ -2117,7 +5874,9 @@
     "payments"
    ],
    "organizer": "Algorand",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI",
     "Web3",
@@ -2130,7 +5889,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": null,
    "themes": [
     "AI Agent",
@@ -2145,7 +5905,9 @@
     "Python"
    ],
    "organizer": "Binance",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI",
     "Web3",
@@ -2158,7 +5920,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "8,000 USD",
    "themes": [
     "Bitcoin Cash",
@@ -2171,171 +5934,48 @@
     "Blockchain"
    ],
    "organizer": "BCH BLAZE",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI",
     "Web3"
    ]
   },
   {
-   "title": "Hackathon 2026 Challenge",
-   "url": "https://dorahacks.io/hackathon/hackathon2026challenge",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": "1,000 USD",
-   "themes": [
-    "Smart City",
-    "Renewable Energy",
-    "Traffic Management",
-    "Urban Planning",
-    "Public Health",
-    "IoT (Internet of Things)",
-    "AI & Machine Learning",
-    "IBM Watsonx",
-    "AWS Greengrass",
-    "Azure IoT Edge",
-    "Google Maps Platform",
-    "NVIDIA Metropolis"
-   ],
-   "organizer": "TechHub Africa LLC",
-   "source": "dorahacks.io",
-   "categories": [
-    "AI",
-    "Health",
-    "Climate",
-    "Education"
-   ]
-  },
-  {
-   "title": "JRPG Crypto Browser Games Jam",
-   "url": "https://dorahacks.io/hackathon/jrpg-crypto-browser-game-jam",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": "No cash, tokens, merch or other rewards",
-   "themes": [
-    "Gaming",
-    "Web3",
-    "Game Jam",
-    "Browser Games",
-    "Crypto Games",
-    "Any Engine",
-    "Three.js",
-    "HTML5"
-   ],
-   "organizer": "JRPG",
-   "source": "dorahacks.io",
-   "categories": [
-    "Web3",
-    "Gaming"
-   ]
-  },
-  {
    "title": "HackOnVibe November 2026: Build a Product That Spreads",
-   "url": "https://dorahacks.io/hackathon/hack-on-vibe-2026-11",
+   "url": "httpshttps://dorahacks.io/hackathon/hack-on-vibe-2026-11",
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "100 USD",
    "themes": [
     "AI"
    ],
    "organizer": "HackOnVibe_com",
+   "location": "Online",
    "source": "dorahacks.io",
+   "region": null,
    "categories": [
     "AI"
    ]
-  },
-  {
-   "title": "Lean In Hacks 8.0",
-   "url": "https://lean-in-hacks-8.devfolio.co/",
-   "start": "2026-11-20",
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "No Restrictions"
-   ],
-   "organizer": null,
-   "source": "devfolio.co",
-   "categories": []
-  },
-  {
-   "title": "Founders' House Kolkata",
-   "url": "https://founders-house-kolkata.devfolio.co/",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "No Restrictions"
-   ],
-   "organizer": null,
-   "source": "devfolio.co",
-   "categories": []
-  },
-  {
-   "title": "Hack For Tomorrow 2026",
-   "url": "https://hft2026.devfolio.co/",
-   "start": "2027-01-02",
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "No Restrictions"
-   ],
-   "organizer": null,
-   "source": "devfolio.co",
-   "categories": []
-  },
-  {
-   "title": "hackodisha-6.0",
-   "url": "https://hackodisha-6a.devfolio.co/",
-   "start": "2026-12-11",
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "No Restrictions"
-   ],
-   "organizer": null,
-   "source": "devfolio.co",
-   "categories": []
-  },
-  {
-   "title": "Hacksprint 3.0",
-   "url": "https://hacksprint-3.devfolio.co/",
-   "start": "2027-01-29",
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "No Restrictions"
-   ],
-   "organizer": null,
-   "source": "devfolio.co",
-   "categories": []
   },
   {
    "title": "IBM Z Day",
    "url": "https://www.hackerearth.com/challenges/hackathon/ibm-z-day/",
    "start": null,
    "end": null,
-   "mode": "online",
-   "location": null,
+   "mode": "in-person",
+   "city": null,
+   "country": null,
    "prize": null,
    "themes": [],
    "organizer": "IBM",
+   "location": null,
    "source": "hackerearth.com",
+   "region": null,
    "categories": []
   },
   {
@@ -2343,12 +5983,15 @@
    "url": "https://www.hackerearth.com/challenges/hackathon/contextcon-remember-everything/",
    "start": null,
    "end": null,
-   "mode": "online",
-   "location": null,
+   "mode": "in-person",
+   "city": null,
+   "country": null,
    "prize": null,
    "themes": [],
    "organizer": "YugabyteDB",
+   "location": null,
    "source": "hackerearth.com",
+   "region": null,
    "categories": []
   },
   {
@@ -2357,7 +6000,8 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "9,000€",
    "themes": [
     "Satellite Communication",
@@ -2365,8 +6009,10 @@
     "Defense & Security",
     "European Defence"
    ],
-   "organizer": "CASSINI Hackathons",
+   "organizer": null,
+   "location": "Online",
    "source": "taikai.network",
+   "region": null,
    "categories": []
   },
   {
@@ -2375,239 +6021,55 @@
    "start": null,
    "end": null,
    "mode": "online",
-   "location": null,
+   "city": null,
+   "country": null,
    "prize": "17,500€",
    "themes": [
     "Social Good & Impact",
     "Artificial Intelligence"
    ],
-   "organizer": "Outsystems",
+   "organizer": null,
+   "location": "Online",
    "source": "taikai.network",
+   "region": null,
    "categories": [
     "AI",
     "Social Good"
    ]
   },
   {
-   "title": "HackerNoon Decentralize AI Hackathon",
-   "url": "https://hackernoon.com/5-hackathons-you-can-enter-right-now",
+   "title": "Yale Healthcare Hackathon",
+   "url": "https://ventures.yale.edu/community/events/yale-healthcare-hackathon",
    "start": null,
    "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": "$51,750+ in cash, compute credits & ecosystem rewards",
-   "themes": [
-    "AI",
-    "decentralized infrastructure"
-   ],
-   "organizer": "HackerNoon",
-   "source": "Web search",
-   "categories": [
-    "AI"
-   ]
-  },
-  {
-   "title": "Sui Overflow 2026",
-   "url": "https://overflow.sui.io",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": "$500,000+ across core and sponsored tracks",
-   "themes": [
-    "AI",
-    "decentralized infrastructure"
-   ],
-   "organizer": "Sui",
-   "source": "Web search",
-   "categories": [
-    "AI",
-    "Web3"
-   ]
-  },
-  {
-   "title": "TechFlock Hackathon 2026",
-   "url": "https://www.facebook.com/AbiaTechHub/posts/think-youve-got-what-takestechflock-hackathon-2026-is-comingthis-is-where-cod/1474619254706284",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": "Nigeria",
+   "mode": "in-person",
+   "city": null,
+   "country": null,
    "prize": null,
    "themes": [],
-   "organizer": "AbiaTechHub",
+   "organizer": null,
+   "location": null,
    "source": "Web search",
+   "region": null,
+   "categories": [
+    "Health"
+   ]
+  },
+  {
+   "title": "Sports Innovation Hackathon 2026",
+   "url": "https://www.consultancy-me.com/news/13307/mohammed-assaqaf-appointed-to-evaluation-committee-of-sports-innovation-hackathon",
+   "start": null,
+   "end": null,
+   "mode": "in-person",
+   "city": null,
+   "country": "Saudi Arabia",
+   "prize": null,
+   "themes": [],
+   "organizer": null,
+   "location": "Saudi Arabia",
+   "source": "Web search",
+   "region": "Middle East",
    "categories": []
-  },
-  {
-   "title": "WEMA Hackaholics 2026",
-   "url": "https://hackaholics.wemabank.com",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": "Africa",
-   "prize": null,
-   "themes": [
-    "financial inclusion",
-    "healthcare",
-    "digital transformation",
-    "sustainability",
-    "education",
-    "social impact",
-    "future of work"
-   ],
-   "organizer": "WEMA Bank",
-   "source": "Web search",
-   "categories": [
-    "Health",
-    "Climate",
-    "Fintech",
-    "Education",
-    "Social Good"
-   ]
-  },
-  {
-   "title": "Africa Digital ID Hackathon 2026",
-   "url": "https://africadigitalidhackathon2026.devpost.com",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": "Africa",
-   "prize": null,
-   "themes": [
-    "digital identity",
-    "inclusion"
-   ],
-   "organizer": null,
-   "source": "Web search",
-   "categories": []
-  },
-  {
-   "title": "Hack For Earth",
-   "url": "https://hackforearth.com/current-hackathon",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "sustainability"
-   ],
-   "organizer": "Hack For Earth",
-   "source": "Web search",
-   "categories": [
-    "Climate"
-   ]
-  },
-  {
-   "title": "AI x City Climate Action Hackathon 2026",
-   "url": "https://community.climatechange.ai/c/research-ideas",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "AI",
-    "climate",
-    "city"
-   ],
-   "organizer": "Global Covenant of Mayors for Climate and Energy",
-   "source": "Web search",
-   "categories": [
-    "AI",
-    "Climate"
-   ]
-  },
-  {
-   "title": "Intain FinTech Challenge 2026",
-   "url": "https://www.hackerearth.com/challenges/competitive/intain-fintech-hackathon",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "fintech"
-   ],
-   "organizer": null,
-   "source": "Web search",
-   "categories": [
-    "Fintech"
-   ]
-  },
-  {
-   "title": "SEBI Securities Market TechSprint",
-   "url": "https://www.globalfintechfest.com/gff-hackathons",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "AI-driven detection of synthetic media",
-    "agentic compliance",
-    "multi-asset investor super app",
-    "simplified IPO offer document preparation"
-   ],
-   "organizer": "SEBI",
-   "source": "Web search",
-   "categories": [
-    "AI"
-   ]
-  },
-  {
-   "title": "The Future of Health Hackathon",
-   "url": "https://futureofhealthhack.hercode.ch",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": null,
-   "themes": [
-    "health"
-   ],
-   "organizer": null,
-   "source": "Web search",
-   "categories": [
-    "Health"
-   ]
-  },
-  {
-   "title": "H2AI - Healthcare Hackathon with AI",
-   "url": "https://www.georgetown-h2ai.com",
-   "start": null,
-   "end": null,
-   "mode": "hybrid",
-   "location": "Georgetown University, Washington, DC",
-   "prize": "Over $15,000 in Prizes and Awards",
-   "themes": [
-    "healthcare",
-    "AI"
-   ],
-   "organizer": "H2AI",
-   "source": "Web search",
-   "categories": [
-    "AI",
-    "Health"
-   ]
-  },
-  {
-   "title": "HealthTech Hackathon",
-   "url": "https://healthtech-hackathon.devpost.com",
-   "start": null,
-   "end": null,
-   "mode": "online",
-   "location": null,
-   "prize": "$10,000 in prizes",
-   "themes": [
-    "healthcare",
-    "technology"
-   ],
-   "organizer": null,
-   "source": "Web search",
-   "categories": [
-    "Health"
-   ]
   }
  ]
 }

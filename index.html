@@ -4,28 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Hackathonia</title>
-<meta name="description" content="Online and in-person hackathons worldwide, refreshed monthly by an AI crawler.">
+<meta name="description" content="Virtual and in-person hackathons worldwide, matched to you. Refreshed monthly by an AI crawler.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f5c3a'/%3E%3Ccircle cx='16' cy='16' r='8' fill='none' stroke='%23fff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='2.5' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f6f1e7;--surface:#fffdf8;--ink:#1d2a22;--muted:#5d6a61;--line:#e3dccd;--brand:#0f5c3a;--brand-ink:#fff;--soft:#e8f0e9;--warn:#a34a12}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--surface:#18221c;--ink:#eef3ee;--muted:#a3b0a7;--line:#2a372f;--brand:#4fbf86;--brand-ink:#0b1510;--soft:#1f2e25;--warn:#f0a36b}}
+:root{--bg:#f6f1e7;--surface:#fffdf8;--ink:#1d2a22;--muted:#5d6a61;--line:#e3dccd;--brand:#0f5c3a;--brand-ink:#fff;--soft:#e8f0e9;--warn:#a34a12;--shade:rgba(20,30,24,.45)}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#111814;--surface:#18221c;--ink:#eef3ee;--muted:#a3b0a7;--line:#2a372f;--brand:#4fbf86;--brand-ink:#0b1510;--soft:#1f2e25;--warn:#f0a36b;--shade:rgba(0,0,0,.6)}}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
 a{color:inherit}
+button{font:inherit;color:inherit}
 .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
 header{padding:48px 0 20px}
 .back{font-size:13px;color:var(--muted);text-decoration:none}
 h1{font-family:Fraunces,serif;font-weight:650;font-size:clamp(34px,6vw,56px);line-height:1.05;margin:10px 0 8px;letter-spacing:-.02em}
-.lede{color:var(--muted);max-width:620px;margin:0}
+.lede{color:var(--muted);max-width:640px;margin:0}
 .meta{margin-top:14px;font-size:13px;color:var(--muted)}
 .meta b{color:var(--ink)}
+.prefs{margin-top:16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pill{font-size:13px;background:var(--soft);border-radius:999px;padding:5px 12px}
+.btn{border:1px solid var(--brand);background:var(--brand);color:var(--brand-ink);border-radius:10px;padding:9px 16px;font-weight:600;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
 .controls{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 0;border-bottom:1px solid var(--line);display:grid;gap:10px}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-input[type=search],select{font:inherit;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
-input[type=search]{flex:1;min-width:200px}
-.chip{font:500 13px Inter,sans-serif;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+input[type=search],input[type=text],select{font:inherit;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:9px 12px}
+input[type=search]{flex:1;min-width:180px}
+.chip{font:500 13px Inter,sans-serif;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer;white-space:nowrap}
 .chip[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:var(--brand-ink)}
 .chips{overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px;scrollbar-width:none}
 .chips::-webkit-scrollbar{display:none}
@@ -40,9 +45,22 @@ input[type=search]{flex:1;min-width:200px}
 .due.soon{color:var(--warn)}
 .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:4px}
 .tag{font-size:12px;background:var(--soft);border-radius:6px;padding:2px 8px}
-.src{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.src{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;display:flex;justify-content:space-between}
 .empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:40px 0}
 footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:13px;color:var(--muted)}
+/* wizard */
+dialog{border:none;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%}
+dialog::backdrop{background:var(--shade)}
+.sheet{background:var(--surface);color:var(--ink);border-radius:18px;max-width:560px;margin:8vh auto 0;padding:24px;border:1px solid var(--line);width:calc(100% - 32px)}
+.step-n{font-size:12px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase}
+.sheet h2{font-family:Fraunces,serif;font-weight:650;font-size:26px;line-height:1.15;margin:6px 0 4px}
+.sheet p{margin:0 0 16px;color:var(--muted);font-size:14px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts .chip{padding:9px 14px;font-size:14px}
+.nav{display:flex;justify-content:space-between;align-items:center;margin-top:22px;gap:8px}
+.bar{height:4px;background:var(--soft);border-radius:4px;margin-bottom:18px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--brand);transition:width .2s}
+.field{margin-top:12px;display:grid;gap:6px;font-size:13px;color:var(--muted)}
 </style>
 </head>
 <body>
@@ -50,8 +68,9 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:13px;color
   <header>
     <a class="back" href="https://xi-kki.github.io/">← xi-kki</a>
     <h1>Hackathonia</h1>
-    <p class="lede">Online and in-person hackathons worldwide. An AI crawler checks Devpost, ETHGlobal, MLH, DoraHacks, Devfolio, lablab.ai, Unstop and the open web every month.</p>
+    <p class="lede">Hackathons worldwide, virtual first, matched to what you want. Pulled every month from Devpost, Devfolio, Unstop, Hack Club, ETHGlobal, MLH, DoraHacks and the open web.</p>
     <div class="meta" id="meta">Loading…</div>
+    <div class="prefs" id="prefs"></div>
   </header>
   <div class="controls">
     <div class="row">
@@ -63,60 +82,166 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;font-size:13px;color
       </select>
     </div>
     <div class="row chips" id="modes"></div>
+    <div class="row chips" id="regions"></div>
     <div class="row chips" id="cats"></div>
   </div>
   <main class="grid" id="grid" aria-live="polite"></main>
 </div>
-<footer><div class="wrap">Always confirm dates and rules on the event page. Data refreshed on the 1st of each month.</div></footer>
+<footer><div class="wrap">Always confirm dates and rules on the event page. Data refreshed on the 1st of each month. Your preferences stay in this browser.</div></footer>
+
+<dialog id="wiz" aria-labelledby="wizTitle">
+  <div class="sheet">
+    <div class="bar"><i id="wizBar"></i></div>
+    <div class="step-n" id="wizN"></div>
+    <h2 id="wizTitle"></h2>
+    <p id="wizSub"></p>
+    <div id="wizBody"></div>
+    <div class="nav">
+      <button class="btn ghost" id="wizBack">Back</button>
+      <span style="flex:1"></span>
+      <button class="btn ghost" id="wizSkip">Skip</button>
+      <button class="btn" id="wizNext">Next</button>
+    </div>
+  </div>
+</dialog>
+
 <script>
 const $ = (s) => document.querySelector(s);
-const state = { q: '', mode: 'All', cat: 'All', sort: 'due' };
-let DATA = [];
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const store = { get(k) { try { return JSON.parse(localStorage.getItem(k)); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+
+const REGIONS = ['Africa', 'Europe', 'North America', 'Latin America', 'Middle East', 'Asia', 'Oceania'];
+const DEFAULT_PREFS = { mode: 'Virtual', regions: [], place: '', cats: [], when: 'any', cash: false, beginner: false };
+let prefs = { ...DEFAULT_PREFS, ...(store.get('hk_prefs') || {}) };
+const state = { q: '', sort: 'due' };
+let DATA = [], CATS = [];
+
 const prizeNum = (p) => { const m = String(p || '').replace(/,/g, '').match(/(\d+(?:\.\d+)?)\s*(k|m)?/i); if (!m) return 0; return +m[1] * (/k/i.test(m[2] || '') ? 1e3 : /m/i.test(m[2] || '') ? 1e6 : 1); };
 const fmt = (d) => d ? new Date(d + 'T00:00:00Z').toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' }) : null;
 const daysLeft = (d) => d ? Math.ceil((new Date(d + 'T23:59:59Z') - Date.now()) / 864e5) : null;
 
-function chips(el, items, key) {
-  el.innerHTML = items.map((x) => `<button class="chip" aria-pressed="${state[key] === x}" data-v="${esc(x)}">${esc(x)}</button>`).join('');
-  el.onclick = (e) => { const b = e.target.closest('.chip'); if (!b) return; state[key] = b.dataset.v; chips(el, items, key); render(); };
+/* ---------- questions ---------- */
+const STEPS = [
+  { key: 'mode', title: 'How do you want to take part?', sub: 'Virtual events let you join from anywhere.', type: 'one',
+    opts: ['Virtual', 'In person', 'Either'] },
+  { key: 'regions', title: 'Where can you travel to?', sub: 'Pick any regions. Leave empty for anywhere.', type: 'many', opts: REGIONS,
+    show: () => prefs.mode !== 'Virtual', extra: 'place' },
+  { key: 'cats', title: 'What do you like building?', sub: 'Pick any. Leave empty to see everything.', type: 'many', opts: () => CATS.filter((c) => c !== 'Beginner') },
+  { key: 'when', title: 'When are you free?', sub: 'We match on the submission deadline.', type: 'one',
+    opts: [['month', 'Next 30 days'], ['quarter', 'Next 3 months'], ['any', 'Any time']] },
+  { key: 'extras', title: 'Anything else?', sub: 'Optional.', type: 'flags',
+    opts: [['cash', 'Only events with a listed prize'], ['beginner', 'Beginner or student friendly']] },
+];
+let stepIdx = 0, draft = null;
+const visibleSteps = () => STEPS.filter((s) => !s.show || s.show());
+
+function openWizard() { draft = structuredClone(prefs); stepIdx = 0; drawStep(); $('#wiz').showModal(); }
+function drawStep() {
+  const saved = prefs; prefs = draft; const steps = visibleSteps(); prefs = saved;
+  const s = steps[stepIdx];
+  $('#wizBar').style.width = ((stepIdx + 1) / steps.length) * 100 + '%';
+  $('#wizN').textContent = `Question ${stepIdx + 1} of ${steps.length}`;
+  $('#wizTitle').textContent = s.title; $('#wizSub').textContent = s.sub;
+  $('#wizBack').style.visibility = stepIdx ? 'visible' : 'hidden';
+  $('#wizNext').textContent = stepIdx === steps.length - 1 ? 'Show my matches' : 'Next';
+  const opts = (typeof s.opts === 'function' ? s.opts() : s.opts).map((o) => (Array.isArray(o) ? o : [o, o]));
+  const on = (v) => s.type === 'one' ? draft[s.key] === v : s.type === 'many' ? draft[s.key].includes(v) : !!draft[v];
+  let html = `<div class="opts">${opts.map(([v, l]) => `<button class="chip" data-v="${esc(v)}" aria-pressed="${on(v)}">${esc(l)}</button>`).join('')}</div>`;
+  if (s.extra === 'place') html += `<label class="field">Country or city (optional)<input type="text" id="wizPlace" value="${esc(draft.place)}" placeholder="e.g. Nigeria, Lagos, London"></label>`;
+  $('#wizBody').innerHTML = html;
+  $('#wizBody .opts').onclick = (e) => {
+    const b = e.target.closest('.chip'); if (!b) return; const v = b.dataset.v;
+    if (s.type === 'one') draft[s.key] = v;
+    else if (s.type === 'many') draft[s.key] = on(v) ? draft[s.key].filter((x) => x !== v) : [...draft[s.key], v];
+    else draft[v] = !draft[v];
+    drawStep();
+  };
+  const p = $('#wizPlace'); if (p) p.oninput = (e) => (draft.place = e.target.value);
+}
+function wizMove(dir) {
+  const saved = prefs; prefs = draft; const n = visibleSteps().length; prefs = saved;
+  stepIdx += dir;
+  if (stepIdx >= n) { prefs = draft; store.set('hk_prefs', prefs); store.set('hk_asked', true); $('#wiz').close(); syncControls(); render(); return; }
+  stepIdx = Math.max(0, stepIdx); drawStep();
+}
+$('#wizNext').onclick = () => wizMove(1);
+$('#wizSkip').onclick = () => wizMove(1);
+$('#wizBack').onclick = () => wizMove(-1);
+$('#wiz').addEventListener('cancel', () => store.set('hk_asked', true));
+
+/* ---------- filters ---------- */
+function chips(el, items, isOn, toggle) {
+  el.innerHTML = items.map((x) => `<button class="chip" aria-pressed="${isOn(x)}" data-v="${esc(x)}">${esc(x)}</button>`).join('');
+  el.onclick = (e) => { const b = e.target.closest('.chip'); if (!b) return; toggle(b.dataset.v); store.set('hk_prefs', prefs); syncControls(); render(); };
+}
+function syncControls() {
+  chips($('#modes'), ['Virtual', 'In person', 'Either'], (x) => prefs.mode === x, (v) => (prefs.mode = v));
+  const showRegions = prefs.mode !== 'Virtual';
+  $('#regions').style.display = showRegions ? '' : 'none';
+  chips($('#regions'), ['Anywhere', ...REGIONS], (x) => x === 'Anywhere' ? !prefs.regions.length : prefs.regions.includes(x),
+    (v) => (prefs.regions = v === 'Anywhere' ? [] : prefs.regions.includes(v) ? prefs.regions.filter((r) => r !== v) : [...prefs.regions, v]));
+  chips($('#cats'), ['All topics', ...CATS], (x) => x === 'All topics' ? !prefs.cats.length : prefs.cats.includes(x),
+    (v) => (prefs.cats = v === 'All topics' ? [] : prefs.cats.includes(v) ? prefs.cats.filter((c) => c !== v) : [...prefs.cats, v]));
+  const bits = [prefs.mode === 'Either' ? 'Virtual or in person' : prefs.mode];
+  if (prefs.mode !== 'Virtual') bits.push(prefs.place || (prefs.regions.length ? prefs.regions.join(', ') : 'Anywhere'));
+  if (prefs.cats.length) bits.push(prefs.cats.join(', '));
+  if (prefs.when !== 'any') bits.push(prefs.when === 'month' ? 'Next 30 days' : 'Next 3 months');
+  if (prefs.cash) bits.push('Has prize');
+  if (prefs.beginner) bits.push('Beginner friendly');
+  $('#prefs').innerHTML = bits.map((b) => `<span class="pill">${esc(b)}</span>`).join('') +
+    `<button class="btn ghost" id="redo">Change my answers</button>`;
+  $('#redo').onclick = openWizard;
+}
+
+function matches(e) {
+  if (prefs.mode === 'Virtual' && e.mode === 'in-person') return false;
+  if (prefs.mode === 'In person' && e.mode === 'online') return false;
+  if (e.mode !== 'online' && prefs.mode !== 'Virtual') {
+    if (prefs.regions.length && !prefs.regions.includes(e.region)) return false;
+    const p = prefs.place.trim().toLowerCase();
+    if (p && ![e.city, e.country, e.location].join(' ').toLowerCase().includes(p)) return false;
+  }
+  if (prefs.cats.length && !prefs.cats.some((c) => e.categories.includes(c))) return false;
+  const left = daysLeft(e.end);
+  if (prefs.when === 'month' && left != null && left > 30) return false;
+  if (prefs.when === 'quarter' && left != null && left > 92) return false;
+  if (prefs.cash && !prizeNum(e.prize)) return false;
+  if (prefs.beginner && !e.categories.includes('Beginner')) return false;
+  const q = state.q.toLowerCase();
+  if (q && ![e.title, e.organizer, e.location, e.city, e.country, ...(e.themes || [])].join(' ').toLowerCase().includes(q)) return false;
+  return true;
 }
 
 function render() {
-  const q = state.q.toLowerCase();
-  let list = DATA.filter((e) =>
-    (state.mode === 'All' || e.mode === state.mode.toLowerCase()) &&
-    (state.cat === 'All' || e.categories.includes(state.cat)) &&
-    (!q || [e.title, e.organizer, e.location, ...(e.themes || [])].join(' ').toLowerCase().includes(q)));
   const by = { due: (a, b) => (a.end || '9999').localeCompare(b.end || '9999'), prize: (a, b) => prizeNum(b.prize) - prizeNum(a.prize), new: (a, b) => (a.start || '9999').localeCompare(b.start || '9999') };
-  list.sort(by[state.sort]);
+  const list = DATA.filter(matches).sort(by[state.sort]);
+  $('#meta').innerHTML = `<b>${list.length}</b> matches out of ${DATA.length} open or upcoming · updated ${esc(fmt(window.UPDATED))}`;
   $('#grid').innerHTML = list.length ? list.map((e) => {
     const left = daysLeft(e.end);
     const due = left == null ? '' : `<span class="due${left <= 7 ? ' soon' : ''}">${left <= 0 ? 'Ends today' : left + ' days left'}</span>`;
     const when = [fmt(e.start), fmt(e.end)].filter(Boolean);
+    const where = e.mode === 'online' ? 'Virtual' : (e.mode === 'hybrid' ? 'Hybrid · ' : '') + esc([e.city, e.country].filter(Boolean).join(', ') || e.location || 'In person');
     return `<a class="card" href="${esc(e.url)}" target="_blank" rel="noopener">
-      <span class="src">${esc(e.source)}</span>
+      <span class="src"><span>${esc(e.source)}</span><span>${e.mode === 'online' ? '● Virtual' : esc(e.region || '')}</span></span>
       <h3>${esc(e.title)}</h3>
       ${e.organizer ? `<span class="org">${esc(e.organizer)}</span>` : ''}
       <div class="facts">${due}
         ${when.length ? `<span>${esc(when.join(' – '))}</span>` : ''}
-        <span>${e.mode === 'online' ? 'Online' : esc(e.location || e.mode)}</span>
+        <span>${where}</span>
         ${e.prize ? `<span><b>${esc(e.prize)}</b></span>` : ''}
       </div>
       <div class="tags">${e.categories.map((c) => `<span class="tag">${esc(c)}</span>`).join('')}</div>
     </a>`;
-  }).join('') : '<p class="empty">No hackathons match. Try another filter.</p>';
+  }).join('') : '<p class="empty">Nothing matches yet. Try loosening your answers.</p>';
 }
 
 fetch('data/hackathons.json', { cache: 'no-cache' }).then((r) => r.json()).then((d) => {
-  DATA = d.events;
-  const online = DATA.filter((e) => e.mode === 'online').length;
-  $('#meta').innerHTML = `<b>${DATA.length}</b> open or upcoming · <b>${online}</b> online · updated ${esc(fmt(d.updated))}`;
+  DATA = d.events; window.UPDATED = d.updated;
   const counts = {};
   DATA.forEach((e) => e.categories.forEach((c) => (counts[c] = (counts[c] || 0) + 1)));
-  chips($('#modes'), ['All', 'Online', 'In-person', 'Hybrid'], 'mode');
-  chips($('#cats'), ['All', ...Object.keys(counts).sort((a, b) => counts[b] - counts[a])], 'cat');
-  render();
+  CATS = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+  syncControls(); render();
+  if (!store.get('hk_asked')) openWizard();
 }).catch(() => { $('#meta').textContent = 'Could not load data.'; });
 $('#q').oninput = (e) => { state.q = e.target.value; render(); };
 $('#sort').onchange = (e) => { state.sort = e.target.value; render(); };
