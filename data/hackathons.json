@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-13",
- "count": 280,
+ "updated": "2026-11-15",
+ "count": 307,
  "sources": {
-  "Devpost": 160,
-  "Hack Club": 12,
+  "Devpost": 147,
+  "Hack Club": 11,
   "Unstop": 29,
   "mlh.com": 31,
-  "Web search": 6,
+  "Web search": 47,
   "Devfolio": 23,
   "ethglobal.com": 4,
   "dorahacks.io": 11,
@@ -14,332 +14,6 @@
   "taikai.network": 2
  },
  "events": [
-  {
-   "title": "IBM Qiskit Hackathon - Bangladesh",
-   "url": "https://ibm-qiskit-hackathon.devpost.com/",
-   "start": "2026-11-12",
-   "end": "2026-11-13",
-   "mode": "in-person",
-   "location": "BRAC University",
-   "city": "Dhaka",
-   "country": "Bangladesh",
-   "prize": "$0",
-   "themes": [
-    "Quantum"
-   ],
-   "organizer": "Qiskit User Group Bangladesh",
-   "registrations": 94,
-   "source": "Devpost",
-   "region": "Asia",
-   "categories": []
-  },
-  {
-   "title": "Hackperimeter",
-   "url": "https://hackperimeter.devpost.com/",
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "mode": "in-person",
-   "location": "GSU Perimeter College - Clarkston Campus",
-   "city": "Clarkston",
-   "country": "United States",
-   "prize": "$1,000",
-   "themes": [
-    "Beginner Friendly",
-    "Open Ended",
-    "Web"
-   ],
-   "organizer": "Georgia State University",
-   "registrations": 6,
-   "source": "Devpost",
-   "region": "North America",
-   "categories": [
-    "Beginner"
-   ]
-  },
-  {
-   "title": "CIVIC Hack 2026",
-   "url": "https://civic-hack-2026.devpost.com/",
-   "start": "2026-11-12",
-   "end": "2026-11-14",
-   "mode": "online",
-   "location": "Online",
-   "city": null,
-   "country": null,
-   "prize": "$CAD 1,500",
-   "themes": [
-    "Beginner Friendly",
-    "Machine Learning/AI",
-    "Social Good"
-   ],
-   "organizer": "Future Cities Institute",
-   "registrations": 100,
-   "source": "Devpost",
-   "region": null,
-   "categories": [
-    "AI",
-    "Education",
-    "Social Good",
-    "Beginner"
-   ]
-  },
-  {
-   "title": "System Public Challenge",
-   "url": "https://system-public-challenge.devpost.com/",
-   "start": "2026-11-12",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "System HQ",
-   "city": "Richmond",
-   "country": "United States",
-   "prize": "$7,500",
-   "themes": [
-    "Health",
-    "Machine Learning/AI",
-    "Social Good"
-   ],
-   "organizer": "System, Inc.",
-   "registrations": 82,
-   "source": "Devpost",
-   "region": "North America",
-   "categories": [
-    "AI",
-    "Health",
-    "Education",
-    "Social Good"
-   ]
-  },
-  {
-   "title": "HackED Beta 2026",
-   "url": "https://hacked-beta-2026.devpost.com/",
-   "start": "2026-11-13",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "University of Alberta - UComms",
-   "city": "Edmonton",
-   "country": "Canada",
-   "prize": "$CAD 1,100",
-   "themes": [
-    "Beginner Friendly",
-    "Open Ended"
-   ],
-   "organizer": "Computer Engineering Club, Ualberta",
-   "registrations": 2,
-   "source": "Devpost",
-   "region": "North America",
-   "categories": [
-    "Beginner"
-   ]
-  },
-  {
-   "title": "SearchHack: Build the next layer of AI search",
-   "url": "https://searchhack.devpost.com/",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "Sunnyvale",
-   "city": "Sunnyvale",
-   "country": "United States",
-   "prize": "$0",
-   "themes": [
-    "Machine Learning/AI",
-    "Web"
-   ],
-   "organizer": "Telem AI",
-   "registrations": 21,
-   "source": "Devpost",
-   "region": "North America",
-   "categories": [
-    "AI",
-    "Education"
-   ]
-  },
-  {
-   "title": "Haven Princeton Game Jam - High School",
-   "url": "https://haven-asbury-park.devpost.com/",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "1435 Capital",
-   "city": null,
-   "country": "Denmark",
-   "prize": "$3,551",
-   "themes": [
-    "Beginner Friendly",
-    "Design",
-    "Gaming"
-   ],
-   "organizer": "Hack Club",
-   "registrations": 11,
-   "source": "Devpost",
-   "region": "Europe",
-   "categories": [
-    "Gaming",
-    "Beginner"
-   ]
-  },
-  {
-   "title": "Ground Truth: The Live Agents Hackathon - powered by You.com",
-   "url": "https://ground-truth-you-hack.devpost.com/",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "XDC Tech",
-   "city": null,
-   "country": "XDC Tech",
-   "prize": "$650",
-   "themes": [
-    "Machine Learning/AI",
-    "Web"
-   ],
-   "organizer": "localhost-nyc",
-   "registrations": 9,
-   "source": "Devpost",
-   "region": null,
-   "categories": [
-    "AI",
-    "Education"
-   ]
-  },
-  {
-   "title": "Code/Clash",
-   "url": "https://code-clash.devpost.com/",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "Towson Cyber Center (10 West)",
-   "city": "Towson",
-   "country": "United States",
-   "prize": "$500",
-   "themes": [
-    "Beginner Friendly",
-    "Cybersecurity",
-    "Web"
-   ],
-   "organizer": "BitBrothers",
-   "registrations": 7,
-   "source": "Devpost",
-   "region": "North America",
-   "categories": [
-    "Beginner"
-   ]
-  },
-  {
-   "title": "Haven Richmond",
-   "url": "https://haven-richmond.devpost.com/",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "Richmond, Virginia, USA",
-   "city": "Richmond",
-   "country": "United States",
-   "prize": "$500",
-   "themes": [
-    "Beginner Friendly",
-    "Education",
-    "Gaming"
-   ],
-   "organizer": "HackClub  ✓⃝",
-   "registrations": 4,
-   "source": "Devpost",
-   "region": "North America",
-   "categories": [
-    "Education",
-    "Gaming",
-    "Beginner"
-   ]
-  },
-  {
-   "title": "LPC Hacks",
-   "url": "https://lpc-hacks.devpost.com/",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "mode": "online",
-   "location": "Online",
-   "city": null,
-   "country": null,
-   "prize": "$0",
-   "themes": [
-    "Beginner Friendly",
-    "Machine Learning/AI",
-    "Open Ended"
-   ],
-   "organizer": "LPCHacks",
-   "registrations": 3,
-   "source": "Devpost",
-   "region": null,
-   "categories": [
-    "AI",
-    "Education",
-    "Beginner"
-   ]
-  },
-  {
-   "title": "BYU-Idaho: i-Hack 2026: Reinventing the Past",
-   "url": "https://ihack-2026.devpost.com/",
-   "start": "2026-11-13",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "Science & Technology Building (STC)",
-   "city": "Rexburg",
-   "country": "United States",
-   "prize": "$0",
-   "themes": [
-    "Beginner Friendly",
-    "Design",
-    "Open Ended"
-   ],
-   "organizer": "Brigham Young University - Idaho CSE Dep",
-   "registrations": 2,
-   "source": "Devpost",
-   "region": "North America",
-   "categories": [
-    "Beginner"
-   ]
-  },
-  {
-   "title": "Haven Philly",
-   "url": "https://haven-philly.devpost.com/",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "Drexel University CCI Building",
-   "city": "Philadelphia",
-   "country": "United States",
-   "prize": "$0",
-   "themes": [
-    "Beginner Friendly",
-    "Gaming"
-   ],
-   "organizer": "Hack Club",
-   "registrations": 0,
-   "source": "Devpost",
-   "region": "North America",
-   "categories": [
-    "Gaming",
-    "Beginner"
-   ]
-  },
-  {
-   "title": "UnlockedHacks",
-   "url": "https://unlockedhacks.org/",
-   "start": "2026-11-14",
-   "end": "2026-11-14",
-   "mode": "in-person",
-   "location": "Portland, Oregon, United States",
-   "city": "Portland",
-   "country": "United States",
-   "prize": null,
-   "themes": [
-    "Beginner friendly",
-    "High school"
-   ],
-   "organizer": null,
-   "source": "Hack Club",
-   "region": "North America",
-   "categories": [
-    "Beginner"
-   ]
-  },
   {
    "title": "DSH Hacks V2 ($100k+ in prizes!)",
    "url": "https://dsh-hacks-v2.devpost.com/",
@@ -1066,6 +740,134 @@
    ]
   },
   {
+   "title": "NEAR Hackathon",
+   "url": "https://coincamps.ai/flash/e372674",
+   "start": "2026-11-01",
+   "end": "2026-11-15",
+   "mode": "online",
+   "city": null,
+   "country": null,
+   "prize": "$250,000 (paid in NEAR)",
+   "themes": [
+    "intelligent agents",
+    "autonomous payments",
+    "cross-chain value transfer",
+    "AI"
+   ],
+   "organizer": "NEAR Protocol",
+   "location": "Online",
+   "source": "Web search",
+   "region": null,
+   "categories": [
+    "AI",
+    "Web3",
+    "Fintech"
+   ]
+  },
+  {
+   "title": "Epic AI MegaJam",
+   "url": "https://forums.unrealengine.com/t/san-francisco-in-person-sign-ups-are-open-for-epic-ai-megajam/2848536",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "hybrid",
+   "city": "San Francisco",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "AI"
+   ],
+   "organizer": "Epic",
+   "location": "San Francisco, United States",
+   "source": "Web search",
+   "region": "North America",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "NASA @SpaceApps Challenge 2026",
+   "url": "https://bit.ly/3QzS4cc",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "hybrid",
+   "city": null,
+   "country": "Australia",
+   "prize": null,
+   "themes": [
+    "space",
+    "data"
+   ],
+   "organizer": "The Defence Science Institute",
+   "location": "Australia",
+   "source": "Web search",
+   "region": "Oceania",
+   "categories": []
+  },
+  {
+   "title": "Almere Defense Tech Hackathon",
+   "url": "https://lnkd.in/etcGzeP5",
+   "start": "2026-11-13",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Almere",
+   "country": "Netherlands",
+   "prize": null,
+   "themes": [
+    "defense",
+    "technology"
+   ],
+   "organizer": null,
+   "location": "Almere, Netherlands",
+   "source": "Web search",
+   "region": "Europe",
+   "categories": []
+  },
+  {
+   "title": "Haven Newmarket",
+   "url": "https://www.auroratoday.ca/local-news/aspiring-teen-developers-invited-to-daylong-hackathon-this-sunday-13017793",
+   "start": "2026-11-15",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Newmarket",
+   "country": "Canada",
+   "prize": null,
+   "themes": [
+    "coding",
+    "game development"
+   ],
+   "organizer": null,
+   "location": "Newmarket, Canada",
+   "source": "Web search",
+   "region": "North America",
+   "categories": [
+    "Gaming"
+   ]
+  },
+  {
+   "title": "NASA Space Apps Toronto 2026",
+   "url": "https://www.linkedin.com/posts/nasa-space-apps-toronto_nasaspaceapps-nasaspaceappstoronto-spaceappstoronto-activity-7491099432369975296-B5Sl",
+   "start": "2026-11-14",
+   "end": "2026-11-15",
+   "mode": "in-person",
+   "city": "Toronto",
+   "country": "Canada",
+   "prize": null,
+   "themes": [
+    "open data",
+    "space tech",
+    "AI",
+    "technology",
+    "STEM"
+   ],
+   "organizer": null,
+   "location": "Toronto, Canada",
+   "source": "Web search",
+   "region": "North America",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
    "title": "UGREEN Hackathon 2026 on AI NAS",
    "url": "https://ugreenhackathon.devpost.com/",
    "start": "2026-10-22",
@@ -1153,6 +955,30 @@
    "region": "Asia",
    "categories": [
     "Web3"
+   ]
+  },
+  {
+   "title": "Singapore-India Hackathon 2026",
+   "url": "https://news.smu.edu.sg/news/2026/11/15/singapore-india-hackathon-brings-together-120-student-innovators-and-opens-pathways",
+   "start": "2026-11-15",
+   "end": "2026-11-17",
+   "mode": "in-person",
+   "city": "Singapore",
+   "country": "Singapore",
+   "prize": "S$88,000 cash prizes",
+   "themes": [
+    "Emerging Technologies",
+    "FinTech and InsurTech",
+    "Sustainability"
+   ],
+   "organizer": "SMU Institute of Innovation and Entrepreneurship, AICTE, India Ministry of Education Innovation Cell, TiE Singapore",
+   "location": "Singapore, Singapore",
+   "source": "Web search",
+   "region": "Asia",
+   "categories": [
+    "Climate",
+    "Fintech",
+    "Education"
    ]
   },
   {
@@ -1602,6 +1428,131 @@
    "categories": []
   },
   {
+   "title": "West Africa Dreamin’ 2026 Hackathon",
+   "url": "https://www.linkedin.com/posts/westafricadreamin_westafricadreamin-wad2026-salesforcehackathon-activity-7524761353555968000-LAl3",
+   "start": null,
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "city": "Lagos",
+   "country": "Nigeria",
+   "prize": "$1,000 (1st), $600 (2nd), $400 (3rd)",
+   "themes": [
+    "Salesforce"
+   ],
+   "organizer": "West Africa Dreamin",
+   "location": "Lagos, Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": []
+  },
+  {
+   "title": "Hack the Fork Nigeria",
+   "url": "https://www.linkedin.com/posts/hack-the-fork-nigeria_hacktheforknigeria-aixalternativeprotein-activity-7521758871682654208-pKv3",
+   "start": "2026-11-20",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "city": "Abuja",
+   "country": "Nigeria",
+   "prize": null,
+   "themes": [
+    "AI",
+    "Alternative Protein",
+    "Food Systems"
+   ],
+   "organizer": "Hack the Fork Nigeria",
+   "location": "Abuja, Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": [
+    "AI",
+    "Food & Agri"
+   ]
+  },
+  {
+   "title": "Boat Hackathon",
+   "url": "https://claw.beehiiv.com/p/you-are-invited-to-boat-hackathon",
+   "start": "2026-11-14",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "city": "San Francisco",
+   "country": "United States",
+   "prize": "Grand prize awarded by NY Token Exchange and LetsEncrypt.AI",
+   "themes": [
+    "AI",
+    "boat",
+    "coding"
+   ],
+   "organizer": null,
+   "location": "San Francisco, United States",
+   "source": "Web search",
+   "region": "North America",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Worn Smart Glasses Hackathon",
+   "url": "https://devcuration.com/articles/worn-smart-glasses-hackathon-brooklyn-november-2026",
+   "start": "2026-11-20",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "city": "Brooklyn",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "navigation",
+    "translation",
+    "accessibility",
+    "heads-up assistants",
+    "AI informed by camera's view"
+   ],
+   "organizer": "Worn",
+   "location": "Brooklyn, United States",
+   "source": "Web search",
+   "region": "North America",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "GDG Cloud Boston x Northeastern Hackathon",
+   "url": "https://hackbeanpot.beehiiv.com/p/spilling-the-beans-11-4",
+   "start": "2026-11-21",
+   "end": "2026-11-21",
+   "mode": "in-person",
+   "city": "Boston",
+   "country": "United States",
+   "prize": null,
+   "themes": [
+    "AI"
+   ],
+   "organizer": "GDG Cloud Boston x Northeastern University",
+   "location": "Boston, United States",
+   "source": "Web search",
+   "region": "North America",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Code Battle Hackathon",
+   "url": "https://codebattle.tech/blog/hackathons-in-uae-for-school-students/",
+   "start": "2026-11-10",
+   "end": "2026-11-21",
+   "mode": "hybrid",
+   "city": "Dubai",
+   "country": "United Arab Emirates",
+   "prize": null,
+   "themes": [
+    "coding"
+   ],
+   "organizer": "iCodejr",
+   "location": "Dubai, United Arab Emirates",
+   "source": "Web search",
+   "region": "Middle East",
+   "categories": []
+  },
+  {
    "title": "SafeSpace Hacks",
    "url": "https://safespace-hacks.devpost.com/",
    "start": "2026-10-17",
@@ -1802,6 +1753,69 @@
     "AI",
     "Education"
    ]
+  },
+  {
+   "title": "Entertainment Week Africa Hackathon 2026",
+   "url": "https://www.techloy.com/entertainment-week-africa-2026-ai-tech-track-capital-desk/",
+   "start": "2026-11-17",
+   "end": "2026-11-22",
+   "mode": "in-person",
+   "city": "Lagos",
+   "country": "Nigeria",
+   "prize": null,
+   "themes": [
+    "AI",
+    "Tech",
+    "Creative Industries"
+   ],
+   "organizer": "Entertainment Week Africa",
+   "location": "Lagos, Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Berlin Robotics & AI Hackathon",
+   "url": "https://hacklabs.beehiiv.com/p/2nd-edition-of-the-berlin-robotics-ai-hackathon",
+   "start": "2026-11-21",
+   "end": "2026-11-22",
+   "mode": "in-person",
+   "city": "Berlin",
+   "country": "Germany",
+   "prize": "10.000€ in prizes",
+   "themes": [
+    "robotics",
+    "AI",
+    "defense"
+   ],
+   "organizer": null,
+   "location": "Berlin, Germany",
+   "source": "Web search",
+   "region": "Europe",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Paris Defense Tech Hackathon",
+   "url": "https://lnkd.in/ggjyfsBf",
+   "start": "2026-11-20",
+   "end": "2026-11-22",
+   "mode": "in-person",
+   "city": "Paris",
+   "country": "France",
+   "prize": null,
+   "themes": [
+    "defense",
+    "technology"
+   ],
+   "organizer": null,
+   "location": "Paris, France",
+   "source": "Web search",
+   "region": "Europe",
+   "categories": []
   },
   {
    "title": "Code N Mod",
@@ -2048,6 +2062,82 @@
    ]
   },
   {
+   "title": "Ogun Digital Summit Hackathon",
+   "url": "https://technext24.com/news/ogun-digital-summit-application-hackathon/",
+   "start": "2026-11-25",
+   "end": "2026-11-25",
+   "mode": "in-person",
+   "city": "Abeokuta",
+   "country": "Nigeria",
+   "prize": "₦5,000,000",
+   "themes": [
+    "fintech",
+    "edtech",
+    "proptech",
+    "real estate",
+    "healthtech",
+    "telemedicine",
+    "agritech",
+    "food security",
+    "AI/ML"
+   ],
+   "organizer": "Ogun Digital Summit",
+   "location": "Abeokuta, Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": [
+    "AI",
+    "Food & Agri",
+    "Health",
+    "Fintech",
+    "Education"
+   ]
+  },
+  {
+   "title": "HackWithAditya 2026: Global Software Engineering and AI Competition",
+   "url": "https://parsecailabs.com/en/blog/hackwithaditya-2026-ai-engineering-hackathon/",
+   "start": "2026-11-04",
+   "end": "2026-11-25",
+   "mode": "online",
+   "city": null,
+   "country": null,
+   "prize": "USD 500,000 prize pool, scholarship, and developer credit pool",
+   "themes": [
+    "AI",
+    "cloud systems",
+    "open innovation",
+    "software engineering"
+   ],
+   "organizer": "Aditya University",
+   "location": "Online",
+   "source": "Web search",
+   "region": null,
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "HackGirls - Hackeando o Futuro Feminino",
+   "url": "https://diariodorio.com/educacao/2026/11/12/fiocruz-abre-inscricoes-para-4-edicao-da-sua-maratona-tecnologica.html",
+   "start": "2026-11-24",
+   "end": "2026-11-26",
+   "mode": "in-person",
+   "city": "Rio de Janeiro",
+   "country": "Brazil",
+   "prize": "R$650 monthly scholarships for 6 months",
+   "themes": [
+    "women's health",
+    "family income generation"
+   ],
+   "organizer": "Fundação Oswaldo Cruz (Fiocruz)",
+   "location": "Rio de Janeiro, Brazil",
+   "source": "Web search",
+   "region": "Latin America",
+   "categories": [
+    "Health"
+   ]
+  },
+  {
    "title": "Build Your First AI App",
    "url": "https://build-your-first-ai-app.devpost.com/",
    "start": "2026-10-27",
@@ -2086,6 +2176,69 @@
    ],
    "organizer": "Quik CPQ Solutions LLP",
    "source": "Unstop",
+   "region": null,
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "DevFest GDGoC Japan Hackathon 2026",
+   "url": "https://gdgs.jp/df-hack26i",
+   "start": "2026-11-01",
+   "end": "2026-11-27",
+   "mode": "hybrid",
+   "city": null,
+   "country": "Japan",
+   "prize": null,
+   "themes": [
+    "Google technologies",
+    "AI"
+   ],
+   "organizer": "Google Developer Group Tokyo",
+   "location": "Japan",
+   "source": "Web search",
+   "region": "Asia",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "BNB Bangkok: Build, Demo, and Pitch",
+   "url": "https://www.bnbchain.org/en/blog/bnb-bangkok-build-demo-and-pitch",
+   "start": "2026-11-25",
+   "end": "2026-11-27",
+   "mode": "in-person",
+   "city": "Bangkok",
+   "country": "Thailand",
+   "prize": "$5,000 USD (1st), $3,000 USD (2nd), $2,000 USD (3rd)",
+   "themes": [
+    "AI",
+    "RWA",
+    "Trading"
+   ],
+   "organizer": "BNB Chain",
+   "location": "Bangkok, Thailand",
+   "source": "Web search",
+   "region": "Asia",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "IIkuznitsa AI Hackathon",
+   "url": "https://www.marketscale.com/industries/software-and-technology/softline-invites-kazakhstan-teams-to-iikuznitsa-ai-hackathon",
+   "start": "2026-11-26",
+   "end": "2026-11-27",
+   "mode": "online",
+   "city": null,
+   "country": null,
+   "prize": "RUB 1 million",
+   "themes": [
+    "AI"
+   ],
+   "organizer": "Softline Group",
+   "location": "Online",
+   "source": "Web search",
    "region": null,
    "categories": [
     "AI"
@@ -2204,6 +2357,137 @@
    "categories": []
   },
   {
+   "title": "ISF 2026 BuildAthon",
+   "url": "https://techiesnodeblog.com/2026/09/15/buildathon-2026/",
+   "start": "2026-11-27",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "city": "Ibadan",
+   "country": "Nigeria",
+   "prize": "over 1 million naira",
+   "themes": [
+    "Fintech",
+    "Healthtech",
+    "EdTech",
+    "Climate Tech",
+    "AgriTech",
+    "Energy",
+    "Public life & cities",
+    "Governance Tech",
+    "Mobility",
+    "Smart Cities",
+    "Frontier & culture",
+    "AI",
+    "Cybersecurity",
+    "Retail & Commerce",
+    "Creative Technology"
+   ],
+   "organizer": "ISF Forum in partnership with ATC Africa",
+   "location": "Ibadan, Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": [
+    "AI",
+    "Food & Agri",
+    "Health",
+    "Climate",
+    "Fintech",
+    "Education"
+   ]
+  },
+  {
+   "title": "Solution Innovation District (SID) Hackathon (UNIZIK)",
+   "url": "https://www.nigeriastartupact.ng/anambra-opens-%E2%82%A61-million-hackathon-opportunity-for-innovators-how-to-join/",
+   "start": "2026-11-26",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "city": "Awka",
+   "country": "Nigeria",
+   "prize": "up to ₦1,000,000 seed investment",
+   "themes": [
+    "health",
+    "education",
+    "governance",
+    "business",
+    "logistics",
+    "banking",
+    "agriculture",
+    "manufacturing"
+   ],
+   "organizer": "Solution Innovation District (SID)",
+   "location": "Awka, Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": [
+    "Food & Agri",
+    "Health",
+    "Fintech",
+    "Education"
+   ]
+  },
+  {
+   "title": "Interswitch Pan-African Discovery Series Hackathon",
+   "url": "https://flash.lautech.edu.ng/lautech-host-interswitch-pan-african-discovery-series-call-student-participation",
+   "start": "2026-11-26",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "city": "Ogbomoso",
+   "country": "Nigeria",
+   "prize": null,
+   "themes": [
+    "digital entrepreneurship"
+   ],
+   "organizer": "Interswitch",
+   "location": "Ogbomoso, Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": []
+  },
+  {
+   "title": "Agent API Hackathon London",
+   "url": "https://lnkd.in/e222Nj4N",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "city": "London",
+   "country": "United Kingdom",
+   "prize": "£3,000 in prizes, plus API credits",
+   "themes": [
+    "AI agents",
+    "customer support"
+   ],
+   "organizer": null,
+   "location": "London, United Kingdom",
+   "source": "Web search",
+   "region": "Europe",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "Terminal X26 Hackathon",
+   "url": "https://events.cantutor.ai",
+   "start": "2026-11-28",
+   "end": "2026-11-28",
+   "mode": "in-person",
+   "city": "Toronto",
+   "country": "Canada",
+   "prize": "Food, API credits, cash prizes",
+   "themes": [
+    "AI",
+    "Machine Learning",
+    "Generative AI"
+   ],
+   "organizer": "CANtutor AI",
+   "location": "Toronto, Canada",
+   "source": "Web search",
+   "region": "North America",
+   "categories": [
+    "AI",
+    "Education"
+   ]
+  },
+  {
    "title": "K-Dub Hacks",
    "url": "https://k-dub-hacks.devpost.com/",
    "start": "2026-11-27",
@@ -2267,6 +2551,48 @@
    "organizer": "KartAI",
    "source": "Unstop",
    "region": null,
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "The largest Solana university hackathon",
+   "url": "https://hack.dev3pack.xyz/",
+   "start": "2026-11-27",
+   "end": "2026-11-29",
+   "mode": "hybrid",
+   "city": null,
+   "country": null,
+   "prize": "$10K+ in prizes",
+   "themes": [
+    "Solana",
+    "university"
+   ],
+   "organizer": "Dev3pack",
+   "location": null,
+   "source": "Web search",
+   "region": null,
+   "categories": [
+    "Web3"
+   ]
+  },
+  {
+   "title": "Berlin AI Hackathon",
+   "url": "https://www.linkedin.com/posts/hackathon-hub_hackathon-berlin-ai-activity-7523308358108659713-x92k",
+   "start": "2026-11-28",
+   "end": "2026-11-29",
+   "mode": "in-person",
+   "city": "Berlin",
+   "country": "Germany",
+   "prize": null,
+   "themes": [
+    "AI",
+    "defense"
+   ],
+   "organizer": null,
+   "location": "Berlin, Germany",
+   "source": "Web search",
+   "region": "Europe",
    "categories": [
     "AI"
    ]
@@ -2406,6 +2732,26 @@
    "categories": []
   },
   {
+   "title": "HackIndia AgentVerse 2026 AI Agents Hackathon",
+   "url": "https://hackindia.org/news/openai-supports-hackindia-agentverse-2026",
+   "start": "2026-10-30",
+   "end": "2026-11-30",
+   "mode": "online",
+   "city": null,
+   "country": "India",
+   "prize": "$12,500 in OpenAI credits, cash prizes, Stirae Pro subscriptions",
+   "themes": [
+    "AI agents"
+   ],
+   "organizer": "HackIndia",
+   "location": "Online",
+   "source": "Web search",
+   "region": null,
+   "categories": [
+    "AI"
+   ]
+  },
+  {
    "title": "Code for Change",
    "url": "https://code-for-change-global.devpost.com/",
    "start": "2026-11-05",
@@ -2427,6 +2773,31 @@
    "categories": [
     "Social Good",
     "Beginner"
+   ]
+  },
+  {
+   "title": "AgentX AI Hackathon (4th edition)",
+   "url": "https://menastartupdigest.com/agentx-opens-registration-for-fourth-ai-hackathon-in-riyadh/",
+   "start": "2026-11-28",
+   "end": "2026-12-01",
+   "mode": "in-person",
+   "city": "Riyadh",
+   "country": "Saudi Arabia",
+   "prize": "SAR 60,000 total (SAR 30,000 first, SAR 20,000 second, SAR 10,000 third)",
+   "themes": [
+    "culture and heritage",
+    "entertainment and gaming",
+    "smart cities and quality of life",
+    "finance and business"
+   ],
+   "organizer": "AgentX",
+   "location": "Riyadh, Saudi Arabia",
+   "source": "Web search",
+   "region": "Middle East",
+   "categories": [
+    "AI",
+    "Fintech",
+    "Gaming"
    ]
   },
   {
@@ -2570,6 +2941,46 @@
    ]
   },
   {
+   "title": "Google Cloud AI Builder Cup 2026",
+   "url": "https://insurab.com/google-cloud-ai-builder-cup-2026-singapore/",
+   "start": null,
+   "end": "2026-12-04",
+   "mode": "hybrid",
+   "city": "Singapore",
+   "country": "Singapore",
+   "prize": "$30,000 prize pool",
+   "themes": [],
+   "organizer": "Hack2skill",
+   "location": "Singapore, Singapore",
+   "source": "Web search",
+   "region": "Asia",
+   "categories": [
+    "AI"
+   ]
+  },
+  {
+   "title": "VIVERSE Spark 2026 Global University Hackathon",
+   "url": "https://www.businesswire.com/news/home/20261110531562/en/HTC-VIVERSE-Announces-VIVERSE-Spark-2026-Global-University-Hackathon-with-Cash-Prizes",
+   "start": "2026-11-09",
+   "end": "2026-12-04",
+   "mode": "online",
+   "city": null,
+   "country": null,
+   "prize": "cash prizes",
+   "themes": [
+    "Games",
+    "Immersive Storytelling",
+    "Social Experiences"
+   ],
+   "organizer": "VIVERSE",
+   "location": "Online",
+   "source": "Web search",
+   "region": null,
+   "categories": [
+    "Gaming"
+   ]
+  },
+  {
    "title": "Clash of Commits",
    "url": "https://clash-of-commits.devfolio.co/",
    "start": "2026-12-04",
@@ -2584,6 +2995,47 @@
    "source": "Devfolio",
    "region": "Asia",
    "categories": []
+  },
+  {
+   "title": "Longo Centre for Entrepreneurship Hackathon",
+   "url": "https://www.linkedin.com/posts/humbercfe_humberpolytechnic-stem-edib-activity-7523052541241278465-xisk",
+   "start": "2026-12-05",
+   "end": "2026-12-05",
+   "mode": "in-person",
+   "city": "Toronto",
+   "country": "Canada",
+   "prize": "$350 honorarium",
+   "themes": [
+    "STEM",
+    "Women in Engineering"
+   ],
+   "organizer": "Longo Centre for Entrepreneurship",
+   "location": "Toronto, Canada",
+   "source": "Web search",
+   "region": "North America",
+   "categories": []
+  },
+  {
+   "title": "Code for a Billion – Bharat Agentic-AI Hackathon 2026",
+   "url": "https://internshala.com/competitions/bharat-agentic-ai-hackathon-win-from-%E2%82%B918-lakh-prize-pool/",
+   "start": "2026-08-15",
+   "end": "2026-12-05",
+   "mode": "online",
+   "city": null,
+   "country": "India",
+   "prize": "₹18 lakh",
+   "themes": [
+    "Agentic AI",
+    "public health"
+   ],
+   "organizer": "Code for India (CFI)",
+   "location": "Online",
+   "source": "Web search",
+   "region": null,
+   "categories": [
+    "AI",
+    "Health"
+   ]
   },
   {
    "title": "The Dawn of Superintelligence | Kaya AI Grand Challenge ",
@@ -2965,6 +3417,50 @@
    ]
   },
   {
+   "title": "FG NIMASA Free Innovation Hackathon",
+   "url": "https://www.nigeriastartupact.ng/fg-nimasa-free-innovation-hackathon-application-closes-tomorrow-see-how-to-apply",
+   "start": "2026-12-08",
+   "end": "2026-12-10",
+   "mode": "in-person",
+   "city": null,
+   "country": "Nigeria",
+   "prize": null,
+   "themes": [
+    "Maritime",
+    "Blue Economy"
+   ],
+   "organizer": "Nigerian Maritime Administration and Safety Agency (NIMASA)",
+   "location": "Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": []
+  },
+  {
+   "title": "National Innovation Hackathon (NIMASA Blue Economy Accelerator 2026)",
+   "url": "https://msmeafricaonline.com/nimasa-blue-economy-accelerator-2026-how-to-apply-for-the-national-innovation-hackathon-before-13-november/",
+   "start": "2026-12-08",
+   "end": "2026-12-10",
+   "mode": "in-person",
+   "city": null,
+   "country": "Nigeria",
+   "prize": null,
+   "themes": [
+    "maritime technology",
+    "shipping and logistics",
+    "port operations",
+    "marine biotechnology",
+    "fisheries",
+    "marine tourism",
+    "ocean data",
+    "blue economy"
+   ],
+   "organizer": "NIMASA",
+   "location": "Nigeria",
+   "source": "Web search",
+   "region": "Africa",
+   "categories": []
+  },
+  {
    "title": "AWS MSP AI Hackathon",
    "url": "https://aws-agentic-msp.devpost.com/",
    "start": "2026-11-02",
@@ -3060,6 +3556,29 @@
    ]
   },
   {
+   "title": "Hackatón México",
+   "url": "https://hackatonmexico.com/blog/que-es-hackaton-mexico",
+   "start": "2026-11-14",
+   "end": "2026-12-12",
+   "mode": "hybrid",
+   "city": null,
+   "country": "Mexico",
+   "prize": "Más de 1 millón de pesos en valor repartido entre premios, créditos y recursos",
+   "themes": [
+    "digital payments",
+    "CoDi",
+    "API de Pey"
+   ],
+   "organizer": "SpaceXAI, Pey, AI Builders México",
+   "location": "Mexico",
+   "source": "Web search",
+   "region": "Latin America",
+   "categories": [
+    "AI",
+    "Fintech"
+   ]
+  },
+  {
    "title": "InnovateHER Hackathon: Girls Who Code",
    "url": "https://hackathon-girls-who-code.devpost.com/",
    "start": "2026-11-10",
@@ -3122,6 +3641,32 @@
    "source": "Devfolio",
    "region": null,
    "categories": []
+  },
+  {
+   "title": "Şehrin Geleceğini Kodla: Yapay Zekâ Hackathonu",
+   "url": "https://www.turkiyeajansi.com/haber/istanbulun-yapay-zek-hackathonu-icin-basvurular-acildi-953893",
+   "start": "2026-12-12",
+   "end": "2026-12-13",
+   "mode": "in-person",
+   "city": "Istanbul",
+   "country": "Turkey",
+   "prize": null,
+   "themes": [
+    "local and offline AI",
+    "digital accessibility and inclusive technologies",
+    "AI infrastructures and efficiency",
+    "cybersecurity and threat detection",
+    "smart IT operations and automation",
+    "environmental sustainability and resource management"
+   ],
+   "organizer": "Tech Istanbul & İBB",
+   "location": "Istanbul, Turkey",
+   "source": "Web search",
+   "region": "Middle East",
+   "categories": [
+    "AI",
+    "Climate"
+   ]
   },
   {
    "title": "Ryze Hacks 2026",
@@ -3380,6 +3925,22 @@
     "Education",
     "Beginner"
    ]
+  },
+  {
+   "title": "Crossing Seoul",
+   "url": "https://www.enetnews.co.kr/news/articleView.html?idxno=56332",
+   "start": "2026-12-17",
+   "end": "2026-12-21",
+   "mode": "in-person",
+   "city": "Seoul",
+   "country": "South Korea",
+   "prize": null,
+   "themes": [],
+   "organizer": "NARU",
+   "location": "Seoul, South Korea",
+   "source": "Web search",
+   "region": "Asia",
+   "categories": []
   },
   {
    "title": "Codegeist 2026: Build with context. Ship with confidence.",
@@ -3670,6 +4231,27 @@
     "AI",
     "Education",
     "Social Good"
+   ]
+  },
+  {
+   "title": "The Open Agentic Web Challenge",
+   "url": "https://www.prnewswire.com/news-releases/the-open-agentic-web-challenge-building-an-agent-economy-that-works-for-everyone-302937345.html",
+   "start": "2026-11-12",
+   "end": "2027-01-11",
+   "mode": "online",
+   "city": "Lisbon",
+   "country": "Portugal",
+   "prize": "$13,000",
+   "themes": [
+    "AI agents",
+    "interoperable web"
+   ],
+   "organizer": null,
+   "location": "Online",
+   "source": "Web search",
+   "region": null,
+   "categories": [
+    "AI"
    ]
   },
   {
@@ -4030,6 +4612,27 @@
    "source": "mlh.com",
    "region": "North America",
    "categories": []
+  },
+  {
+   "title": "Global Desalination Hackathon",
+   "url": "https://idrawater.org/news/acwa-and-idra-put-a-real-world-desalination-challenge-in-front-of-global-ai-talent/",
+   "start": "2027-01-24",
+   "end": "2027-01-24",
+   "mode": "in-person",
+   "city": "Riyadh",
+   "country": "Saudi Arabia",
+   "prize": null,
+   "themes": [
+    "Intelligent Desalination",
+    "Sustainable Water Solutions"
+   ],
+   "organizer": "Acwa and IDRA",
+   "location": "Riyadh, Saudi Arabia",
+   "source": "Web search",
+   "region": "Middle East",
+   "categories": [
+    "Climate"
+   ]
   },
   {
    "title": "Health Hackathon 3.0",
@@ -6038,37 +6641,19 @@
    ]
   },
   {
-   "title": "Yale Healthcare Hackathon",
-   "url": "https://ventures.yale.edu/community/events/yale-healthcare-hackathon",
-   "start": null,
+   "title": "Tokyo Hackathon (Transpose Japan Summit)",
+   "url": "https://www.linkedin.com/posts/neel-majmudar-n091_office-hours-with-a-y-combinator-partner-activity-7521613098999271424-IAUJ",
+   "start": "2026-12-05",
    "end": null,
    "mode": "in-person",
-   "city": null,
-   "country": null,
+   "city": "Tokyo",
+   "country": "Japan",
    "prize": null,
    "themes": [],
    "organizer": null,
-   "location": null,
+   "location": "Tokyo, Japan",
    "source": "Web search",
-   "region": null,
-   "categories": [
-    "Health"
-   ]
-  },
-  {
-   "title": "Sports Innovation Hackathon 2026",
-   "url": "https://www.consultancy-me.com/news/13307/mohammed-assaqaf-appointed-to-evaluation-committee-of-sports-innovation-hackathon",
-   "start": null,
-   "end": null,
-   "mode": "in-person",
-   "city": null,
-   "country": "Saudi Arabia",
-   "prize": null,
-   "themes": [],
-   "organizer": null,
-   "location": "Saudi Arabia",
-   "source": "Web search",
-   "region": "Middle East",
+   "region": "Asia",
    "categories": []
   }
  ]

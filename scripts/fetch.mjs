@@ -3,7 +3,7 @@
 // Keyed (optional, skipped if missing): FIRECRAWL_API_KEY (scrape), TAVILY_API_KEY (web search), GROQ_API_KEY (LLM extract).
 import { writeFileSync, readFileSync, existsSync } from 'node:fs';
 
-const { TAVILY_API_KEY, FIRECRAWL_API_KEY, GROQ_API_KEY } = process.env;
+const { TAVILY_API_KEY, FIRECRAWL_API_KEY, GROQ_API_KEY, EXA_API_KEY } = process.env;
 const TODAY = new Date().toISOString().slice(0, 10);
 const UA = { 'User-Agent': 'Mozilla/5.0 (Hackathonia; +https://xi-kki.github.io/hackathonia/)' };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -31,6 +31,31 @@ const SEARCHES = [
   'hackathon Europe upcoming registration',
   'hackathon Latin America upcoming',
   'hackathon Middle East Asia upcoming',
+];
+
+// Exa neural search: fills places and chains the big listing sites miss (Nigeria, Australia, city scenes).
+const EXA_SEARCHES = [
+  'hackathon in Lagos Nigeria, registration open',
+  'hackathon in Abuja or Port Harcourt or Ibadan Nigeria, call for applications',
+  'Nigeria web3 blockchain hackathon Solana Sui Base Lisk Stellar',
+  'Nigeria university students hackathon apply now',
+  'Nigeria AI fintech hackathon call for applications prize',
+  'Africa hackathon Kenya Ghana South Africa Rwanda Egypt apply',
+  'Sui hackathon or Sui overflow buildathon registration',
+  'Solana hackathon registration open',
+  'Base or Ethereum or Arbitrum or Optimism buildathon registration open',
+  'Stellar, Polkadot, Aptos, Starknet, NEAR or TON hackathon registration',
+  'Bitcoin Lightning or Stacks hackathon upcoming',
+  'in-person hackathon San Francisco Bay Area upcoming',
+  'hackathon Sydney Melbourne Brisbane Australia upcoming',
+  'hackathon New York or Boston or Austin upcoming in-person',
+  'hackathon London or Berlin or Paris upcoming in-person',
+  'hackathon Singapore or Bangalore or Tokyo or Seoul upcoming',
+  'hackathon Dubai or Riyadh or Istanbul upcoming',
+  'hackathon Toronto or Vancouver Canada upcoming',
+  'hackathon Sao Paulo or Mexico City or Buenos Aires upcoming',
+  'virtual online global hackathon open registration cash prize',
+  'AI agents hackathon online open registration',
 ];
 
 // ---------- location ----------
@@ -248,18 +273,39 @@ async function tavily() {
   return out;
 }
 
+async function exa() {
+  if (!EXA_API_KEY || !GROQ_API_KEY) return [];
+  const out = [];
+  const since = new Date(Date.now() - 120 * 864e5).toISOString();
+  for (const q of EXA_SEARCHES) {
+    try {
+      const j = await getJSON('https://api.exa.ai/search', {
+        method: 'POST', headers: { 'Content-Type': 'application/json', 'x-api-key': EXA_API_KEY },
+        body: JSON.stringify({ query: `${q} ${TODAY.slice(0, 4)}`, numResults: 10, type: 'auto', startPublishedDate: since, contents: { text: { maxCharacters: 2200 } } }),
+      });
+      const text = (j.results || []).map((x) => `### ${x.title}\nURL: ${x.url}\n${x.text || ''}`).join('\n\n');
+      const ev = text ? await extract(text, 'Web search') : [];
+      log('exa', q, '->', ev.length);
+      out.push(...ev);
+    } catch (e) { log('exa fail', q, e.message); }
+  }
+  return out;
+}
+
 // ---------- run ----------
 async function safe(name, fn) {
   try { const r = await fn(); log(name, r.length); return r; } catch (e) { log(name, 'FAILED', e.message); return []; }
 }
-const only = process.argv[2]; // e.g. "free" = skip keyed sources
-const all = [
+const only = process.argv[2]; // "free" = skip keyed sources; "exa" = keep the saved list and add Exa finds only
+const saved = () => JSON.parse(readFileSync(new URL('../data/hackathons.json', import.meta.url), 'utf8')).events;
+const all = only === 'exa' ? [...saved(), ...(await safe('exa', exa))] : [
   ...(await safe('devpost', devpost)),
   ...(await safe('hackclub', hackclub)),
   ...(await safe('devfolio', devfolio)),
   ...(await safe('unstop', unstop)),
   ...(only === 'free' ? [] : await safe('firecrawl', firecrawl)),
   ...(only === 'free' ? [] : await safe('tavily', tavily)),
+  ...(only === 'free' ? [] : await safe('exa', exa)),
 ];
 
 const norm = (s) => String(s).toLowerCase().replace(/\b(20\d\d|hackathon|hack)\b/g, '').replace(/[^a-z0-9]/g, '');
@@ -271,6 +317,7 @@ for (const e of all) {
   e.start = validDate(e.start); e.end = validDate(e.end);
   if (e.end && e.end < TODAY) continue;
   if (!e.end && e.start && e.start < TODAY) continue;
+  if (e.source === 'Web search' && !e.start && !e.end) continue; // no date = cannot show it is still ahead
   e.mode = ['online', 'in-person', 'hybrid'].includes(e.mode) ? e.mode : 'in-person';
   e.themes = Array.isArray(e.themes) ? e.themes.filter((t) => typeof t === 'string') : [];
   e.region = e.mode === 'online' ? null : regionOf(e.country);
